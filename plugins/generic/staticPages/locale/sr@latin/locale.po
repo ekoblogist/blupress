@@ -22,7 +22,7 @@ msgid "plugins.generic.staticPages.description"
 msgstr "Ovaj dodatak omogućuje uređivanje statičkog sadržaja."
 
 msgid "plugins.generic.staticPages.staticPages"
-msgstr "Statične strane"
+msgstr "Statičke strane"
 
 msgid "plugins.generic.staticPages.pageTitle"
 msgstr "Naslov"
@@ -39,7 +39,7 @@ msgstr ""
 "sadržaj.</strong>"
 
 msgid "plugins.generic.staticPages.editAddContent"
-msgstr "Izmeni/dodaj sadržaj"
+msgstr "Izmijeni/dodaj sadržaj"
 
 msgid "plugins.generic.staticPages.addStaticPage"
 msgstr "Dodaj statičku stranicu"
@@ -48,18 +48,18 @@ msgid "plugins.generic.staticPages.addNewPage"
 msgstr "Dodaj novu stranicu"
 
 msgid "plugins.generic.staticPages.editStaticPage"
-msgstr "Izmeni statičku stranicu"
+msgstr "Izmijeni statičku stranicu"
 
 msgid "plugins.generic.staticPages.noneCreated"
-msgstr "Nema statičnih strana."
+msgstr "Nema statičkih strana."
 
 msgid "plugins.generic.staticPages.settingInstructions"
 msgstr ""
 "Dole su prikazane sve statičke stranice koje ste napravili. Možete ih "
-"menjati i brisati koristeći linkove sa desne strane."
+"mijenjati i brisati koristeći linkove sa desne strane."
 
 msgid "plugins.generic.staticPages.editInstructions"
-msgstr "Koristite formu ispod da biste dodali ili izmenili sadržaj."
+msgstr "Koristite formu ispod da biste dodali ili izmijenili sadržaj."
 
 msgid "plugins.generic.staticPages.pathRegEx"
 msgstr ""
@@ -77,10 +77,10 @@ msgid "plugins.generic.staticPages.duplicatePath"
 msgstr "Ova putanja već postoji za drugu stranicu."
 
 msgid "plugins.generic.staticPages.pageSaved"
-msgstr "Stranica je uspešno sačuvana."
+msgstr "Stranica je uspješno sačuvana."
 
 msgid "plugins.generic.staticPages.pageDeleted"
-msgstr "Stranica je uspešno obrisana."
+msgstr "Stranica je uspješno obrisana."
 
 msgid "plugins.generic.staticPages.noneExist"
 msgstr "Stranica nije napravljena."
