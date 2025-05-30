@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:02+00:00\n"
+"PO-Revision-Date: 2019-11-19T10:50:02+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.importexport.onix30.displayName"
+msgstr "ONIX 3.0 додатак за извоз монографија"
+
+msgid "plugins.importexport.onix30.description"
+msgstr "Извоз метаподатака монографија у ONIX 3.0 формату"
+
+msgid "plugins.importexport.onix30.cliUsage"
+msgstr ""
+"Употреба: {$scriptName} {$pluginName} [xmlFileName] [pressPath] [monographId]"
+
+msgid "plugins.importexport.onix30.cliError"
+msgstr "ГРЕШКА:"
+
+msgid "plugins.importexport.onix30.error.unknownPress"
+msgstr "Наведена путња издавачке куће \"{$contextPath}\" не постоји."
+
+msgid "plugins.importexport.onix30.export.error.couldNotWrite"
+msgstr "Није могуће писати у датотеку \"{$fileName}\"."
+
+msgid "plugins.importexport.onix30.export.error.monographNotFound"
+msgstr "Није пронађена монографија са ID \"{$monographId}\"."
+
+msgid "plugins.importexport.onix30.noFormats"
+msgstr "Монографије без форматa публикације нису приказане."
+
+msgid "plugins.importexport.onix30.exportSubmissionsSelect"
+msgstr "Изаберите монографије за извоз"
+
+msgid "plugins.importexport.onix30.selectMonograph"
+msgstr "Изаберите монографију за извоз:"
+
+msgid "plugins.importexport.onix30.exportButton"
+msgstr "Извоз"
+
+msgid "plugins.importexport.onix30.exportFormats"
+msgstr "Доступни формати"
+
+msgid "plugins.importexport.onix30.unavailable"
+msgstr "Није доступно"
+
+msgid "plugins.importexport.onix30.validityStatus"
+msgstr "ONIX статус"
+
+msgid "plugins.importexport.onix30.formatValid"
+msgstr "Исправан"
+
+msgid "plugins.importexport.onix30.formatInvalid"
+msgstr "Неисправан"
+
+msgid "plugins.importexport.onix30.pressMissingFields"
+msgstr ""
+"Овој издавачкој кући недостају неки потребни подаци. Молимо идите на <a href="
+"\"{$url}\">Поставке издавачке куће</a> и попуните недостајуће детаље."
+
+msgid "plugins.importexport.onix30.form.addresseeField"
+msgstr "Прималац за овај извоз"
+
+msgid "plugins.importexport.onix30.form.addresseeField.tip"
+msgstr ""
+"Можете оставити ово поље празно и направити општи извоз. Ово ће резултирати "
+"да ONIX извоз нема &lt;Addressee&gt; композит."
