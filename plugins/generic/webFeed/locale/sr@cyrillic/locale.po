@@ -6,53 +6,53 @@ msgstr ""
 "PO-Revision-Date: 2019-11-19T10:50:02+00:00\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: sr_RS@latin\n"
+"Language: sr_RS@cyrillic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "plugins.generic.webfeed.displayName"
-msgstr "Web Feed dodatak"
+msgstr "Web Feed додатак"
 
 #, fuzzy
 msgid "plugins.generic.webfeed.description"
 msgstr ""
-"Ovaj dodatak proizvodi RSS/Atom web syndication feeds za trenutni broj "
-"časopisa."
+"Овај додатак приказује RSS/Atom web syndication feeds за актуелни број "
+"часописа."
 
 msgid "plugins.generic.webfeed.settings"
-msgstr "Podešavanja"
+msgstr "Подешавања"
 
 msgid "plugins.generic.webfeed.settings.issue"
-msgstr "Prikaži linkove samo na stranici trenutnog broja."
+msgstr "Прикажи линкове само на страници актуелног броја часописа."
 
 #, fuzzy
 msgid "plugins.generic.webfeed.settings.homepage"
-msgstr "Prikaži linkove samo na početnoj stranici i stranici trenutnog broja."
+msgstr "Прикажи линкове само на почетној страници и страници актуелног броја часописа."
 
 #, fuzzy
 msgid "plugins.generic.webfeed.settings.all"
-msgstr "Prikaži linkove na svim stranicama časopisa."
+msgstr "Прикажи линкове на свим страницама часописа."
 
 msgid "plugins.generic.webfeed.settings.currentIssue"
-msgstr "Prikaži stavke trenutno objavljenog broja."
+msgstr "Прикажи ставке тренутно објављеног броја."
 
 #, fuzzy
 msgid "plugins.generic.webfeed.settings.recent"
-msgstr "Prikaži fiksni broj skorašnjih stavki."
+msgstr "Прикажи фиксни број скорашњих ставки."
 
 #, fuzzy
 msgid "plugins.generic.webfeed.settings.recentArticles"
-msgstr "Posljednje objavljene stavke."
+msgstr "Посљедње објављене ставке."
 
 msgid "plugins.generic.webfeed.settings.recentItemsRequired"
-msgstr "Unesite broj stavki koje će se prikazivati."
+msgstr "Унесите број ставки које ће се приказивати."
 
 msgid "plugins.generic.webfeed.atom.altText"
-msgstr "Atom logo"
+msgstr "Atom лого"
 
 msgid "plugins.generic.webfeed.rss1.altText"
-msgstr "RSS1 logo"
+msgstr "RSS1 лого"
 
 msgid "plugins.generic.webfeed.rss2.altText"
-msgstr "RSS2 logo"
+msgstr "RSS2 лого"
