@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:02+00:00\n"
+"PO-Revision-Date: 2019-11-19T10:50:02+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.themes.default.name"
+msgstr "Podrazumijevana tema (Default)"
+
+msgid "plugins.themes.default.description"
+msgstr "Ova tema prikazuje Default Theme grafičku temu."
+
+msgid "plugins.themes.default.option.typography.label"
+msgstr "Tipografija"
+
+msgid "plugins.themes.default.option.typography.description"
+msgstr "Izaberite kombinaciju fontova koja odgovara vašim preferencijama."
+
+msgid "plugins.themes.default.option.typography.notoSans"
+msgstr ""
+"Noto Sans: Digitalni font dizajniran od Gugla koji omogućava široku podršku za jezike."
+
+msgid "plugins.themes.default.option.typography.notoSerif"
+msgstr "Noto Serif: Serifna varijanta Guglovog digitalnog fonta Noto."
+
+msgid "plugins.themes.default.option.typography.notoSerif_notoSans"
+msgstr ""
+"Noto Serif/Noto Sans: Kombinacija serifnih naslova i neserifnog tijela teksta."
+
+msgid "plugins.themes.default.option.typography.notoSans_notoSerif"
+msgstr ""
+"Noto Sans/Noto Serif: Kombinacija neserifnih naslova i serifnog tijela teksta."
+
+msgid "plugins.themes.default.option.typography.lato"
+msgstr "Lato: Popularan neserifni font."
+
+msgid "plugins.themes.default.option.typography.lora"
+msgstr "Lora: Serifni font veće širine prilagođen čitanju onlajn."
+
+msgid "plugins.themes.default.option.typography.lora_openSans"
+msgstr ""
+"Lora/Open Sans: Kombinacija serifnih naslova i neserifnog tijela teksta."
+
+msgid "plugins.themes.default.option.colour.label"
+msgstr "Boja"
+
+msgid "plugins.themes.default.option.colour.description"
+msgstr "Izaberite boju zaglavlja."
+
+msgid "plugins.themes.default.option.useHomepageImageAsHeader.label"
+msgstr "Pozadinska lika zaglavlja"
+
+msgid "plugins.themes.default.option.useHomepageImageAsHeader.description"
+msgstr ""
+"Kada je postavljena slika za početnu stranicu, prikaži je u pozadini zaglavlja umjesto na uobičajenom poziciji."
+
+msgid "plugins.themes.default.option.useHomepageImageAsHeader.option"
+msgstr "Prikaži sliku za početnu stranicu kao pozadinu zaglavlja."
+
+msgid "plugins.themes.default.option.showCatalogSeriesListing.label"
+msgstr "Prikaži serijske publikacije"
+
+msgid "plugins.themes.default.option.showCatalogSeriesListing.option"
+msgstr "Dodaj listu linkova ka svim serijskim publikacijama na stranicu kataloga."
+
+msgid "plugins.themes.default.option.displayStats.label"
+msgstr "Opcije prikaza statistike"
+
+msgid "plugins.themes.default.option.displayStats.none"
+msgstr "Ne prikazuj statistiku predaja radova čitaocima."
+
+msgid "plugins.themes.default.option.displayStats.bar"
+msgstr "Koristi stubičasti graf za prikaz statistike."
+
+msgid "plugins.themes.default.option.displayStats.line"
+msgstr "Koristi linearni graf za prikaz statistike."
+
+msgid "plugins.themes.default.displayStats.monthInitials"
+msgstr "Jan Feb Mar Apr Maj Jun Jul Avg Sep Okt Nov Dec"
+
+msgid "plugins.themes.default.displayStats.downloads"
+msgstr "Preuzimanja"
+
+msgid "plugins.themes.default.displayStats.noStats"
+msgstr "Podaci o preuzimanjima još uvijek nisu dostupni."

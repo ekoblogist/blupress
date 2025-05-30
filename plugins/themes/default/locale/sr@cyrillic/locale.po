@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30T07:09:54-07:00\n"
+"PO-Revision-Date: 2019-09-30T07:09:54-07:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.themes.default.name"
+msgstr "Подразумијевана тема (Default)"
+
+msgid "plugins.themes.default.description"
+msgstr "Ова тема приказује Default Theme графичку тему."
+
+msgid "plugins.themes.default.option.typography.label"
+msgstr "Типографија"
+
+msgid "plugins.themes.default.option.typography.description"
+msgstr "Изаберите комбинацију фонтова која одговара вашим преференцијама."
+
+msgid "plugins.themes.default.option.typography.notoSans"
+msgstr ""
+"Noto Sans: Дигитални фонт дизајниран од Гугла који омогућава широку подршку за језике."
+
+msgid "plugins.themes.default.option.typography.notoSerif"
+msgstr "Noto Serif: Серифна варијанта Гугловог дигиталног фонта Noto."
+
+msgid "plugins.themes.default.option.typography.notoSerif_notoSans"
+msgstr ""
+"Noto Serif/Noto Sans: Комбинација серифних наслова и несерифног тијела текста."
+
+msgid "plugins.themes.default.option.typography.notoSans_notoSerif"
+msgstr ""
+"Noto Sans/Noto Serif: Комбинација несерифних наслова и серифног тијела текста."
+
+msgid "plugins.themes.default.option.typography.lato"
+msgstr "Lato: Популаран несерифни фонт."
+
+msgid "plugins.themes.default.option.typography.lora"
+msgstr "Lora: Серифни фонт веће ширине прилагођен читању онлајн."
+
+msgid "plugins.themes.default.option.typography.lora_openSans"
+msgstr ""
+"Lora/Open Sans: Комбинација серифних наслова и несерифног тијела текста."
+
+msgid "plugins.themes.default.option.colour.label"
+msgstr "Боја"
+
+msgid "plugins.themes.default.option.colour.description"
+msgstr "Изаберите боју заглавља."
+
+msgid "plugins.themes.default.option.useHomepageImageAsHeader.label"
+msgstr "Позадинска лика заглавља"
+
+msgid "plugins.themes.default.option.useHomepageImageAsHeader.description"
+msgstr ""
+"Када је постављена слика за почетну страницу, прикажи је у позадини заглавља умјесто на уобичајеном позицији."
+
+msgid "plugins.themes.default.option.useHomepageImageAsHeader.option"
+msgstr "Прикажи слику за почетну страницу као позадину заглавља."
+
+msgid "plugins.themes.default.option.showCatalogSeriesListing.label"
+msgstr "Прикажи серијске публикације"
+
+msgid "plugins.themes.default.option.showCatalogSeriesListing.option"
+msgstr "Додај листу линкова ка свим серијским публикацијама на страницу каталога."
+
+msgid "plugins.themes.default.option.displayStats.label"
+msgstr "Опције приказа статистике"
+
+msgid "plugins.themes.default.option.displayStats.none"
+msgstr "Не приказуј статистику предаја радова читаоцима."
+
+msgid "plugins.themes.default.option.displayStats.bar"
+msgstr "Користи стубичасти граф за приказ статистике."
+
+msgid "plugins.themes.default.option.displayStats.line"
+msgstr "Користи линеарни граф за приказ статистике."
+
+msgid "plugins.themes.default.displayStats.monthInitials"
+msgstr "Јан Феб Мар Апр Мај Јун Јул Авг Сеп Окт Нов Дец"
+
+msgid "plugins.themes.default.displayStats.downloads"
+msgstr "Преузимања"
+
+msgid "plugins.themes.default.displayStats.noStats"
+msgstr "Подаци о преузимањима још увијек нису доступни."
