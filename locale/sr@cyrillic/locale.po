@@ -1,0 +1,1467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:02+00:00\n"
+"PO-Revision-Date: 2019-11-19T10:50:02+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "common.payments"
+msgstr "Плаћања"
+
+msgid "monograph.audience"
+msgstr "Публика"
+
+msgid "monograph.audience.success"
+msgstr "Подаци о публици су ажурирани."
+
+msgid "monograph.coverImage"
+msgstr "Насловна слика"
+
+msgid "monograph.audience.rangeQualifier"
+msgstr "Квалификатор опсега публике"
+
+msgid "monograph.audience.rangeFrom"
+msgstr "Опсег публике (од)"
+
+msgid "monograph.audience.rangeTo"
+msgstr "Опсег публике (до)"
+
+msgid "monograph.audience.rangeExact"
+msgstr "Опсег публике (тачно)"
+
+msgid "monograph.languages"
+msgstr "Језици (енглески, француски, шпански)"
+
+msgid "monograph.publicationFormats"
+msgstr "Формати публикације"
+
+msgid "monograph.publicationFormat"
+msgstr "Формат"
+
+msgid "monograph.publicationFormatDetails"
+msgstr "Подаци о доступном формату публикације: {$format}"
+
+msgid "monograph.miscellaneousDetails"
+msgstr "Подаци о овој монографији"
+
+msgid "monograph.carousel.publicationFormats"
+msgstr "Формати:"
+
+msgid "monograph.type"
+msgstr "Врста предаје"
+
+msgid "submission.pageProofs"
+msgstr "Лектура"
+
+msgid "monograph.proofReadingDescription"
+msgstr "Уредник лејаута отпрема овдје фајлове спремне за продуцију. Користите <em>+Додијели</em> да назначите ауторе и друге за коректуру, са исправљеним фајловима отпремљеним на одобрење прије објављивања."
+
+msgid "monograph.task.addNote"
+msgstr "Додај у задатак"
+
+msgid "monograph.accessLogoOpen.altText"
+msgstr "Отворени приступ"
+
+msgid "monograph.publicationFormat.imprint"
+msgstr "Импринт (бренд)"
+
+msgid "monograph.publicationFormat.pageCounts"
+msgstr "Број страна"
+
+msgid "monograph.publicationFormat.frontMatterCount"
+msgstr "Предњи дио"
+
+msgid "monograph.publicationFormat.backMatterCount"
+msgstr "Задњи дио"
+
+msgid "monograph.publicationFormat.productComposition"
+msgstr "Састав производа"
+
+msgid "monograph.publicationFormat.productFormDetailCode"
+msgstr "Детаљи о формату производа (није обавезно)"
+
+msgid "monograph.publicationFormat.productIdentifierType"
+msgstr "Идентификација производа"
+
+msgid "monograph.publicationFormat.price"
+msgstr "Цијена"
+
+msgid "monograph.publicationFormat.priceRequired"
+msgstr "Цијена је обавезна."
+
+msgid "monograph.publicationFormat.priceType"
+msgstr "Тип цијене"
+
+msgid "monograph.publicationFormat.discountAmount"
+msgstr "Износ попуста, ако постоји"
+
+msgid "monograph.publicationFormat.productAvailability"
+msgstr "Доступност производа"
+
+msgid "monograph.publicationFormat.returnInformation"
+msgstr "Индикатор поврата"
+
+msgid "monograph.publicationFormat.digitalInformation"
+msgstr "Дигитални подаци"
+
+msgid "monograph.publicationFormat.productDimensions"
+msgstr "Физичке димензије"
+
+msgid "monograph.publicationFormat.productDimensionsSeparator"
+msgstr " x "
+
+msgid "monograph.publicationFormat.productFileSize"
+msgstr "Величина фајла у MB"
+
+msgid "monograph.publicationFormat.productFileSize.override"
+msgstr "Унесите величину фајла ручно?"
+
+msgid "monograph.publicationFormat.productHeight"
+msgstr "Висина"
+
+msgid "monograph.publicationFormat.productThickness"
+msgstr "Дебљина"
+
+msgid "monograph.publicationFormat.productWeight"
+msgstr "Тежина"
+
+msgid "monograph.publicationFormat.productWidth"
+msgstr "Ширина"
+
+msgid "monograph.publicationFormat.countryOfManufacture"
+msgstr "Држава производње"
+
+msgid "monograph.publicationFormat.technicalProtection"
+msgstr "Дигитална техничка заштита"
+
+msgid "monograph.publicationFormat.productRegion"
+msgstr "Регион дистрибуције производа"
+
+msgid "monograph.publicationFormat.taxRate"
+msgstr "Стопа пореза"
+
+msgid "monograph.publicationFormat.taxType"
+msgstr "Врста пореза"
+
+msgid "monograph.publicationFormat.isApproved"
+msgstr "Укључите метаподатке за овај формат публикације у каталошки унос за ову књигу."
+
+msgid "monograph.publicationFormat.noMarketsAssigned"
+msgstr "Недостају тржишта и цијене."
+
+msgid "monograph.publicationFormat.noCodesAssigned"
+msgstr "Недостаје идентификациони код."
+
+msgid "monograph.publicationFormat.missingONIXFields"
+msgstr "Недостају нека поља за метаподатке."
+
+msgid "monograph.publicationFormat.formatDoesNotExist"
+msgstr "<p>Формат који сте изабрали више не постоји.</p>"
+
+msgid "monograph.publicationFormat.openTab"
+msgstr "Отвори картицу формата публикације."
+
+msgid "grid.catalogEntry.publicationFormatType"
+msgstr "Формат публикације"
+
+msgid "grid.catalogEntry.nameRequired"
+msgstr "Назив је обавезан."
+
+msgid "grid.catalogEntry.validPriceRequired"
+msgstr "Исправна цијена је обавезна."
+
+msgid "grid.catalogEntry.publicationFormatDetails"
+msgstr "Детаљи формата"
+
+msgid "grid.catalogEntry.physicalFormat"
+msgstr "Физички формат"
+
+msgid "grid.catalogEntry.remotelyHostedContent"
+msgstr "Овај формат ће бити доступан на вањском сајту"
+
+msgid "grid.catalogEntry.remoteURL"
+msgstr "URL до садржаја на вањском сајту"
+
+msgid "grid.catalogEntry.isbn"
+msgstr "ISBN"
+
+msgid "grid.catalogEntry.isbn13.description"
+msgstr "13-цифрени ISBN код, нпр. 978-951-98548-9-2."
+
+msgid "grid.catalogEntry.isbn10.description"
+msgstr "10-цифрени ISBN код, нпр. 951-98548-9-4."
+
+msgid "grid.catalogEntry.monographRequired"
+msgstr "ИД монографије је обавезан."
+
+msgid "grid.catalogEntry.publicationFormatRequired"
+msgstr "Мора се изабрати формат публикације."
+
+msgid "grid.catalogEntry.availability"
+msgstr "Доступност"
+
+msgid "grid.catalogEntry.isAvailable"
+msgstr "Доступно"
+
+msgid "grid.catalogEntry.isNotAvailable"
+msgstr "Није доступно"
+
+msgid "grid.catalogEntry.proof"
+msgstr "Коректура"
+
+msgid "grid.catalogEntry.approvedRepresentation.title"
+msgstr "Одобрење формата"
+
+msgid "grid.catalogEntry.approvedRepresentation.message"
+msgstr "<p>Одобрите метаподатке за овај формат. Метаподатке можете провјерити у панелу за уређивање за сваки формат.</p>"
+
+msgid "grid.catalogEntry.approvedRepresentation.removeMessage"
+msgstr "<p>Означите да метаподаци за овај формат нису одобрени.</p>"
+
+msgid "grid.catalogEntry.availableRepresentation.title"
+msgstr "Доступност формата"
+
+msgid "grid.catalogEntry.availableRepresentation.message"
+msgstr "<p>Учините овај формат <em>доступним читаоцима</em>. Фајлови за преузимање и други типови дистрибуције ће се појавити у каталошком уносу књиге.</p>"
+
+msgid "grid.catalogEntry.availableRepresentation.removeMessage"
+msgstr "<p>Овај формат ће бити <em>недоступан читаоцима</em>. Фајлови за преузимање и други типови дистрибуције неће се више појављивати у каталошком уносу књиге.</p>"
+
+msgid "grid.catalogEntry.availableRepresentation.catalogNotApprovedWarning"
+msgstr "Каталошки унос није одобрен."
+
+msgid "grid.catalogEntry.availableRepresentation.notApprovedWarning"
+msgstr "Формат није у каталошком уносу."
+
+msgid "grid.catalogEntry.availableRepresentation.proofNotApproved"
+msgstr "Коректура није одобрена."
+
+msgid "grid.catalogEntry.availableRepresentation.approved"
+msgstr "Одобрено"
+
+msgid "grid.catalogEntry.availableRepresentation.notApproved"
+msgstr "Чека на одобрење"
+
+msgid "grid.catalogEntry.fileSizeRequired"
+msgstr "Величина фајла је обавезна за дигиталне формате."
+
+msgid "grid.catalogEntry.productAvailabilityRequired"
+msgstr "Код доступности производа је обавезан."
+
+msgid "grid.catalogEntry.productCompositionRequired"
+msgstr "Мора се изабрати код састава производа."
+
+msgid "grid.catalogEntry.identificationCodeValue"
+msgstr "Вриједност кода"
+
+msgid "grid.catalogEntry.identificationCodeType"
+msgstr "Тип ONIX кода"
+
+msgid "grid.catalogEntry.codeRequired"
+msgstr "Идентификациони код је обавезан."
+
+msgid "grid.catalogEntry.valueRequired"
+msgstr "Вриједност је обавезна."
+
+msgid "grid.catalogEntry.salesRights"
+msgstr "Права продаје"
+
+msgid "grid.catalogEntry.salesRightsValue"
+msgstr "Вриједност кода"
+
+msgid "grid.catalogEntry.salesRightsType"
+msgstr "Тип права продаје"
+
+msgid "grid.catalogEntry.salesRightsROW"
+msgstr "Остатак свијета?"
+
+msgid "grid.catalogEntry.salesRightsROW.tip"
+msgstr "Означите ову кутијицу да користите овај унос права продаје као општи за ваш формат. У том случају не треба изабирати земље и регионе."
+
+msgid "grid.catalogEntry.oneROWPerFormat"
+msgstr "Већ постоји дефинисан тип продаје ROW за овај формат публикације."
+
+msgid "grid.catalogEntry.countries"
+msgstr "Земље"
+
+msgid "grid.catalogEntry.regions"
+msgstr "Региони"
+
+msgid "grid.catalogEntry.included"
+msgstr "Укључено"
+
+msgid "grid.catalogEntry.excluded"
+msgstr "Искључено"
+
+msgid "grid.catalogEntry.markets"
+msgstr "Тржишни региони"
+
+msgid "grid.catalogEntry.marketTerritory"
+msgstr "Територија"
+
+msgid "grid.catalogEntry.publicationDates"
+msgstr "Датуми објављивања"
+
+msgid "grid.catalogEntry.roleRequired"
+msgstr "Улога представника је обавезна."
+
+msgid "grid.catalogEntry.dateFormatRequired"
+msgstr "Формат датума је обавезан."
+
+msgid "grid.catalogEntry.dateValue"
+msgstr "Датум"
+
+msgid "grid.catalogEntry.dateRole"
+msgstr "Улога"
+
+msgid "grid.catalogEntry.dateFormat"
+msgstr "Формат датума"
+
+msgid "grid.catalogEntry.dateRequired"
+msgstr "Датум је обавезан и вриједност датума мора одговарати изабраном формату датума."
+
+msgid "grid.catalogEntry.representatives"
+msgstr "Представници"
+
+msgid "grid.catalogEntry.representativeType"
+msgstr "Тип представника"
+
+msgid "grid.catalogEntry.agentsCategory"
+msgstr "Агенти"
+
+msgid "grid.catalogEntry.suppliersCategory"
+msgstr "Добављачи"
+
+msgid "grid.catalogEntry.agent"
+msgstr "Агент"
+
+msgid "grid.catalogEntry.agentTip"
+msgstr "Можете додијелити агента да вас представља у овом дефинисаном региону. Није обавезно."
+
+msgid "grid.catalogEntry.supplier"
+msgstr "Добављач"
+
+msgid "grid.catalogEntry.representativeRoleChoice"
+msgstr "Изаберите улогу:"
+
+msgid "grid.catalogEntry.representativeRole"
+msgstr "Улога"
+
+msgid "grid.catalogEntry.representativeName"
+msgstr "Име"
+
+msgid "grid.catalogEntry.representativePhone"
+msgstr "Телефон"
+
+msgid "grid.catalogEntry.representativeEmail"
+msgstr "Е-пошта"
+
+msgid "grid.catalogEntry.representativeWebsite"
+msgstr "Веб сајт"
+
+msgid "grid.catalogEntry.representativeIdValue"
+msgstr "ИД представника"
+
+msgid "grid.catalogEntry.representativeIdType"
+msgstr "Тип ИД представника (препоручује се GLN)"
+
+msgid "grid.catalogEntry.representativesDescription"
+msgstr "Сљедећи одјељак можете оставити празан ако сами пружате услуге својим купцима."
+
+msgid "grid.action.addRepresentative"
+msgstr "Додај представника"
+
+msgid "grid.action.editRepresentative"
+msgstr "Уреди овог представника"
+
+msgid "grid.action.deleteRepresentative"
+msgstr "Обриши овог представника"
+
+msgid "spotlight"
+msgstr "Истакнуто"
+
+msgid "spotlight.spotlights"
+msgstr "Истакнуто"
+
+msgid "spotlight.noneExist"
+msgstr "Тренутно нема истакнутих ставки."
+
+msgid "spotlight.title.homePage"
+msgstr "Истакнуто"
+
+msgid "spotlight.author"
+msgstr "Аутор, "
+
+msgid "grid.content.spotlights.spotlightItemTitle"
+msgstr "Истакнута ставка"
+
+msgid "grid.content.spotlights.category.homepage"
+msgstr "Почетна страна"
+
+msgid "grid.content.spotlights.form.location"
+msgstr "Локација истакнуте ставке"
+
+msgid "grid.content.spotlights.form.item"
+msgstr "Унесите истакнути наслов (аутоматско довршавање)"
+
+msgid "grid.content.spotlights.form.title"
+msgstr "Наслов истакнуте ставке"
+
+msgid "grid.content.spotlights.form.type.book"
+msgstr "Књига"
+
+msgid "grid.content.spotlights.itemRequired"
+msgstr "Ставка је обавезна."
+
+msgid "grid.content.spotlights.titleRequired"
+msgstr "Наслов истакнуте ставке је обавезан."
+
+msgid "grid.content.spotlights.locationRequired"
+msgstr "Изаберите локацију за ову истакнуту ставку."
+
+msgid "grid.action.editSpotlight"
+msgstr "Уреди ову истакнуту ставку"
+
+msgid "grid.action.deleteSpotlight"
+msgstr "Обриши ову истакнуту ставку"
+
+msgid "grid.action.addSpotlight"
+msgstr "Додај истакнуту ставку"
+
+msgid "manager.series.open"
+msgstr "Отворене предаје"
+
+msgid "manager.series.indexed"
+msgstr "Индексирано"
+
+msgid "grid.libraryFiles.column.files"
+msgstr "Фајлови"
+
+msgid "grid.action.catalogEntry"
+msgstr "Погледај формулар каталошког уноса"
+
+msgid "grid.action.formatInCatalogEntry"
+msgstr "Формат се појављује у каталошком уносу"
+
+msgid "grid.action.editFormat"
+msgstr "Уреди овај формат"
+
+msgid "grid.action.deleteFormat"
+msgstr "Обриши овај формат"
+
+msgid "grid.action.addFormat"
+msgstr "Додај формат публикације"
+
+msgid "grid.action.approveProof"
+msgstr "Одобри коректуру за индексирање и укључивање у каталог"
+
+msgid "grid.action.pageProofApproved"
+msgstr "Фајл коректуре је спреман за објављивање"
+
+msgid "grid.action.newCatalogEntry"
+msgstr "Нови каталошки унос"
+
+msgid "grid.action.publicCatalog"
+msgstr "Погледај ову ставку у каталогу"
+
+msgid "grid.action.feature"
+msgstr "Пребаци приказ истакнутих"
+
+msgid "grid.action.featureMonograph"
+msgstr "Истакни ову у каталогу"
+
+msgid "grid.action.releaseMonograph"
+msgstr "Означи овај поднесак као 'ново издање'"
+
+msgid "grid.action.manageCategories"
+msgstr "Подеси категорије за ово издање"
+
+msgid "grid.action.manageSeries"
+msgstr "Подеси серије за ово издање"
+
+msgid "grid.action.addCode"
+msgstr "Додај код"
+
+msgid "grid.action.editCode"
+msgstr "Уреди овај код"
+
+msgid "grid.action.deleteCode"
+msgstr "Обриши овај код"
+
+msgid "grid.action.addRights"
+msgstr "Додај права продаје"
+
+msgid "grid.action.editRights"
+msgstr "Уреди ова права"
+
+msgid "grid.action.deleteRights"
+msgstr "Обриши ова права"
+
+msgid "grid.action.addMarket"
+msgstr "Додај тржиште"
+
+msgid "grid.action.editMarket"
+msgstr "Уреди ово тржиште"
+
+msgid "grid.action.deleteMarket"
+msgstr "Обриши ово тржиште"
+
+msgid "grid.action.addDate"
+msgstr "Додај датум објављивања"
+
+msgid "grid.action.editDate"
+msgstr "Уреди овај датум"
+
+msgid "grid.action.deleteDate"
+msgstr "Обриши овај датум"
+
+msgid "grid.action.createContext"
+msgstr "Направи ново издање"
+
+msgid "grid.action.publicationFormatTab"
+msgstr "Прикажи картицу формата публикације"
+
+msgid "grid.action.moreAnnouncements"
+msgstr "Иди на страницу са обавјештењима издања"
+
+msgid "grid.action.submissionEmail"
+msgstr "Кликни да прочиташ ову е-поруку"
+
+msgid "grid.action.approveProofs"
+msgstr "Погледај табелу коректура"
+
+msgid "grid.action.proofApproved"
+msgstr "Формат је коректорисан"
+
+msgid "grid.action.availableRepresentation"
+msgstr "Одобри/неодобри овај формат"
+
+msgid "grid.action.formatAvailable"
+msgstr "Укључи/искључи доступност овог формата"
+
+msgid "grid.reviewAttachments.add"
+msgstr "Додај прилог рецензији"
+
+msgid "grid.reviewAttachments.availableFiles"
+msgstr "Доступни фајлови"
+
+msgid "series.series"
+msgstr "Серија"
+
+msgid "series.featured.description"
+msgstr "Ова серија ће се појавити у главној навигацији"
+
+msgid "series.path"
+msgstr "Путања"
+
+msgid "catalog.manage"
+msgstr "Управљање каталогом"
+
+msgid "catalog.manage.newReleases"
+msgstr "Нова издања"
+
+msgid "catalog.manage.category"
+msgstr "Категорија"
+
+msgid "catalog.manage.series"
+msgstr "Серија"
+
+msgid "catalog.manage.series.issn"
+msgstr "ISSN"
+
+msgid "catalog.manage.series.issn.validation"
+msgstr "Унесите важећи ISSN."
+
+msgid "catalog.manage.series.issn.equalValidation"
+msgstr "Онлајн и штампани ISSN не смију бити исти."
+
+msgid "catalog.manage.series.onlineIssn"
+msgstr "Онлајн ISSN"
+
+msgid "catalog.manage.series.printIssn"
+msgstr "Штампани ISSN"
+
+msgid "catalog.selectSeries"
+msgstr "Изабери серију"
+
+msgid "catalog.selectCategory"
+msgstr "Изабери категорију"
+
+msgid "catalog.manage.homepageDescription"
+msgstr "Насловна слика изабраних књига појављује се на врху почетне странице као скуп за листање. Кликните 'Истакнуто', затим звјездицу да додате књигу у листу; кликните узвичник да означите као ново издање; превуците и пустите да бисте поредали."
+
+msgid "catalog.manage.categoryDescription"
+msgstr "Кликните 'Истакнуто', затим звјездицу да изаберете истакнуту књигу за ову категорију; превуците и пустите да бисте поредали."
+
+msgid "catalog.manage.seriesDescription"
+msgstr "Кликните 'Истакнуто', затим звјездицу да изаберете истакнуту књигу за ову серију; превуците и пустите да бисте поредали. Серије су идентификоване са уредником(има) и насловом серије, унутар категорије или независно."
+
+msgid "catalog.manage.placeIntoCarousel"
+msgstr "Листа"
+
+msgid "catalog.manage.newRelease"
+msgstr "Издање"
+
+msgid "catalog.manage.manageSeries"
+msgstr "Управљање серијама"
+
+msgid "catalog.manage.manageCategories"
+msgstr "Управљање категоријама"
+
+msgid "catalog.manage.noMonographs"
+msgstr "Нема додијељених монографија."
+
+msgid "catalog.manage.featured"
+msgstr "Истакнуто"
+
+msgid "catalog.manage.categoryFeatured"
+msgstr "Истакнуто у категорији"
+
+msgid "catalog.manage.seriesFeatured"
+msgstr "Истакнуто у серији"
+
+msgid "catalog.manage.featuredSuccess"
+msgstr "Монографија је истакнута."
+
+msgid "catalog.manage.notFeaturedSuccess"
+msgstr "Монографија није истакнута."
+
+msgid "catalog.manage.newReleaseSuccess"
+msgstr "Монографија је означена као ново издање."
+
+msgid "catalog.manage.notNewReleaseSuccess"
+msgstr "Монографија није означена као ново издање."
+
+msgid "catalog.manage.feature.newRelease"
+msgstr "Ново издање"
+
+msgid "catalog.manage.feature.categoryNewRelease"
+msgstr "Ново издање у категорији"
+
+msgid "catalog.manage.feature.seriesNewRelease"
+msgstr "Ново издање у серији"
+
+msgid "catalog.manage.nonOrderable"
+msgstr "Ова монографија није наручива док се не истакне."
+
+msgid "catalog.manage.filter.searchByAuthorOrTitle"
+msgstr "Претражи по наслову или аутору"
+
+msgid "catalog.manage.isFeatured"
+msgstr "Ова монографија је истакнута. Учините ову монографију неистакнутом."
+
+msgid "catalog.manage.isNotFeatured"
+msgstr "Ова монографија није истакнута. Учините ову монографију истакнутом."
+
+msgid "catalog.manage.isNewRelease"
+msgstr "Ова монографија је ново издање. Учините ову монографију старим издањем."
+
+msgid "catalog.manage.isNotNewRelease"
+msgstr "Ова монографија није ново издање. Учините ову монографију новим издањем."
+
+msgid "catalog.manage.noSubmissionsSelected"
+msgstr "Ниједан поднесак није изабран за додавање у каталог."
+
+msgid "catalog.manage.submissionsNotFound"
+msgstr "Један или више поднесака није пронађено."
+
+msgid "catalog.manage.findSubmissions"
+msgstr "Пронађи монографије за додавање у каталог"
+
+msgid "catalog.noTitles"
+msgstr "Још увијек није објављен ниједан наслов."
+
+msgid "catalog.noTitlesNew"
+msgstr "Тренутно нема нових издања."
+
+msgid "catalog.noTitlesSearch"
+msgstr "Није пронађен ниједан наслов који одговара вашем упиту \"{$searchQuery}\"."
+
+msgid "catalog.feature"
+msgstr "Издвојено"
+
+msgid "catalog.featured"
+msgstr "Издвојено"
+
+msgid "catalog.featuredBooks"
+msgstr "Издвојене књиге"
+
+msgid "catalog.foundTitleSearch"
+msgstr "Пронађен је један наслов који одговара упиту \"{$searchQuery}\"."
+
+msgid "catalog.foundTitlesSearch"
+msgstr "{$number} наслова је пронађено који одговарају вашем упиту \"{$searchQuery}\"."
+
+msgid "catalog.category.heading"
+msgstr "Све књиге"
+
+msgid "catalog.newReleases"
+msgstr "Нова издања"
+
+msgid "catalog.dateAdded"
+msgstr "Додато"
+
+msgid "catalog.publicationInfo"
+msgstr "Подаци о издању"
+
+msgid "catalog.published"
+msgstr "Објављено"
+
+msgid "catalog.forthcoming"
+msgstr "У припреми"
+
+msgid "catalog.categories"
+msgstr "Категорије"
+
+msgid "catalog.parentCategory"
+msgstr "Надређена категорија"
+
+msgid "catalog.category.subcategories"
+msgstr "Подкатегорије"
+
+msgid "catalog.aboutTheAuthor"
+msgstr "О {$roleName}"
+
+msgid "catalog.loginRequiredForPayment"
+msgstr "Напомена: Да бисте купили ставке, морате се прво пријавити. Изабирање ставке за куповину ће вас усмерити на страницу за пријаву. Било која ставка означена иконом Отвореног приступа може се преузети бесплатно, без пријаве."
+
+msgid "catalog.sortBy"
+msgstr "Сортирај монографије"
+
+msgid "catalog.sortBy.seriesDescription"
+msgstr "Изаберите како да сортирате књиге у овој серији."
+
+msgid "catalog.sortBy.categoryDescription"
+msgstr "Изаберите како да сортирате књиге у овој категорији."
+
+msgid "catalog.sortBy.catalogDescription"
+msgstr "Изаберите како да сортирате књиге у каталогу."
+
+msgid "catalog.sortBy.seriesPositionAsc"
+msgstr "Позиција (најнижа прва)"
+
+msgid "catalog.sortBy.seriesPositionDesc"
+msgstr "Позиција (највиша прва)"
+
+msgid "catalog.viewableFile.title"
+msgstr "{$type} преглед фајла {$title}"
+
+msgid "catalog.viewableFile.return"
+msgstr "Повратак на преглед детаља о {$monographTitle}"
+
+msgid "submission.search"
+msgstr "Претрага књига"
+
+msgid "common.publication"
+msgstr "Монографија"
+
+msgid "common.publications"
+msgstr "Монографије"
+
+msgid "common.prefix"
+msgstr "Префикс"
+
+msgid "common.preview"
+msgstr "Преглед"
+
+msgid "common.feature"
+msgstr "Издвојено"
+
+msgid "common.searchCatalog"
+msgstr "Претражи каталог"
+
+msgid "common.moreInfo"
+msgstr "Више информација"
+
+msgid "common.listbuilder.completeForm"
+msgstr "Молимо попуните формулар до краја."
+
+msgid "common.listbuilder.selectValidOption"
+msgstr "Молимо изаберите валидну опцију из листе."
+
+msgid "common.listbuilder.itemExists"
+msgstr "Не можете додати исти објект два пута."
+
+msgid "common.software"
+msgstr "Open Monograph Press"
+
+msgid "common.omp"
+msgstr "OMP"
+
+msgid "common.homePageHeader.altText"
+msgstr "Заглавље почетне странице"
+
+msgid "navigation.catalog"
+msgstr "Каталог"
+
+msgid "navigation.competingInterestPolicy"
+msgstr "Политика сукоба интереса"
+
+msgid "navigation.catalog.allMonographs"
+msgstr "Све монографије"
+
+msgid "navigation.catalog.manage"
+msgstr "Уреди"
+
+msgid "navigation.catalog.administration.short"
+msgstr "Администрација"
+
+msgid "navigation.catalog.administration"
+msgstr "Управљање каталогом"
+
+msgid "navigation.catalog.administration.categories"
+msgstr "Категорије"
+
+msgid "navigation.catalog.administration.series"
+msgstr "Серије"
+
+msgid "navigation.infoForAuthors"
+msgstr "За ауторе"
+
+msgid "navigation.infoForLibrarians"
+msgstr "За библиотекаре"
+
+msgid "navigation.infoForAuthors.long"
+msgstr "Информације за ауторе"
+
+msgid "navigation.infoForLibrarians.long"
+msgstr "Информације за библиотекаре"
+
+msgid "navigation.newReleases"
+msgstr "Нова издања"
+
+msgid "navigation.published"
+msgstr "Објављено"
+
+msgid "navigation.wizard"
+msgstr "Чаробњак"
+
+msgid "navigation.linksAndMedia"
+msgstr "Линкови и друштвене мреже"
+
+msgid "navigation.navigationMenus.catalog.description"
+msgstr "Линк ка вашем каталогу."
+
+msgid "navigation.skip.spotlights"
+msgstr "Прескочи на \"Истакнуто\""
+
+msgid "navigation.navigationMenus.series.generic"
+msgstr "Серијске публикације"
+
+msgid "navigation.navigationMenus.series.description"
+msgstr "Линк до серијских публикација."
+
+msgid "navigation.navigationMenus.category.generic"
+msgstr "Категорија"
+
+msgid "navigation.navigationMenus.category.description"
+msgstr "Линк ка категоријама."
+
+msgid "navigation.navigationMenus.newRelease"
+msgstr "Нова издања"
+
+msgid "navigation.navigationMenus.newRelease.description"
+msgstr "Линк ка новим издањима."
+
+msgid "context.contexts"
+msgstr "Издања"
+
+msgid "context.context"
+msgstr "Издање"
+
+msgid "context.current"
+msgstr "Тренутно издање:"
+
+msgid "context.select"
+msgstr "Пребаци на друго издање:"
+
+msgid "user.authorization.representationNotFound"
+msgstr "Тражени формат публикације није пронађен."
+
+msgid "user.noRoles.selectUsersWithoutRoles"
+msgstr "Укључи кориснике без улога у овом издању."
+
+msgid "user.noRoles.submitMonograph"
+msgstr "Поднеси приједлог"
+
+msgid "user.noRoles.submitMonographRegClosed"
+msgstr "Поднеси монографију: Регистрација аутора је тренутно онемогућена."
+
+msgid "user.noRoles.regReviewer"
+msgstr "Региструј се као рецензент"
+
+msgid "user.noRoles.regReviewerClosed"
+msgstr "Региструј се као рецензент: Регистрација рецензената је тренутно онемогућена."
+
+msgid "user.reviewerPrompt"
+msgstr "Да ли бисте били вољни да рецензирате поднеске за ово издање?"
+
+msgid "user.reviewerPrompt.userGroup"
+msgstr "Да, затражи улогу {$userGroup}."
+
+msgid "user.reviewerPrompt.optin"
+msgstr "Да, желим да ме контактирају са захтијевима за рецензирање поднесака за ово издање."
+
+msgid "user.register.contextsPrompt"
+msgstr "На ком издању на овом сајту бисте желели да се региструјете?"
+
+msgid "user.register.otherContextRoles"
+msgstr "Затражи следеће улоге."
+
+msgid "user.register.noContextReviewerInterests"
+msgstr "Ако сте затражили да будете рецензент за било које издање, унесите ваше предметне интересе."
+
+msgid "user.role.manager"
+msgstr "Менаџер издања"
+
+msgid "user.role.pressEditor"
+msgstr "Уредник издања"
+
+msgid "user.role.subEditor"
+msgstr "Подуредник"
+
+msgid "user.role.copyeditor"
+msgstr "Лектор"
+
+msgid "user.role.proofreader"
+msgstr "Коректор"
+
+msgid "user.role.productionEditor"
+msgstr "Технички уредник"
+
+msgid "user.role.managers"
+msgstr "Менаџери издања"
+
+msgid "user.role.subEditors"
+msgstr "Подуредници"
+
+msgid "user.role.editors"
+msgstr "Уредници"
+
+msgid "user.role.copyeditors"
+msgstr "Лектори"
+
+msgid "user.role.proofreaders"
+msgstr "Коректори"
+
+msgid "user.role.productionEditors"
+msgstr "Технички уредници"
+
+msgid "user.register.selectContext"
+msgstr "Изаберите издање за регистрацију:"
+
+msgid "user.register.noContexts"
+msgstr "Нема издања на овом сајту за која се можете регистровати."
+
+msgid "user.register.privacyStatement"
+msgstr "Изјава о приватности"
+
+msgid "user.register.registrationDisabled"
+msgstr "Ово издање тренутно не прихвата регистрације корисника."
+
+msgid "user.register.form.passwordLengthTooShort"
+msgstr "Лозинка коју сте унијели није довољно дуга."
+
+msgid "user.register.readerDescription"
+msgstr "Обавијештен е-поштом о објављивању монографије."
+
+msgid "user.register.authorDescription"
+msgstr "У могућности да подноси ставке издању."
+
+msgid "user.register.reviewerDescriptionNoInterests"
+msgstr "Вољан да врши рецензије поднесака за издање."
+
+msgid "user.register.reviewerDescription"
+msgstr "Вољан да врши рецензије поднесака за сајт."
+
+msgid "user.register.reviewerInterests"
+msgstr "Идентификујте интересе за рецензирање (суштинске области и методе истраживања):"
+
+msgid "user.register.form.userGroupRequired"
+msgstr "Морате изабрати бар једну улогу"
+
+msgid "user.register.form.privacyConsentThisContext"
+msgstr "Да, слажем се да се моји подаци прикупљају и чувају у складу са <a href=\"{$privacyUrl}\" target=\"_blank\">изјавом о приватности</a> овог издања."
+
+msgid "site.noPresses"
+msgstr "Нема доступних издања."
+
+msgid "site.pressView"
+msgstr "Погледај веб сајт издања"
+
+msgid "about.pressContact"
+msgstr "Контакт издања"
+
+msgid "about.aboutContext"
+msgstr "О нама"
+
+msgid "about.editorialTeam"
+msgstr "Уредништво"
+
+msgid "about.editorialPolicies"
+msgstr "Уређивачка политика"
+
+msgid "about.focusAndScope"
+msgstr "Фокус и циљ"
+
+msgid "about.seriesPolicies"
+msgstr "Политике серија и категорија"
+
+msgid "about.submissions"
+msgstr "Предаје рада"
+
+msgid "about.onlineSubmissions"
+msgstr "Онлајн предаје рада"
+
+msgid "about.onlineSubmissions.login"
+msgstr "Пријава"
+
+msgid "about.onlineSubmissions.register"
+msgstr "Регистрација"
+
+msgid "about.onlineSubmissions.registrationRequired"
+msgstr "{$login} или {$register} да бисте предали рад."
+
+msgid "about.onlineSubmissions.submissionActions"
+msgstr "{$newSubmission} или {$viewSubmissions}."
+
+msgid "about.onlineSubmissions.newSubmission"
+msgstr "Направи нови поднесак"
+
+msgid "about.onlineSubmissions.viewSubmissions"
+msgstr "погледај ваше поднеске на чекању"
+
+msgid "about.authorGuidelines"
+msgstr "Упутства за ауторе"
+
+msgid "about.submissionPreparationChecklist"
+msgstr "Чек-листа за припрему поднеска"
+
+msgid "about.submissionPreparationChecklist.description"
+msgstr "Као део процеса подношења, аутори морају да провере да њихов поднесак испуњава све следеће ставке, а поднесе се могу вратити ауторима који се не придржавају ових смерница."
+
+msgid "about.copyrightNotice"
+msgstr "Обавјештење о ауторским правима"
+
+msgid "about.privacyStatement"
+msgstr "Изјава о приватности"
+
+msgid "about.reviewPolicy"
+msgstr "Процес рецензије"
+
+msgid "about.publicationFrequency"
+msgstr "Учесталост објављивања"
+
+msgid "about.openAccessPolicy"
+msgstr "Политика отвореног приступа"
+
+msgid "about.pressSponsorship"
+msgstr "Спонзорство издања"
+
+msgid "about.aboutThisPublishingSystem"
+msgstr "Више информација о систему објављивања, Платформи и Радном процесу од OMP/PKP."
+
+msgid "about.aboutThisPublishingSystem.altText"
+msgstr "OMP процес уређивања и објављивања"
+
+msgid "about.aboutSoftware"
+msgstr "Више о Open Monograph Press"
+
+msgid "about.aboutOMPPress"
+msgstr "Користимо Open Monograph Press {$ompVersion}, који је софтвер отвореног кода за управљање објављивањем који је развио, подржава и бесплатно дистрибуира Public Knowledge Project под GNU General Public лиценцом. Посјетите њихов веб сајт <a href=\"https://pkp.sfu.ca/\">да сазнате више о софтверу</a>."
+
+msgid "about.aboutOMPSite"
+msgstr "Ово издање користи Open Monograph Press {$ompVersion}, који је софтвер отвореног кода за управљање објављивањем који је развио, подржава и бесплатно дистрибуира Public Knowledge Project под GNU General Public лиценцом. Посјетите PKP веб сајт да <a href=\"https://pkp.sfu.ca/\">сазнате више о софтверу</a>. Молимо контактирајте сајт директно са питањима о његовим издањима и поднецима за његова издања."
+
+msgid "help.searchReturnResults"
+msgstr "Повратак на резултате претраге"
+
+msgid "help.goToEditPage"
+msgstr "Отвори нову страницу за уређивање ових информација"
+
+msgid "installer.appInstallation"
+msgstr "OMP инсталација"
+
+msgid "installer.ompUpgrade"
+msgstr "OMP ажурирање"
+
+msgid "installer.installApplication"
+msgstr "Инсталирај Open Monograph Press"
+
+msgid "installer.updatingInstructions"
+msgstr "Ако ажурирате постојећу инсталацију, <a href=\"{$upgradeUrl}\">кликните овдје</a> да наставите."
+
+msgid "installer.installationInstructions"
+msgstr "<p>Хвала вам што сте преузели <strong>Open Monograph Press {$version}</strong> Public Knowledge Project-а. Прије него што наставите, молимо прочитајте <a href=\"{$baseUrl}/docs/README.md\">README</a> документ који је приложен уз овај софтвер. За више информација о Public Knowledge Project и њиховим пројектима, молимо посјетите <a href=\"https://pkp.sfu.ca/\" target=\"_blank\">PKP веб сајт</a>. Ако имате пријаве грешака или вам је потребна техничка подршка за Open Monograph Press, посјетите <a href=\"https://forum.pkp.sfu.ca\" target=\"_blank\">форум за подршку</a> или PKP-ов <a href=\"https://github.com/pkp/pkp-lib/issues/\" target=\"_blank\">систем за пријаву грешака</a>. Иако је форум за подршку преферирани метод контакта, можете контактирати и тим за подршку на <a href=\"mailto:pkp.contact@gmail.com\">pkp.contact@gmail.com</a>.</p>"
+
+msgid "installer.preInstallationInstructionsTitle"
+msgstr "Кораци прије инсталације"
+
+msgid "installer.preInstallationInstructions"
+msgstr "<p>1. Сљедећи фајлови и фолдери (и њихов садржај) морају бити доступни за уписивање:</p>\n<ul>\n\t<li><tt>config.inc.php</tt> је уписив (опционо): {$writable_config}</li>\n\t<li><tt>public/</tt> је уписив: {$writable_public}</li>\n\t<li><tt>cache/</tt> је уписив: {$writable_cache}</li>\n\t<li><tt>cache/t_cache/</tt> је уписив: {$writable_templates_cache}</li>\n\t<li><tt>cache/t_compile/</tt> је уписив: {$writable_templates_compile}</li>\n\t<li><tt>cache/_db</tt> је уписив: {$writable_db_cache}</li>\n</ul>\n\n<p>2. Фолдер за чување отпремљених фајлова мора бити направљен и доступан за уписивање (види \"Подешавања фајлова\" испод).</p>"
+
+msgid "installer.upgradeInstructions"
+msgstr "<h4>OMP верзија {$version}</h4>\n\n<p>Хвала вам што сте преузели <strong>Open Monograph Press</strong> Public Knowledge Project-а. Прије него што наставите, молимо прочитајте <a href=\"{$baseUrl}/docs/README.md\">README</a> и <a href=\"{$baseUrl}/docs/UPGRADE.md\">UPGRADE</a> фајлове укључене у овај софтвер. За више информација о Public Knowledge Project и његовим софтверским пројектима, молимо посјетите <a href=\"https://pkp.sfu.ca/\" target=\"_blank\">PKP веб сајт</a>. Ако имате пријаве грешака или техничке упите о Open Monograph Press, погледајте <a href=\"https://forum.pkp.sfu.ca\" target=\"_blank\">форум за подршку</a> или посетите PKP-ов онлајн <a href=\"https://github.com/pkp/pkp-lib/issues\" target=\"_blank\">систем за пријаву грешака</a>. Иако је форум за подршку преферирани метод контакта, можете контактирати и тим за подршку на <a href=\"mailto:pkp.contact@gmail.com\">pkp.contact@gmail.com</a>.</p>\n<p><strong>Снажно се препоручује</strong> да направите резервну копију ваше базе података, фолдера са фајловима и OMP инсталационог директоријума пре него што наставите.</p>"
+
+msgid "installer.localeSettingsInstructions"
+msgstr "За потпуну подршку за Unicode, PHP мора бити компајлиран са подршком за <a href=\"https://www.php.net/mbstring\" target=\"_blank\">mbstring</a> библиотеку (омогућено подразумијевано у већини скорашњих PHP инсталација). Можете наићи на проблеме при коришћењу проширених скупова знакова ако ваш сервер не испуњава ове захтјеве.\n<br /><br />\nВаш сервер тренутно подржава mbstring: <strong>{$supportsMBString}</strong>"
+
+msgid "installer.allowFileUploads"
+msgstr "Ваш сервер тренутно дозвољава отпремање фајлова: <strong>{$allowFileUploads}</strong>"
+
+msgid "installer.maxFileUploadSize"
+msgstr "Ваш сервер тренутно дозвољава максималну величину отпремљеног фајла од: <strong>{$maxFileUploadSize}</strong>"
+
+msgid "installer.localeInstructions"
+msgstr "Примарни језик за коришћење у овом систему. Молимо консултујте OMP документацију ако сте заинтересовани за подршку за језике који нису наведени овдје."
+
+msgid "installer.additionalLocalesInstructions"
+msgstr "Изаберите било које додатне језике за подршку у овом систему. Ови језици ће бити доступни за коришћење од стране издања која се хостују на сајту. Додатни језици се такође могу инсталирати у било ком тренутку из административног интерфејса сајта. Локали означени са * могу бити непотпуни."
+
+msgid "installer.filesDirInstructions"
+msgstr "Унесите пуну путању до постојећег директоријума гдје ће отпремљени фајлови бити чувани. Овај директоријум не треба да буде директно доступан преко веба. <strong>Молимо осигурајте да овај директоријум постоји и да је уписив прије инсталације.</strong> Виндовс путање треба да користе косе црте, нпр. \"C:/mypress/files\"."
+
+msgid "installer.databaseSettingsInstructions"
+msgstr "OMP захтијева приступ SQL бази података за чување својих података. Погледајте системске захтијеве изнад за листу подржаних база података. У пољима испод, обезбједите подешавања која ће се користити за повезивање са базом података."
+
+msgid "installer.upgradeApplication"
+msgstr "Ажурирај Open Monograph Press"
+
+msgid "installer.overwriteConfigFileInstructions"
+msgstr "<h4>ВАЖНО!</h4>\n<p>Инсталер није могао аутоматски да препише конфигурациони фајл. Прије него што покушате да користите систем, молимо отворите <tt>config.inc.php</tt> у одговарајућем текстуалном едитору и замијените његов садржај садржајем текстуалног поља испод.</p>"
+
+msgid "installer.installationComplete"
+msgstr "<p>Инсталација OMP-а је успјешно завршена.</p>\n<p>Да бисте почели да користите систем, <a href=\"{$loginUrl}\">пријавите се</a> са корисничким именом и лозинком унетом на претходној страници.</p>\n<p>Посјетите наш <a href=\"https://forum.pkp.sfu.ca\" target=\"_new\">форум заједнице</a> или се пријавите на наш <a href=\"https://pkp.sfu.ca/developer-newsletter\" target=\"_new\">билтен за програмере</a> да бисте примали обавјештења о безбједности и ажурирањима о надолазећим издањима, новим додацима и планираним функцијама.</p>"
+
+msgid "installer.upgradeComplete"
+msgstr "<p>Ажурирање OMP-а на верзију {$version} је успјешно завршено.</p>\n<p>Не заборавите да поставите \"installed\" подешавање у вашем <tt>config.inc.php</tt> конфигурационом фајлу назад на <em>On</em>.</p>\n<p>Посјетите наш <a href=\"https://forum.pkp.sfu.ca\" target=\"_new\">форум заједнице</a> или се пријавите на наш <a href=\"https://pkp.sfu.ca/developer-newsletter\" target=\"_new\">билтен за програмере</a> да бисте примали обавјештења о безбједности и ажурирањима о надолазећим издањима, новим додацима и планираним функцијама.</p>"
+
+msgid "log.review.reviewDueDateSet"
+msgstr "Рок за рецензију рунде {$round} поднеска {$submissionId} од стране {$reviewerName} је постављен на {$dueDate}."
+
+msgid "log.review.reviewDeclined"
+msgstr "{$reviewerName} је одбио рецензију рунде {$round} за поднесак {$submissionId}."
+
+msgid "log.review.reviewAccepted"
+msgstr "{$reviewerName} је прихватио рецензију рунде {$round} за поднесак {$submissionId}."
+
+msgid "log.review.reviewUnconsidered"
+msgstr "{$editorName} је означио рецензију рунде {$round} за поднесак {$submissionId} као неразматрану."
+
+msgid "log.editor.decision"
+msgstr "Уредничка одлука ({$decision}) за монографију {$submissionId} је забиљежена од стране {$editorName}."
+
+msgid "log.editor.recommendation"
+msgstr "Уредничка препорука ({$decision}) за монографију {$submissionId} је забиљежена од стране {$editorName}."
+
+msgid "log.editor.archived"
+msgstr "Поднесак {$submissionId} је архивиран."
+
+msgid "log.editor.restored"
+msgstr "Поднесак {$submissionId} је враћен у ред."
+
+msgid "log.editor.editorAssigned"
+msgstr "{$editorName} је додијељен као уредник за поднесак {$submissionId}."
+
+msgid "log.proofread.assign"
+msgstr "{$assignerName} је додијелио {$proofreaderName} за коректуру поднеска {$submissionId}."
+
+msgid "log.proofread.complete"
+msgstr "{$proofreaderName} је поднио {$submissionId} за заказивање."
+
+msgid "log.imported"
+msgstr "{$userName} је увезао монографију {$submissionId}."
+
+msgid "notification.addedIdentificationCode"
+msgstr "Идентификациони код је додат."
+
+msgid "notification.editedIdentificationCode"
+msgstr "Идентификациони код је измијењен."
+
+msgid "notification.removedIdentificationCode"
+msgstr "Идентификациони код је уклоњен."
+
+msgid "notification.addedPublicationDate"
+msgstr "Датум објављивања је додат."
+
+msgid "notification.editedPublicationDate"
+msgstr "Датум објављивања је измијењен."
+
+msgid "notification.removedPublicationDate"
+msgstr "Датум објављивања је уклоњен."
+
+msgid "notification.addedPublicationFormat"
+msgstr "Формат публикације је додат."
+
+msgid "notification.editedPublicationFormat"
+msgstr "Формат публикације је измијењен."
+
+msgid "notification.removedPublicationFormat"
+msgstr "Формат публикације је уклоњен."
+
+msgid "notification.addedSalesRights"
+msgstr "Права продаје су додата."
+
+msgid "notification.editedSalesRights"
+msgstr "Права продаје су измијењена."
+
+msgid "notification.removedSalesRights"
+msgstr "Права продаје су уклоњена."
+
+msgid "notification.addedRepresentative"
+msgstr "Представник је додат."
+
+msgid "notification.editedRepresentative"
+msgstr "Представник је измијењен."
+
+msgid "notification.removedRepresentative"
+msgstr "Представник је уклоњен."
+
+msgid "notification.addedMarket"
+msgstr "Тржиште је додато."
+
+msgid "notification.editedMarket"
+msgstr "Тржиште је измијењено."
+
+msgid "notification.removedMarket"
+msgstr "Тржиште је уклоњено."
+
+msgid "notification.addedSpotlight"
+msgstr "Истакнута ставка је додата."
+
+msgid "notification.editedSpotlight"
+msgstr "Истакнута ставка је измијењена."
+
+msgid "notification.removedSpotlight"
+msgstr "Истакнута ставка је уклоњена."
+
+msgid "notification.savedCatalogMetadata"
+msgstr "Метаподаци каталога су сачувани."
+
+msgid "notification.savedPublicationFormatMetadata"
+msgstr "Метаподаци формата публикације су сачувани."
+
+msgid "notification.proofsApproved"
+msgstr "Коректуре су одобрене."
+
+msgid "notification.removedSubmission"
+msgstr "Поднесак је обрисан."
+
+msgid "notification.type.submissionSubmitted"
+msgstr "Нова монографија, \"{$title},\" је поднијета."
+
+msgid "notification.type.editing"
+msgstr "Догађаји уређивања"
+
+msgid "notification.type.reviewing"
+msgstr "Догађаји рецензирања"
+
+msgid "notification.type.site"
+msgstr "Догађаји сајта"
+
+msgid "notification.type.submissions"
+msgstr "Догађаји подношења"
+
+msgid "notification.type.userComment"
+msgstr "Читалац је коментарисао \"{$title}\"."
+
+msgid "notification.type.public"
+msgstr "Јавна обавјештења"
+
+msgid "notification.type.editorAssignmentTask"
+msgstr "Нова монографија је поднијета којој треба додијелити уредника."
+
+msgid "notification.type.copyeditorRequest"
+msgstr "Захтијевано је од вас да прегледате лекторске измене за \"{$file}\"."
+
+msgid "notification.type.layouteditorRequest"
+msgstr "Захтијевано је од вас да прегледате лејауте за \"{$title}\"."
+
+msgid "notification.type.indexRequest"
+msgstr "Захтевано је од вас да направите индекс за \"{$title}\"."
+
+msgid "notification.type.editorDecisionInternalReview"
+msgstr "Процес интерне рецензије је започет."
+
+msgid "notification.type.approveSubmission"
+msgstr "Овај поднесак тренутно чека одобрење у алатки за каталошке уносе прије него што ће се појавити у јавном каталогу."
+
+msgid "notification.type.approveSubmissionTitle"
+msgstr "Чека на одобрење."
+
+msgid "notification.type.formatNeedsApprovedSubmission"
+msgstr "Монографија неће бити наведена у каталогу док се не објави. Да бисте додали ову књигу у каталог, кликните на картицу Публикација."
+
+msgid "notification.type.configurePaymentMethod.title"
+msgstr "Није подешен метод плаћања."
+
+msgid "notification.type.configurePaymentMethod"
+msgstr "Подешен метод плаћања је неопходан прије него што можете дефинисати подешавања е-трговине."
+
+msgid "notification.type.visitCatalogTitle"
+msgstr "Управљање каталогом"
+
+msgid "notification.type.visitCatalog"
+msgstr "Монографија је одобрена. Молимо посјетите Маркетинг и Публикацију да управљате њеним детаљима каталога, користећи линкове изнад."
+
+msgid "user.authorization.invalidReviewAssignment"
+msgstr "Онемогућен вам је приступ јер се чини да нисте важећи рецензент за ову монографију."
+
+msgid "user.authorization.monographAuthor"
+msgstr "Онемогућен вам је приступ јер се чини да нисте аутор ове монографије."
+
+msgid "user.authorization.monographReviewer"
+msgstr "Онемогућен вам је приступ јер се чини да нисте додијељени рецензент ове монографије."
+
+msgid "user.authorization.monographFile"
+msgstr "Онемогућен вам је приступ наведеном фајлу монографије."
+
+msgid "user.authorization.invalidMonograph"
+msgstr "Неважећа монографија или није захтијевана монографија!"
+
+msgid "user.authorization.noContext"
+msgstr "Није пронађено издање које одговара вашем захтијеву."
+
+msgid "user.authorization.seriesAssignment"
+msgstr "Покушавате да приступите монографији која није дио ваше серије."
+
+msgid "user.authorization.workflowStageAssignmentMissing"
+msgstr "Приступ одбијен! Нисте додијељени овом степену радног процеса."
+
+msgid "user.authorization.workflowStageSettingMissing"
+msgstr "Приступ одбијен! Корисничка група под којом тренутно дјелујете није додијељена овом степену радног процеса. Молимо провјерите подешавања вашег издања."
+
+msgid "payment.directSales"
+msgstr "Преузимање са веб сајта издања"
+
+msgid "payment.directSales.price"
+msgstr "Цијена"
+
+msgid "payment.directSales.availability"
+msgstr "Доступност"
+
+msgid "payment.directSales.catalog"
+msgstr "Каталог"
+
+msgid "payment.directSales.approved"
+msgstr "Одобрено"
+
+msgid "payment.directSales.priceCurrency"
+msgstr "Цијена ({$currency})"
+
+msgid "payment.directSales.numericOnly"
+msgstr "Цијене треба да буду само нумеричке. Не укључујте симболе валута."
+
+msgid "payment.directSales.directSales"
+msgstr "Директна продаја"
+
+msgid "payment.directSales.amount"
+msgstr "{$amount} ({$currency})"
+
+msgid "payment.directSales.notAvailable"
+msgstr "Није доступно"
+
+msgid "payment.directSales.notSet"
+msgstr "Није подешено"
+
+msgid "payment.directSales.openAccess"
+msgstr "Отворени приступ"
+
+msgid "payment.directSales.price.description"
+msgstr "Формати фајлова могу бити доступни за преузимање са веб сајта издања путем отвореног приступа без трошкова за читаоце или директне продаје (користећи онлајн процесор плаћања, како је подешено у Дистрибуцији). За овај фајл наведите основу приступа."
+
+msgid "payment.directSales.validPriceRequired"
+msgstr "Потребна је важећа нумеричка цијена."
+
+msgid "payment.directSales.purchase"
+msgstr "Купи {$format} ({$amount} {$currency})"
+
+msgid "payment.directSales.download"
+msgstr "Преузми {$format}"
+
+msgid "payment.directSales.monograph.name"
+msgstr "Купи преузимање монографије или поглавља"
+
+msgid "payment.directSales.monograph.description"
+msgstr "Ова трансакција је за куповину директног преузимања појединачне монографије или поглавља монографије."
+
+msgid "debug.notes.helpMappingLoad"
+msgstr "Поново је учитан XML фајл мапе помоћи {$filename} у потрази за {$id}."
+
+msgid "rt.metadata.pkp.dctype"
+msgstr "Књига"
+
+msgid "submission.pdf.download"
+msgstr "Преузми овај PDF фајл"
+
+msgid "user.profile.form.showOtherContexts"
+msgstr "Региструј се на другим издањима"
+
+msgid "user.profile.form.hideOtherContexts"
+msgstr "Сакриј друга издања"
+
+msgid "submission.round"
+msgstr "Рунда&nbsp;{$round}"
+
+msgid "user.authorization.invalidPublishedSubmission"
+msgstr "Наведена је неважећа објављена монографија."
+
+msgid "catalog.coverImageTitle"
+msgstr "Корице"
+
+msgid "grid.catalogEntry.chapters"
+msgstr "Поглавља"
+
+msgid "search.results.orderBy.article"
+msgstr "Наслов чланка"
+
+msgid "search.results.orderBy.author"
+msgstr "Аутор"
+
+msgid "search.results.orderBy.date"
+msgstr "Датум објаве"
+
+msgid "search.results.orderBy.monograph"
+msgstr "Наслов монографије"
+
+msgid "search.results.orderBy.press"
+msgstr "Назив издања"
+
+msgid "search.results.orderBy.popularityAll"
+msgstr "Популарност (све вријеме)"
+
+msgid "search.results.orderBy.popularityMonth"
+msgstr "Популарност (посљедњи месец)"
+
+msgid "search.results.orderBy.relevance"
+msgstr "Релевантност"
+
+msgid "search.results.orderDir.asc"
+msgstr "Растући"
+
+msgid "search.results.orderDir.desc"
+msgstr "Опадајући"
+
+msgid "section.section"
+msgstr "Серија"
+
+msgid "search.cli.rebuildIndex.indexing"
+msgstr "Индексирање \"{$pressName}\""
+
+msgid "search.cli.rebuildIndex.indexingByPressNotSupported"
+msgstr "Ова имплементација претраге не дозвољава појединачно индексирање по издањима."
+
+msgid "search.cli.rebuildIndex.unknownPress"
+msgstr "Дата путања издања \"{$pressPath}\" није могла бити разријешена у издање."
+
+msgid "site.upgradeAvailable.admin"
+msgstr "Доступна је нова верзија OMP-а! Тренутно користите OMP {$currentVersion}. Најновија верзија је OMP {$latestVersion}. Молимо посјетите <a href=\"https://pkp.sfu.ca/omp_download\" target=\"_new\">PKP веб сајт</a> да преузмете најновију верзију и пронађете упутства за ажурирање."
+
+msgid "site.upgradeAvailable.manager"
+msgstr "Доступна је нова верзија OMP-а! Тренутно користите OMP {$currentVersion}. Најновија верзија је OMP {$latestVersion}. Молимо контактирајте вашег Администратора сајта ({$siteAdminName}, <a href=\"mailto:{$siteAdminEmail}\">{$siteAdminEmail}</a>) да их обавјестите о овом новом издању. Више информација можете наћи <a href=\"https://pkp.sfu.ca/omp_download/\" target=\"_new\">на PKP веб сајту</a>."

@@ -1,0 +1,1424 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:02+00:00\n"
+"PO-Revision-Date: 2019-11-19T10:50:02+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "manager.language.confirmDefaultSettingsOverwrite"
+msgstr "Ово ће замијенити све поставке специфичне за локал који сте имали за овај локал."
+
+msgid "manager.languages.noneAvailable"
+msgstr "Жао нам је, није доступан ниједан додатни језик. Контактирајте администратора сајта ако желите да користите додатне језике за ову издавачку кућу."
+
+msgid "manager.languages.primaryLocaleInstructions"
+msgstr "Ово ће бити подразумијевани језик за сајт издавачке куће."
+
+msgid "manager.series.form.mustAllowPermission"
+msgstr "Молимо осигурајте да је бар једна кутијица означена за сваки задатак уредника серије."
+
+msgid "manager.series.form.reviewFormId"
+msgstr "Молимо осигурајте да сте одабрали важећи формулар за рецензију."
+
+msgid "manager.series.submissionIndexing"
+msgstr "Неће бити укључено у индексирање издавачке куће"
+
+msgid "manager.series.editorRestriction"
+msgstr "Материјале могу подносити само уредници и уредници серија."
+
+msgid "manager.series.confirmDelete"
+msgstr "Да ли сте сигурни да желите трајно избрисати ову серију?"
+
+msgid "manager.series.indexed"
+msgstr "Индексирано"
+
+msgid "manager.series.open"
+msgstr "Отворене пријаве"
+
+msgid "manager.series.readingTools"
+msgstr "Алати за читање"
+
+msgid "manager.series.submissionReview"
+msgstr "Неће бити рецензирано"
+
+msgid "manager.series.submissionsToThisSection"
+msgstr "Пријаве послате овој серији"
+
+msgid "manager.series.abstractsNotRequired"
+msgstr "Не захтијевају се сажетци"
+
+msgid "manager.series.disableComments"
+msgstr "Онемогући коментаре читалаца за ову серију."
+
+msgid "manager.series.book"
+msgstr "Књижна серија"
+
+msgid "manager.series.create"
+msgstr "Направи серију"
+
+msgid "manager.series.policy"
+msgstr "Опис серије"
+
+msgid "manager.series.assigned"
+msgstr "Уредници за ову серију"
+
+msgid "manager.series.seriesEditorInstructions"
+msgstr "Додајте уредника серије овој серији из доступних уредника серија. Након додавања, одредите да ли ће уредник серије надгледати РЕЦЕНЗИЈУ (стручну рецензију) и/или УРЕЂИВАЊЕ (лектура, коректура и припрема за штампање) пријава за ову серију. Уредници серија се креирају кликом на <a href=\"{$seriesEditorsUrl}\">Уредници серија</a> под Улоге у управљању издавачком кућом."
+
+msgid "manager.series.hideAbout"
+msgstr "Изостави ову серију из О издавачкој кући."
+
+msgid "manager.series.unassigned"
+msgstr "Доступни уредници серија"
+
+msgid "manager.series.form.abbrevRequired"
+msgstr "Скраћени наслов је обавезан за серију."
+
+msgid "manager.series.form.titleRequired"
+msgstr "Наслов је обавезан за серију."
+
+msgid "manager.series.noneCreated"
+msgstr "Ниједна серија није направљена."
+
+msgid "manager.series.existingUsers"
+msgstr "Постојећи корисници"
+
+msgid "manager.series.seriesTitle"
+msgstr "Наслов серије"
+
+msgid "manager.series.restricted"
+msgstr "Не дозволи ауторима да директно подносе у ову серију."
+
+msgid "manager.sections.alertDelete"
+msgstr "Прије него што се ова серија може избрисати, морате премјестити пријаве повезане са овом серијом у друге серије."
+
+msgid "manager.payment.generalOptions"
+msgstr "Опште опције"
+
+msgid "manager.payment.options.enablePayments"
+msgstr "Плаћања ће бити омогућена за ову издавачку кућу. Имајте на уму да ће корисници морати да се пријаве да би извршили плаћање."
+
+msgid "manager.payment.success"
+msgstr "Поставке плаћања су ажуриране."
+
+msgid "manager.settings"
+msgstr "Поставке"
+
+msgid "manager.settings.pressSettings"
+msgstr "Поставке издавачке куће"
+
+msgid "manager.settings.press"
+msgstr "Издавачка кућа"
+
+msgid "manager.settings.publisher.identity"
+msgstr "Идентитет издавача"
+
+msgid "manager.settings.publisher.identity.description"
+msgstr "Ова поља су неопходна за објављивање важећих <a href=\"https://en.wikipedia.org/wiki/ONIX_for_Books\">ONIX метаподатака</a>."
+
+msgid "manager.settings.publisher"
+msgstr "Назив издавача"
+
+msgid "manager.settings.location"
+msgstr "Географска локација"
+
+msgid "manager.settings.publisherCode"
+msgstr "Код издавача"
+
+msgid "manager.settings.publisherCodeType"
+msgstr "Тип кода издавача"
+
+msgid "manager.settings.publisherCodeType.invalid"
+msgstr "Ово није важећи тип кода издавача."
+
+msgid "manager.settings.distributionDescription"
+msgstr "Све поставке специфичне за процес дистрибуције (обавештења, индексирање, архивирање, плаћање, алати за читање)."
+
+msgid "manager.statistics.reports.defaultReport.monographDownloads"
+msgstr "Преузимања датотека монографија"
+
+msgid "manager.statistics.reports.defaultReport.monographAbstract"
+msgstr "Прегледи садржаја монографија"
+
+msgid "manager.statistics.reports.defaultReport.monographAbstractAndDownloads"
+msgstr "Садржаји и преузимања монографија"
+
+msgid "manager.statistics.reports.defaultReport.seriesIndexPageViews"
+msgstr "Прегледи главне странице серије"
+
+msgid "manager.statistics.reports.defaultReport.pressIndexPageViews"
+msgstr "Прегледи главне странице издавачке куће"
+
+msgid "manager.tools"
+msgstr "Алати"
+
+msgid "manager.tools.importExport"
+msgstr "Сви алати специфични за увоз и извоз података (издавачке куће, монографије, корисници)"
+
+msgid "manager.tools.statistics"
+msgstr "Алати за генерисање извјештаја везаних за статистику коришћења (прегледи странице каталога, прегледи садржаја монографија, преузимања датотека монографија)"
+
+msgid "manager.users.availableRoles"
+msgstr "Доступне улоге"
+
+msgid "manager.users.currentRoles"
+msgstr "Тренутне улоге"
+
+msgid "manager.users.selectRole"
+msgstr "Изабери улогу"
+
+msgid "manager.people.allEnrolledUsers"
+msgstr "Корисници уписани у ову издавачку кућу"
+
+msgid "manager.people.allPresses"
+msgstr "Све издавачке куће"
+
+msgid "manager.people.allSiteUsers"
+msgstr "Упишите корисника са овог сајта у ову издавачку кућу"
+
+msgid "manager.people.allUsers"
+msgstr "Сви уписани корисници"
+
+msgid "manager.people.confirmRemove"
+msgstr "Уклонити овог корисника из ове издавачке куће? Ова акција ће уклонити корисника из свих улога у овој издавачкој кући."
+
+msgid "manager.people.enrollExistingUser"
+msgstr "Упишите постојећег корисника"
+
+msgid "manager.people.enrollSyncPress"
+msgstr "Са издавачком кућом"
+
+msgid "manager.people.mergeUsers.from.description"
+msgstr "Изаберите корисника који ће се спојити са другим корисничким налогом (нпр. када неко има два корисничка налога). Прво изабрани налог ће бити избрисан, а његове пријаве, задаци итд. ће бити приписани другом налогу."
+
+msgid "manager.people.mergeUsers.into.description"
+msgstr "Изаберите корисника коме ће бити приписани ауторски радови, задаци уредника итд. претходног корисника."
+
+msgid "manager.people.syncUserDescription"
+msgstr "Синхронизација уписа ће уписати све кориснике уписане у одређену улогу у одређеној издавачкој кући у исту улогу у овој издавачкој кући. Ова функција омогућава заједнички скуп корисника (нпр. рецензенти) да буду синхронизовани између издавачких кућа."
+
+msgid "manager.people.confirmDisable"
+msgstr ""
+"Онемогућити овог корисника? Ово ће спријечити корисника да се пријави у систем.\n"
+"\n"
+"Можете опционо дати кориснику разлог за онемогућавање његовог налога."
+
+msgid "manager.people.noAdministrativeRights"
+msgstr ""
+"Жао нам је, немате административна права над овим корисником. Ово може бити зато што:\n"
+"\t\t<ul>\n"
+"\t\t\t<li>Корисник је администратор сајта</li>\n"
+"\t\t\t<li>Корисник је активан у издавачким кућама које не управљате</li>\n"
+"\t\t</ul>\n"
+"\tОвај задатак мора обавити администратор сајта.\n"
+"\t"
+
+msgid "manager.system"
+msgstr "Системске поставке"
+
+msgid "manager.system.archiving"
+msgstr "Архивирање"
+
+msgid "manager.system.reviewForms"
+msgstr "Формулари за рецензију"
+
+msgid "manager.system.readingTools"
+msgstr "Алати за читање"
+
+msgid "manager.system.payments"
+msgstr "Плаћања"
+
+msgid "user.authorization.pluginLevel"
+msgstr "Немате довољно привилегија да управљате овим додатком."
+
+msgid "manager.pressManagement"
+msgstr "Управљање издавачком кућом"
+
+msgid "manager.setup"
+msgstr "Подешавање"
+
+msgid "manager.setup.aboutItemContent"
+msgstr "Садржај"
+
+msgid "manager.setup.addAboutItem"
+msgstr "Додај ставку О издавачкој кући"
+
+msgid "manager.setup.addChecklistItem"
+msgstr "Додај ставку контролне листе"
+
+msgid "manager.setup.addItem"
+msgstr "Додај ставку"
+
+msgid "manager.setup.addItemtoAboutPress"
+msgstr "Додај ставку која ће се појавити у \"О издавачкој кући\""
+
+msgid "manager.setup.addNavItem"
+msgstr "Додај ставку"
+
+msgid "manager.setup.addSponsor"
+msgstr "Додај организацију спонзора"
+
+msgid "manager.setup.announcements"
+msgstr "Обавештења"
+
+msgid "manager.setup.announcements.success"
+msgstr "Поставке обавештења су ажуриране."
+
+msgid "manager.setup.announcementsDescription"
+msgstr "Обавештења се могу објављивати како би се читаоци информисали о вијестима и догађајима издавачке куће. Објављена обавештења ће се појавити на страници Обавештења."
+
+msgid "manager.setup.announcementsIntroduction"
+msgstr "Додатне информације"
+
+msgid "manager.setup.announcementsIntroduction.description"
+msgstr "Унесите било какве додатне информације које би требало приказати читаоцима на страници Обавјештења."
+
+msgid "manager.setup.appearInAboutPress"
+msgstr "(Да се појави у О издавачкој кући) "
+
+msgid "manager.setup.contextAbout"
+msgstr "О издавачкој кући"
+
+msgid "manager.setup.contextAbout.description"
+msgstr ""
+"Укључите било какве информације о вашој издавачкој кући које могу бити од интереса "
+"читаоцима, ауторима или рецензентима. Ово може укључивати вашу политику отвореног приступа, "
+"фокус и циљ издавачке куће, откривање спонзорства и историјат "
+"издавачке куће."
+
+msgid "manager.setup.contextSummary"
+msgstr "Сажетак издавачке куће"
+
+msgid "manager.setup.copyediting"
+msgstr "Лектори"
+
+msgid "manager.setup.copyeditInstructions"
+msgstr "Упутства за лектуру"
+
+msgid "manager.setup.copyeditInstructionsDescription"
+msgstr "Упутства за лектуру ће бити доступна лекторима, ауторима и уредницима серија у фази уређивања пријаве. Испод је подразумијевани скуп упутстава у HTML формату, који може бити измењен или замијењен од стране менаџера издавачке куће у било ком тренутку (у HTML или простом тексту)."
+
+msgid "manager.setup.copyrightNotice"
+msgstr "Напомена о ауторским правима"
+
+msgid "manager.setup.coverage"
+msgstr "Покривеност"
+
+msgid "manager.setup.coverThumbnailsMaxHeight"
+msgstr "Максимална висина насловне слике"
+
+msgid "manager.setup.coverThumbnailsMaxWidth"
+msgstr "Максимална ширина насловне слике"
+
+msgid "manager.setup.coverThumbnailsMaxWidthHeight.description"
+msgstr "Слике ће бити смањене ако су веће од ове величине, али никада неће бити увећане или растегнуте да би се уклопиле у ове димензије."
+
+msgid "manager.setup.customizingTheLook"
+msgstr "Корак 5. Прилагођавање изгледа"
+
+msgid "manager.setup.customTags"
+msgstr "Прилагођене ознаке"
+
+msgid "manager.setup.customTagsDescription"
+msgstr "Прилагођене HTML ознаке заглавља које ће бити уметнуте у заглавље сваке странице (нпр. META ознаке)."
+
+msgid "manager.setup.details"
+msgstr "Детаљи"
+
+msgid "manager.setup.details.description"
+msgstr "Назив издавачке куће, контакти, спонзори и претраживачи."
+
+msgid "manager.setup.disableUserRegistration"
+msgstr "Менаџер издавачке куће ће регистровати све корисничке налоге. Уредници или уредници серија могу регистровати корисничке налоге за рецензенте."
+
+msgid "manager.setup.discipline"
+msgstr "Академска дисциплина и поддисциплине"
+
+msgid "manager.setup.disciplineDescription"
+msgstr "Корисно када издавачка кућа прелази границе дисциплина и/или када аутори подносе мултидисциплинарне радове."
+
+msgid "manager.setup.disciplineExamples"
+msgstr "(Нпр. Историја; Образовање; Социологија; Психологија; Културолошке студије; Право)"
+
+msgid "manager.setup.disciplineProvideExamples"
+msgstr "Наведите примјере релевантних академских дисциплина за ову издавачку кућу"
+
+msgid "manager.setup.displayCurrentMonograph"
+msgstr "Додај садржај за тренутну монографију (ако је доступна)."
+
+msgid "manager.setup.displayOnHomepage"
+msgstr "Садржај почетне странице"
+
+msgid "manager.setup.displayFeaturedBooks"
+msgstr "Прикажи истакнуте књиге на почетној страници"
+
+msgid "manager.setup.displayFeaturedBooks.label"
+msgstr "Истакнуте књиге"
+
+msgid "manager.setup.displayInSpotlight"
+msgstr "Прикажи књиге у фокусу на почетној страници"
+
+msgid "manager.setup.displayInSpotlight.label"
+msgstr "Фокус"
+
+msgid "manager.setup.displayNewReleases"
+msgstr "Прикажи нове издања на почетној страници"
+
+msgid "manager.setup.displayNewReleases.label"
+msgstr "Нова издања"
+
+msgid "manager.setup.enableDois.description"
+msgstr "Дозволи додјељивање Дигиталних идентификатора објеката (DOI) радовима објављеним у овој издавачкој кући."
+
+msgid "doi.manager.settings.doiObjectsRequired"
+msgstr "Изаберите врсте радова објављених у овој издавачкој кући којима треба додијелити DOI. Већина издавачких кућа додјељује DOI монографијама/поглављима, али можда ћете жељети да додијелите DOI свим објављеним ставкама."
+
+msgid "doi.manager.settings.doiSuffixLegacy"
+msgstr "Користи подразумијеване шаблоне.<br />%p.%m за монографије<br />%p.%m.c%c за поглавља<br />%p.%m.%f за формате публикације<br />%p.%m.%f.%s за датотеке."
+
+msgid "doi.manager.settings.doiCreationTime.copyedit"
+msgstr "Приликом уласка у фазу лектуре"
+
+msgid "manager.dois.disabledChaptersDescription"
+msgstr "Поглавља без одредишне странице не могу имати DOI."
+
+msgid "manager.dois.formatIdentifier.file"
+msgstr "Формат / {$format}"
+
+msgid "manager.setup.editorDecision"
+msgstr "Одлука уредника"
+
+msgid "manager.setup.emailBounceAddress"
+msgstr "Адреса за повратне поруке"
+
+msgid "manager.setup.emailBounceAddress.description"
+msgstr "Свака неиспоручена е-пошта ће резултирати поруком о грешци на ову адресу."
+
+msgid "manager.setup.emailBounceAddress.disabled"
+msgstr "Да би се неиспоручене е-поруке слале на адресу за повратне поруке, администратор сајта мора омогућити опцију <code>allow_envelope_sender</code> у конфигурационој датотеци сајта. Може бити потребна конфигурација сервера, као што је назначено у OMP документацији."
+
+msgid "manager.setup.emails"
+msgstr "Идентификација е-поште"
+
+msgid "manager.setup.emailSignature"
+msgstr "Потпис"
+
+msgid "manager.setup.emailSignature.description"
+msgstr "Е-поруке послате аутоматски у име издавачке куће ће имати сљедећи потпис."
+
+msgid "manager.setup.enableAnnouncements.enable"
+msgstr "Омогући обавештења"
+
+msgid "manager.setup.enableAnnouncements.description"
+msgstr "Обавештења се могу објављивати како би се читаоци информисали о вестима и догађајима. Објављена обавештења ће се појавити на страници Обавештења."
+
+msgid "manager.setup.numAnnouncementsHomepage"
+msgstr "Приказ на почетној страници"
+
+msgid "manager.setup.numAnnouncementsHomepage.description"
+msgstr "Колико обавештења приказати на почетној страници. Оставите празно да не приказујете ниједно."
+
+msgid "manager.setup.enablePressInstructions"
+msgstr "Омогући да се ова издавачка кућа јавно прикаже на сајту"
+
+msgid "manager.setup.enablePublicMonographId"
+msgstr "Користиће се прилагођени идентификатори за идентификацију објављених ставки."
+
+msgid "manager.setup.enablePublicGalleyId"
+msgstr "Користиће се прилагођени идентификатори за идентификацију галија (нпр. HTML или PDF датотека) за објављене ставке."
+
+msgid "manager.setup.enableUserRegistration"
+msgstr "Посјетиоци могу регистровати кориснички налог у издавачкој кући."
+
+msgid "manager.setup.focusAndScope"
+msgstr "Фокус и домет издавачке куће"
+
+msgid "manager.setup.focusAndScope.description"
+msgstr "Опишите ауторима, читаоцима и библиотекарима распон монографија и других ставки које ће издавачка кућа објављивати."
+
+msgid "manager.setup.focusScope"
+msgstr "Фокус и домет"
+
+msgid "manager.setup.focusScopeDescription"
+msgstr "<strong>ПРИМЈЕР HTML ПОДАТАКА</strong>"
+
+msgid "manager.setup.forAuthorsToIndexTheirWork"
+msgstr "За ауторе да индексирају свој рад"
+
+msgid "manager.setup.forAuthorsToIndexTheirWorkDescription"
+msgstr ""
+"OMP се придржава <a href=\"https://www.openarchives.org\" target=\"_blank\""
+">Open Archives Initiative</a> протокола за прикупљање метаподатака, који је "
+"новонастали стандард за пружање добро индексираног приступа електронским истраживачким "
+"изворима на глобалном нивоу. Аутори ће користити сличан шаблон да "
+"обезбиједе метаподатке за своју пријаву. Менаџер издавачке куће треба да изабере "
+"категорије за индексирање и да ауторима представи релевантне примјере како би им помогао "
+"да индексирају свој рад, одвајајући појмове тачком-зарезом (нпр., појам1;"
+" појам2). Уносе треба представити као примјере користећи \"Нпр.,\" или "
+"\"На примјер,\"."
+
+msgid "manager.setup.form.contactEmailRequired"
+msgstr "Е-пошта примарног контакта је обавезна."
+
+msgid "manager.setup.form.contactNameRequired"
+msgstr "Име примарног контакта је обавезно."
+
+msgid "manager.setup.form.numReviewersPerSubmission"
+msgstr "Број рецензената по пријави је обавезан."
+
+msgid "manager.setup.form.supportEmailRequired"
+msgstr "Е-пошта подршке је обавезна."
+
+msgid "manager.setup.form.supportNameRequired"
+msgstr "Име подршке је обавезно."
+
+msgid "manager.setup.generalInformation"
+msgstr "Опште информације"
+
+msgid "manager.setup.gettingDownTheDetails"
+msgstr "Корак 1. Детаљи"
+
+msgid "manager.setup.guidelines"
+msgstr "Смернице"
+
+msgid "manager.setup.preparingWorkflow"
+msgstr "Корак 3. Припрема радног тока"
+
+msgid "manager.setup.identity"
+msgstr "Идентитет издавачке куће"
+
+msgid "manager.setup.information"
+msgstr "Информације"
+
+msgid "manager.setup.information.description"
+msgstr "Кратки описи издавачке куће за библиотекаре и потенцијалне ауторе и читаоце. Ово је доступно у бочном менију сајта када је додат информациони блок."
+
+msgid "manager.setup.information.forAuthors"
+msgstr "За ауторе"
+
+msgid "manager.setup.information.forLibrarians"
+msgstr "За библиотекаре"
+
+msgid "manager.setup.information.forReaders"
+msgstr "За читаоце"
+
+msgid "manager.setup.information.success"
+msgstr "Информације за ову издавачку кућу су ажуриране."
+
+msgid "manager.setup.institution"
+msgstr "Институција"
+
+msgid "manager.setup.itemsPerPage"
+msgstr "Ставки по страници"
+
+msgid "manager.setup.itemsPerPage.description"
+msgstr "Ограничите број ставки (нпр. пријаве, корисници или задаци уређивања) за приказ на листи прије него што се наредне ставке прикажу на другој страници."
+
+msgid "manager.setup.keyInfo"
+msgstr "Кључне информације"
+
+msgid "manager.setup.keyInfo.description"
+msgstr "Дајте кратак опис ваше издавачке куће и идентификујте уреднике, управне директоре и друге чланове вашег уредничког тима."
+
+msgid "manager.setup.labelName"
+msgstr "Назив ознаке"
+
+msgid "manager.setup.layoutAndGalleys"
+msgstr "Уредници макета"
+
+msgid "manager.setup.layoutInstructions"
+msgstr "Упутства за макету"
+
+msgid "manager.setup.layoutInstructionsDescription"
+msgstr "Упутства за макету могу бити припремљена за форматирање објављених ставки у издавачкој кући и могу се унети испод у HTML или простом тексту. Биће доступна уреднику макета и уреднику серије на страници Уређивање сваке пријаве. (Како свака издавачка кућа може користити своје формате датотека, библиографске стандарде, стилове итд., подразумијевани скуп упутстава није обезбијеђен.)"
+
+msgid "manager.setup.layoutTemplates"
+msgstr "Шаблони макета"
+
+msgid "manager.setup.layoutTemplatesDescription"
+msgstr "Шаблони могу бити отпремљени да се појаве у Макети за сваки од стандардних формата објављених у издавачкој кући (нпр. монографија, приказ књиге итд.) користећи било који формат датотеке (нпр. pdf, doc, итд.) са додатим напоменама које одређују фонт, величину, маргине итд. као водич за уреднике макета и коректоре."
+
+msgid "manager.setup.layoutTemplates.file"
+msgstr "Датотека шаблона"
+
+msgid "manager.setup.layoutTemplates.title"
+msgstr "Наслов"
+
+msgid "manager.setup.lists"
+msgstr "Листе"
+
+msgid "manager.setup.lists.success"
+msgstr "Поставке листа су ажуриране."
+
+msgid "manager.setup.look"
+msgstr "Изглед"
+
+msgid "manager.setup.look.description"
+msgstr "Заглавље почетне странице, садржај, заглавље издавачке куће, подножје, навигациона трака и стилска датотека."
+
+msgid "manager.setup.settings"
+msgstr "Поставке"
+
+msgid "manager.setup.management.description"
+msgstr "Приступ и безбједност, планирање, обавештења, лектура, макета и коректура."
+
+msgid "manager.setup.managementOfBasicEditorialSteps"
+msgstr "Управљање основним уредничким корацима"
+
+msgid "manager.setup.managingPublishingSetup"
+msgstr "Управљање и подешавање објављивања"
+
+msgid "manager.setup.managingThePress"
+msgstr "Корак 4. Управљање поставкама"
+
+msgid "manager.setup.masthead.success"
+msgstr "Детаљи о издавачкој кући су ажурирани."
+
+msgid "manager.setup.noImageFileUploaded"
+msgstr "Није отпремљена датотека слике."
+
+msgid "manager.setup.noStyleSheetUploaded"
+msgstr "Није отпремљена стилска датотека."
+
+msgid "manager.setup.note"
+msgstr "Напомена"
+
+msgid "manager.setup.notifyAllAuthorsOnDecision"
+msgstr "Када се користи е-пошта Обавијести аутора, укључите е-адресе свих коаутора за пријаве са више аутора, а не само пошиљаоца."
+
+msgid "manager.setup.noUseCopyeditors"
+msgstr "Лектуру ће обавити уредник или уредник серије додијељен пријави."
+
+msgid "manager.setup.noUseLayoutEditors"
+msgstr "Уредник или уредник серије додијељен пријави ће припремити HTML, PDF итд. датотеке."
+
+msgid "manager.setup.noUseProofreaders"
+msgstr "Уредник или уредник серије додијељен пријави ће провјерити галије прије објављивања."
+
+msgid "manager.setup.numPageLinks"
+msgstr "Веза страница"
+
+msgid "manager.setup.numPageLinks.description"
+msgstr "Ограничите број веза за приказ на наредне странице у листи."
+
+msgid "manager.setup.onlineAccessManagement"
+msgstr "Приступ садржају издавачке куће"
+
+msgid "manager.setup.onlineIssn"
+msgstr "Онлајн ISSN"
+
+msgid "manager.setup.policies"
+msgstr "Политике"
+
+msgid "manager.setup.policies.description"
+msgstr "Фокус, стручна рецензија, секције, приватност, безбједност и додатне ставке о издавачкој кући."
+
+msgid "manager.setup.privacyStatement.success"
+msgstr "Изјава о приватности је ажурирана."
+
+msgid "manager.setup.appearanceDescription"
+msgstr "Различите компоненте изгледа издавачке куће могу се конфигурисати са ове странице, укључујући елементе заглавља и подножја, стил и тему издавачке куће и начин на који су листе информација представљене корисницима."
+
+msgid "manager.setup.pressDescription"
+msgstr "Сажетак издавачке куће"
+
+msgid "manager.setup.pressDescription.description"
+msgstr "Кратак опис ваше издавачке куће."
+
+msgid "manager.setup.aboutPress"
+msgstr "О издавачкој кући"
+
+msgid "manager.setup.aboutPress.description"
+msgstr "Укључите било какве информације о вашој издавачкој кући које могу бити од интереса читаоцима, ауторима или рецензентима. Ово може укључивати вашу политику отвореног приступа, фокус и домет издавачке куће, напомену о ауторским правима, откривање спонзорства, историјат издавачке куће и изјаву о приватности."
+
+msgid "manager.setup.pressArchiving"
+msgstr "Архивирање издавачке куће"
+
+msgid "manager.setup.homepageContent"
+msgstr "Садржај почетне странице издавачке куће"
+
+msgid "manager.setup.homepageContentDescription"
+msgstr "Почетна страница издавачке куће се састоји од подразумијеваних веза за навигацију. Додатни садржај почетне странице може се додати коришћењем једне или свих сљедећих опција, које ће се појавити по приказаном редослиједу."
+
+msgid "manager.setup.pressHomepageContent"
+msgstr "Садржај почетне странице издавачке куће"
+
+msgid "manager.setup.pressHomepageContentDescription"
+msgstr "Почетна страница издавачке куће се састоји од подразумијеваних веза за навигацију. Додатни садржај почетне странице може се додати коришћењем једне или свих сљедећих опција, које ће се појавити по приказаном редослиједу."
+
+msgid "manager.setup.contextInitials"
+msgstr "Иницијали издавачке куће"
+
+msgid "manager.setup.selectCountry"
+msgstr "Изаберите земљу у којој се налази ова издавачка кућа или земљу поштанске адресе издавачке куће или издавача."
+
+msgid "manager.setup.layout"
+msgstr "Изглед издавачке куће"
+
+msgid "manager.setup.pageHeader"
+msgstr "Заглавље странице издавачке куће"
+
+msgid "manager.setup.pageHeaderDescription"
+msgstr "Опис заглавља странице"
+
+msgid "manager.setup.pressPolicies"
+msgstr "Корак 2. Политике издавачке куће"
+
+msgid "manager.setup.pressSetup"
+msgstr "Подешавање издавачке куће"
+
+msgid "manager.setup.pressSetupUpdated"
+msgstr "Ваше подешавање издавачке куће је ажурирано."
+
+msgid "manager.setup.styleSheetInvalid"
+msgstr "Неисправан формат стилске датотеке. Прихватљиви формат је .css."
+
+msgid "manager.setup.pressTheme"
+msgstr "Тема издавачке куће"
+
+msgid "manager.setup.pressThumbnail"
+msgstr "Сличица издавачке куће"
+
+msgid "manager.setup.pressThumbnail.description"
+msgstr "Мали лого или представљање издавачке куће које се може користити у листама издавачких кућа."
+
+msgid "manager.setup.contextTitle"
+msgstr "Назив издавачке куће"
+
+msgid "manager.setup.printIssn"
+msgstr "Штампани ISSN"
+
+msgid "manager.setup.proofingInstructions"
+msgstr "Упутства за коректуру"
+
+msgid "manager.setup.proofingInstructionsDescription"
+msgstr "Упутства за коректуру ће бити доступна коректорима, ауторима, уредницима макета и уредницима серија у фази уређивања пријаве. Испод је подразумијевани скуп упутстава у HTML формату, који менаџер издавачке куће може измјенити или замијенити у било ком тренутку (у HTML или простом тексту)."
+
+msgid "manager.setup.proofreading"
+msgstr "Коректори"
+
+msgid "manager.setup.provideRefLinkInstructions"
+msgstr "Дајте уредницима лејаута упутства."
+
+msgid "manager.setup.publicationScheduleDescription"
+msgstr "Ставке издавачке куће могу се објављивати колективно, као дио монографије са сопственим садржајем. Алтернативно, појединачне ставке могу се објављивати чим су спремне, додавањем у садржај \"тренутног\" тома. Дајте читаоцима, у О издавачкој кући, изјаву о систему који ће ова издавачка кућа користити и очекиваној учесталости објављивања."
+
+msgid "manager.setup.publisher"
+msgstr "Издавач"
+
+msgid "manager.setup.publisherDescription"
+msgstr "Назив организације која објављује издавачку кућу ће се појавити у О издавачкој кући."
+
+msgid "manager.setup.referenceLinking"
+msgstr "Повезивање референци"
+
+msgid "manager.setup.refLinkInstructions.description"
+msgstr "Упутства за макету за повезивање референци"
+
+msgid "manager.setup.restrictMonographAccess"
+msgstr "Корисници морају бити регистровани и пријављени да би видјели садржај отвореног приступа."
+
+msgid "manager.setup.restrictSiteAccess"
+msgstr "Корисници морају бити регистровани и пријављени да би видели сајт издавачке куће."
+
+msgid "manager.setup.reviewGuidelines"
+msgstr "Смјернице за спољну рецензију"
+
+msgid "manager.setup.reviewGuidelinesDescription"
+msgstr "Дајте спољним рецензентима критеријуме за оцјењивање погодности пријаве за објављивање у издавачкој кући, што може укључивати упутства за припрему ефикасне и корисне рецензије. Рецензенти ће имати прилику да дају коментаре намијењене аутору и уреднику, као и одвојене коментаре само за уредника."
+
+msgid "manager.setup.internalReviewGuidelines"
+msgstr "Смернице за унутрашњу рецензију"
+
+msgid "manager.setup.reviewOptions"
+msgstr "Опције рецензирања"
+
+msgid "manager.setup.reviewOptions.automatedReminders"
+msgstr "Аутоматски подсетници е-поштом"
+
+msgid "manager.setup.reviewOptions.automatedRemindersDisabled"
+msgstr "Да бисте активирали ове опције, администратор сајта мора омогућити опцију <tt>scheduled_tasks</tt> у OMP конфигурационој датотеци. Може бити потребна додатна конфигурација сервера да подржи ову функционалност (што можда није могуће на свим серверима), као што је назначено у OMP документацији."
+
+msgid "manager.setup.reviewOptions.onQuality"
+msgstr "Уредници ће оцијенити рецензенте на скали квалитета од пет поена након сваке рецензије."
+
+msgid "manager.setup.reviewOptions.restrictReviewerFileAccess"
+msgstr "Ограничи приступ датотекама"
+
+msgid "manager.setup.reviewOptions.restrictReviewerFileAccess.description"
+msgstr "Рецензенти ће имати приступ датотекама пријаве тек након што прихвате да је рецензирају."
+
+msgid "manager.setup.reviewOptions.reviewerAccess"
+msgstr "Приступ рецензентима"
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled"
+msgstr "Приступ рецензенту једним кликом"
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled.description"
+msgstr "Рецензентима се може послати сигурна веза у позивници е-поштом, која ће их аутоматски пријавити када кликну на везу."
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled.label"
+msgstr "Укључи сигурну везу у е-пошту позивници рецензентима."
+
+msgid "manager.setup.reviewOptions.reviewerRatings"
+msgstr "Оцјене рецензената"
+
+msgid "manager.setup.reviewOptions.reviewerReminders"
+msgstr "Подсетници рецензентима"
+
+msgid "manager.setup.reviewPolicy"
+msgstr "Политика рецензирања"
+
+msgid "manager.setup.searchDescription.description"
+msgstr "Дајте кратак опис (50-300 знакова) издавачке куће који претраживачи могу приказати када наводе издавачку кућу у резултатима претраге."
+
+msgid "manager.setup.searchEngineIndexing"
+msgstr "Индексирање претраживача"
+
+msgid "manager.setup.searchEngineIndexing.description"
+msgstr "Помозите претраживачима попут Google-а да открију и прикажу ваш сајт. Подстичемо вас да пошаљете вашу <a href=\"{$sitemapUrl}\" target=\"_blank\">мапу сајта</a>."
+
+msgid "manager.setup.searchEngineIndexing.success"
+msgstr "Поставке индексирања претраживача су ажуриране."
+
+msgid "manager.setup.sectionsAndSectionEditors"
+msgstr "Секције и уредници секција"
+
+msgid "manager.setup.sectionsDefaultSectionDescription"
+msgstr "(Ако секције нису додате, ставке се подразумијевано подносе у секцију Монографије.)"
+
+msgid "manager.setup.sectionsDescription"
+msgstr ""
+"Да бисте креирали или измјенили секције за издавачку кућу (нпр. Монографије, Прикази књига, "
+"итд.), идите на Управљање секцијама.<br /><br />Аутори приликом подношења ставки "
+"издавачкој кући ће назначити…"
+
+msgid "manager.setup.securitySettings"
+msgstr "Поставке приступа и безбједности"
+
+msgid "manager.setup.securitySettings.note"
+msgstr "Друге опције везане за безбједност и приступ могу се конфигурисати на страници <a href=\"{$accessAndSecurityUrl}\" target=\"_blank\" class=\"action\">Приступ и безбједност</a>."
+
+msgid "manager.setup.selectEditorDescription"
+msgstr "Уредник издавачке куће који ће га пратити кроз уреднички процес."
+
+msgid "manager.setup.selectSectionDescription"
+msgstr "Серија издавачке куће за коју ће се ставка разматрати."
+
+msgid "manager.setup.showGalleyLinksDescription"
+msgstr "Увијек приказуј везе галија и назначи ограничен приступ."
+
+msgid "manager.setup.siteAccess.view"
+msgstr "Приступ сајту"
+
+msgid "manager.setup.siteAccess.viewContent"
+msgstr "Преглед садржаја монографије"
+
+msgid "manager.setup.stepsToPressSite"
+msgstr "Пет корака до веб сајта издавачке куће"
+
+msgid "manager.setup.subjectExamples"
+msgstr "(Нпр. Фотосинтеза; Црне рупе; Проблем мапе са четири боје; Бајесова теорија)"
+
+msgid "manager.setup.subjectKeywordTopic"
+msgstr "Кључне ријечи"
+
+msgid "manager.setup.subjectProvideExamples"
+msgstr "Дајте примјере кључних ријечи или тема као водич за ауторе"
+
+msgid "manager.setup.submissionGuidelines"
+msgstr "Смјернице за подношење"
+
+msgid "maganer.setup.submissionChecklistItemRequired"
+msgstr "Ставка контролне листе је обавезна."
+
+msgid "manager.setup.workflow"
+msgstr "Радни ток"
+
+msgid "manager.setup.submissions.description"
+msgstr "Смјернице за ауторе, ауторска права и индексирање (укључујући регистрацију)."
+
+msgid "manager.setup.typeExamples"
+msgstr "(Нпр. Историјска истрага; Квази-експериментално; Књижевна анализа; Анкета/Интервју)"
+
+msgid "manager.setup.typeMethodApproach"
+msgstr "Тип (метод/приступ)"
+
+msgid "manager.setup.typeProvideExamples"
+msgstr "Дајте примјере релевантних типова истраживања, метода и приступа за ову област"
+
+msgid "manager.setup.useCopyeditors"
+msgstr "Лектор ће бити додијељен свакој пријави."
+
+msgid "manager.setup.useEditorialReviewBoard"
+msgstr "Уреднички/рецензентски одбор ће се користити у издавачкој кући."
+
+msgid "manager.setup.useImageTitle"
+msgstr "Слика наслова"
+
+msgid "manager.setup.useStyleSheet"
+msgstr "Стилска датотека издавачке куће"
+
+msgid "manager.setup.useLayoutEditors"
+msgstr "Уредник макете ће бити додијељен да припреми HTML, PDF итд. датотеке за електронско објављивање."
+
+msgid "manager.setup.useProofreaders"
+msgstr "Коректор ће бити додијељен да провјери (заједно са ауторима) галије прије објављивања."
+
+msgid "manager.setup.userRegistration"
+msgstr "Регистрација корисника"
+
+msgid "manager.setup.useTextTitle"
+msgstr "Текст наслова"
+
+msgid "manager.setup.volumePerYear"
+msgstr "Томова годишње"
+
+msgid "manager.setup.publicationFormat.code"
+msgstr "Формат"
+
+msgid "manager.setup.publicationFormat.codeRequired"
+msgstr "Мора се изабрати формат."
+
+msgid "manager.setup.publicationFormat.nameRequired"
+msgstr "Морате додијелити назив овом формату."
+
+msgid "manager.setup.publicationFormat.physicalFormat"
+msgstr "Да ли је ово физички (не-дигитални) формат?"
+
+msgid "manager.setup.publicationFormat.inUse"
+msgstr "Пошто овај формат публикације тренутно користи монографија у вашој издавачкој кући, не може се избрисати."
+
+msgid "manager.setup.newPublicationFormat"
+msgstr "Нови формат публикације"
+
+msgid "manager.setup.newPublicationFormatDescription"
+msgstr "Да бисте креирали нови формат публикације, попуните формулар испод и кликните на дугме 'Креирај'."
+
+msgid "manager.setup.genresDescription"
+msgstr "Ови жанрови се користе за именовање датотека и приказани су у падајућем менију при отпремању датотека. Жанрови означени ## омогућавају кориснику да повеже датотеку или са цијелом књигом 99Z или са одређеним поглављем по броју (нпр. 02)."
+
+msgid "manager.setup.disableSubmissions.notAccepting"
+msgstr "Ова издавачка кућа тренутно не прихвата пријаве. Посјетите поставке радног процеса да бисте дозволили пријаве."
+
+msgid "manager.setup.disableSubmissions.description"
+msgstr "Спречите кориснике да подносе нове чланке у издавачку кућу. Подношења могу бити онемогућена за појединачне серије издавачке куће на страници поставки <a href=\"{$url}\">серије издавачке куће</a>."
+
+msgid "manager.setup.genres"
+msgstr "Жанрови"
+
+msgid "manager.setup.newGenre"
+msgstr "Нови жанр монографије"
+
+msgid "manager.setup.newGenreDescription"
+msgstr "Да бисте креирали нови жанр, попуните формулар испод и кликните на дугме 'Креирај'."
+
+msgid "manager.setup.deleteSelected"
+msgstr "Избриши изабрано"
+
+msgid "manager.setup.restoreDefaults"
+msgstr "Врати подразумијеване поставке"
+
+msgid "manager.setup.prospectus"
+msgstr "Водич за проспектус"
+
+msgid "manager.setup.prospectusDescription"
+msgstr "Водич за проспектус је документ који издавачка кућа припрема да помогне аутору да опише поднесене материјале на начин који омогућава издавачкој кући да одреди вриједност пријаве. Проспектус може укључивати много ставки - од маркетиншког потенцијала до теоријске вриједности; у сваком случају, издавачка кућа треба да креира водич за проспектус који допуњује њихов план објављивања."
+
+msgid "manager.setup.submitToCategories"
+msgstr "Дозволи подношење у категорије"
+
+msgid "manager.setup.submitToSeries"
+msgstr "Дозволи подношење у серије"
+
+msgid "manager.setup.issnDescription"
+msgstr ""
+"ISSN (International Standard Serial Number) је осмоцифрени број "
+"који идентификује периодичне публикације укључујући електронске серијале. "
+"Број се може добити од <a href=\"https://www.issn.org\" target=\""
+"_blank\">ISSN International Centre</a>."
+
+msgid "manager.setup.currentFormats"
+msgstr "Тренутни формати"
+
+msgid "manager.setup.categoriesAndSeries"
+msgstr "Категорије и серије"
+
+msgid "manager.setup.categories.description"
+msgstr "Можете креирати листу категорија да бисте организовали своје публикације. Категорије су групе књига према предметној области, на примјер Економија; Књижевност; Поезија; и тако даље. Категорије могу бити угнежђене у \"родитељске\" категорије: на примјер, родитељска категорија Економија може укључивати појединачне категорије Микроекономија и Макроекономија. Посјетиоци ће моћи да претражују и прегледају издавачку кућу по категоријама."
+
+msgid "manager.setup.series.description"
+msgstr "Можете креирати било који број серија да бисте организовали своје публикације. Серија представља посебан скуп књига посвећених теми или темама које је неко предложио, обично један или два члана факултета, а затим надгледа. Посјетиоци ће моћи да претражују и прегледају издавачку кућу по серијама."
+
+msgid "manager.setup.reviewForms"
+msgstr "Формулари за рецензију"
+
+msgid "manager.setup.roleType"
+msgstr "Тип улоге"
+
+msgid "manager.setup.authorRoles"
+msgstr "Ауторске улоге"
+
+msgid "manager.setup.managerialRoles"
+msgstr "Управљачке улоге"
+
+msgid "manager.setup.availableRoles"
+msgstr "Доступне улоге"
+
+msgid "manager.setup.currentRoles"
+msgstr "Тренутне улоге"
+
+msgid "manager.setup.internalReviewRoles"
+msgstr "Улоге унутрашње рецензије"
+
+msgid "manager.setup.masthead"
+msgstr "Заглавље"
+
+msgid "manager.setup.editorialTeam"
+msgstr "Уреднички тим"
+
+msgid "manager.setup.editorialTeam.description"
+msgstr "Листа уредника, управних директора и других појединаца повезаних са издавачком кућом."
+
+msgid "manager.setup.files"
+msgstr "Датотеке"
+
+msgid "manager.setup.productionTemplates"
+msgstr "Шаблони за производњу"
+
+msgid "manager.files.note"
+msgstr "Напомена: Прегледач датотека је напредна функција која омогућава директно прегледање и манипулацију датотекама и директоријумима повезаним са издавачком кућом."
+
+msgid "manager.setup.copyrightNotice.sample"
+msgstr ""
+"<h3>Предложене напомене о ауторским правима Creative Commons</h3>\n"
+"<h4>Предложена политика за издавачке куће које нуде отворени приступ</h4>\n"
+"Аутори који објављују са овом издавачком кућом слажу се са сљедећим условима:\n"
+"<ol type=\"a\">\n"
+"\t<li>Аутори задржавају ауторска права и дају издавачкој кући право првог "
+"објављивања са радом истовремено лиценциран под <a target=\""
+"_blank\" href=\"https://creativecommons.org/licenses/by/3.0\">Creative "
+"Commons Attribution License</a> која омогућава другима да дијеле рад уз "
+"признање ауторства и првобитног објављивања у овој издавачкој кући.</li>\n"
+"\t<li>Аутори могу улазити у одвојене, додатне уговорне серије "
+"за неексклузивну дистрибуцију верзије рада објављене од стране "
+"издавачке куће (нпр. поставити га у институционални репозиторијум или објавити га у "
+"књизи), уз признање његовог првобитног објављивања у овој издавачкој кући.</li>\n"
+"\t<li>Ауторима је дозвољено и подстиче их се да постављају свој рад на интернет (нпр. "
+"у институционалним репозиторијумима или на својој веб страници) прије и током "
+"процеса подношења, јер то може довести до продуктивне размјене, као и "
+"ранијег и већег цитирања објављеног рада (Погледајте <a target=\"_blank\" "
+"href=\"https://web-archive.southampton.ac.uk/opcit.eprints.org/oacitation-"
+"biblio.html\">Ефекат отвореног приступа</a>).</li>\n"
+"</ol>\n"
+"\n"
+"<h4>Предложена политика за издавачке куће које нуде одложени отворени приступ</h4>\n"
+"Аутори који објављују са овом издавачком кућом слажу се са сљедећим условима:\n"
+"<ol type=\"a\">\n"
+"\t<li>Аутори задржавају ауторска права и дају издавачкој кући право првог "
+"објављивања, са радом [НАВЕДИТЕ ПЕРИОД ВРЕМЕНА] након објављивања "
+"истовремено лиценциран под <a target=\"_blank\" href=\""
+"https://creativecommons.org/licenses/by/3.0\">Creative Commons Attribution "
+"License</a> која омогућава другима да дијеле рад уз признање "
+"ауторства и првобитног објављивања у овој издавачкој кући.</li>\n"
+"\t <li>Аутори могу улазити у одвојене, додатне уговорне "
+"серије за неексклузивну дистрибуцију верзије рада објављене од стране "
+"издавачке куће (нпр. поставити га у институционални репозиторијум или објавити га у "
+"књизи), уз признање његовог првобитног објављивања у овој издавачкој кући.</li>\n"
+"\t <li>Ауторима је дозвољено и подстиче их се да постављају свој рад на интернет (нпр. "
+"у институционалним репозиторијумима или на својој веб страници) прије и током "
+"процеса подношења, јер то може довести до продуктивне размјене, као и "
+"ранијег и већег цитирања објављеног рада (Погледајте <a target=\"_blank\" "
+"href=\"https://web-archive.southampton.ac.uk/opcit.eprints.org/oacitation-"
+"biblio.html\"> Ефекат отвореног приступа</a>).</li>\n"
+"</ol>"
+
+msgid "manager.setup.basicEditorialStepsDescription"
+msgstr ""
+"Кораци: Ред за пријаве &gt; Рецензија пријаве &gt; Уређивање пријаве &gt; Садржај.<br /><br />\n"
+"Изаберите модел за руковање овим аспектима уредничког процеса. (Да бисте одредили Управног уредника и Уреднике серија, идите на Уредници у Управљању издавачком кућом.)"
+
+msgid "manager.setup.referenceLinkingDescription"
+msgstr ""
+"<p>Да бисте омогућили читаоцима да лоцирају онлајн верзије радова које је аутор цитирао, доступне су сљедеће опције.</p>\n"
+"\n"
+"<ol>\n"
+"\t<li><strong>Додај алат за читање</strong><p>Менаџер издавачке куће може додати \"Пронађи референце\" у Алате за читање који прате објављене ставке, што омогућава читаоцима да залијепе наслов референце и затим претражују унапријед одабране академске базе података за цитирани рад.</p></li>\n"
+"\t<li><strong>Угради везе у референце</strong><p>Уредник макете може додати везу на референце које се могу наћи на интернету користећи сљедећа упутства (која могу бити измењена).</p></li>\n"
+"</ol>"
+
+msgid "manager.publication.library"
+msgstr "Библиотека издавачке куће"
+
+msgid "manager.setup.resetPermissions"
+msgstr "Ресетуј дозволе за монографије"
+
+msgid "manager.setup.resetPermissions.confirm"
+msgstr "Да ли сте сигурни да желите ресетовати податке о дозволама већ приложене монографијама?"
+
+msgid "manager.setup.resetPermissions.description"
+msgstr "Изјава о ауторским правима и информације о лиценци ће бити трајно приложене објављеном садржају, осигуравајући да се ови подаци неће мијењати у случају да издавачка кућа мијења политике за нове пријаве. Да бисте ресетовали похрањене информације о дозволама већ приложене објављеном садржају, користите дугме испод."
+
+msgid "manager.setup.resetPermissions.success"
+msgstr "Дозволе за монографије су успјешно ресетоване."
+
+msgid "grid.genres.title.short"
+msgstr "Компоненте"
+
+msgid "grid.genres.title"
+msgstr "Компоненте монографије"
+
+msgid "manager.setup.notifications.copyPrimaryContact"
+msgstr "Пошаљи копију примарном контакту, идентификованом у Поставкама издавачке куће."
+
+msgid "grid.series.pathAlphaNumeric"
+msgstr "Путања серије мора садржати само слова и бројеве."
+
+msgid "grid.series.pathExists"
+msgstr "Путања серије већ постоји. Молимо унесите јединствену путању."
+
+msgid "manager.navigationMenus.form.navigationMenuItem.series"
+msgstr "Изабери серију"
+
+msgid "manager.navigationMenus.form.navigationMenuItemSeriesMessage"
+msgstr "Молимо изаберите серију на коју желите да повежете ову ставку менија."
+
+msgid "manager.navigationMenus.form.navigationMenuItem.category"
+msgstr "Изабери категорију"
+
+msgid "manager.navigationMenus.form.navigationMenuItemCategoryMessage"
+msgstr "Молимо изаберите категорију на коју желите да повежете ову ставку менија."
+
+msgid "grid.series.urlWillBe"
+msgstr "URL серије ће бити: {$sampleUrl}"
+
+msgid "stats.contextStats"
+msgstr "Статистика издавачке куће"
+
+msgid "stats.context.tooltip.text"
+msgstr "Број посјетилаца који прегледају почетну страницу издавачке куће и каталога."
+
+msgid "stats.context.tooltip.label"
+msgstr "О статистици издавачке куће"
+
+msgid "stats.context.downloadReport.description"
+msgstr "Преузмите CSV/Excel табелу са статистиком коришћења за ову издавачку кућу која одговара сљедећим параметрима."
+
+msgid "stats.context.downloadReport.downloadContext.description"
+msgstr "Број прегледа почетне странице издавачке куће и каталога."
+
+msgid "stats.context.downloadReport.downloadContext"
+msgstr "Преузми издавачку кућу"
+
+msgid "stats.publications.downloadReport.description"
+msgstr "Преузмите CSV/Excel табелу са статистиком коришћења за монографије које одговарају сљедећим параметрима."
+
+msgid "stats.publications.downloadReport.downloadSubmissions"
+msgstr "Преузми монографије"
+
+msgid "stats.publications.downloadReport.downloadSubmissions.description"
+msgstr "Број прегледа садржаја и преузимања датотека за сваку монографију."
+
+msgid "stats.publicationStats"
+msgstr "Статистика монографија"
+
+msgid "stats.publications.details"
+msgstr "Детаљи монографије"
+
+msgid "stats.publications.none"
+msgstr "Нису пронађене монографије са статистиком коришћења која одговара овим параметрима."
+
+msgid "stats.publications.totalAbstractViews.timelineInterval"
+msgstr "Укупан број прегледа каталога по датуму"
+
+msgid "stats.publications.totalGalleyViews.timelineInterval"
+msgstr "Укупан број прегледа датотека по датуму"
+
+msgid "stats.publications.countOfTotal"
+msgstr "{$count} од {$total} монографија"
+
+msgid "stats.publications.abstracts"
+msgstr "Уноси у каталогу"
+
+msgid "plugins.importexport.common.error.salesRightRequiresTerritory"
+msgstr "Запис о правима продаје је прескочен јер нема додијељену земљу нити регион."
+
+msgid "plugins.importexport.common.error.noObjectsSelected"
+msgstr "Нема изабраних објеката."
+
+msgid "plugins.importexport.common.error.validation"
+msgstr "Није могуће конвертовати изабране објекте."
+
+msgid "plugins.importexport.common.invalidXML"
+msgstr "Неисправан XML:"
+
+msgid "plugins.importexport.native.exportSubmissions"
+msgstr "Извези пријаве"
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.description"
+msgstr "Пошаљите копију потврде о пријему пријаве примарном контакту ове издавачке куће."
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.disabled.description"
+msgstr "Није дефинисан примарни контакт за ову издавачку кућу. Можете унети примарни контакт у <a href=\"{$url}\">поставкама издавачке куће</a>."
+
+msgid "plugins.importexport.common.error.unknownObjects"
+msgstr "Наведени објекти нису пронађени."
+
+msgid "plugins.importexport.native.error.unknownUser"
+msgstr "Наведени корисник, \"{$userName}\", не постоји."
+
+msgid "plugins.importexport.publicationformat.exportFailed"
+msgstr "Процес није успео да обради формате публикације"
+
+msgid "plugins.importexport.chapter.exportFailed"
+msgstr "Процес није успио да обради поглавља"
+
+msgid "emailTemplate.variable.context.contextName"
+msgstr "Назив издавачке куће"
+
+msgid "emailTemplate.variable.context.contextUrl"
+msgstr "URL до почетне странице издавачке куће"
+
+msgid "emailTemplate.variable.context.contactName"
+msgstr "Име примарног контакта издавачке куће"
+
+msgid "emailTemplate.variable.context.contextAcronym"
+msgstr "Иницијали издавачке куће"
+
+msgid "emailTemplate.variable.context.contextSignature"
+msgstr "Потпис издавачке куће за аутоматске е-поруке"
+
+msgid "emailTemplate.variable.context.contactEmail"
+msgstr "Е-адреса примарног контакта издавачке куће"
+
+msgid "emailTemplate.variable.context.mailingAddress"
+msgstr "Поштанска адреса издавачке куће"
+
+msgid "emailTemplate.variable.queuedPayment.itemName"
+msgstr "Назив врсте плаћања"
+
+msgid "emailTemplate.variable.queuedPayment.itemCost"
+msgstr "Износ плаћања"
+
+msgid "emailTemplate.variable.queuedPayment.itemCurrencyCode"
+msgstr "Валута износа плаћања, као што је USD"
+
+msgid "emailTemplate.variable.site.siteTitle"
+msgstr "Назив веб сајта када је више издавачких кућа домаћин"
+
+msgid "emailTemplate.variable.statisticsReportNotify.publicationStatsLink"
+msgstr "Веза ка страници статистике књига"
+
+msgid "mailable.statisticsReportNotify.description"
+msgstr ""
+"Ова е-пошта се аутоматски шаље мјесечно уредницима и менаџерима издавачке куће да би "
+"им пружила преглед здравља система."
+
+msgid "mailable.validateEmailContext.name"
+msgstr "Потврди е-пошту (Регистрација издавачке куће)"
+
+msgid "mailable.validateEmailContext.description"
+msgstr "Ова е-пошта се аутоматски шаље новом кориснику када се региструје у издавачкој кући када поставке захтијевају потврду е-адресе."
+
+msgid "doi.displayName"
+msgstr "DOI"
+
+msgid "doi.manager.displayName"
+msgstr "DOI-јеви"
+
+msgid "doi.description"
+msgstr "Овај додатак омогућава додељивање Дигиталних идентификатора објеката (DOI) монографијама, поглављима, форматима публикација и датотекама у OMP."
+
+msgid "doi.readerDisplayName"
+msgstr "DOI:"
+
+msgid "doi.manager.settings.description"
+msgstr "Молимо конфигуришите DOI додатак да бисте могли управљати и користити DOI-јеве у OMP:"
+
+msgid "doi.manager.settings.explainDois"
+msgstr "Молимо изаберите објекте објављивања којима ће бити додијељени Дигитални идентификатори објеката (DOI):"
+
+msgid "doi.manager.settings.enablePublicationDoi"
+msgstr "Монографије"
+
+msgid "doi.manager.settings.enableChapterDoi"
+msgstr "Поглавља"
+
+msgid "doi.manager.settings.enableRepresentationDoi"
+msgstr "Формати публикација"
+
+msgid "doi.manager.settings.enableSubmissionFileDoi"
+msgstr "Датотеке"
+
+msgid "doi.manager.settings.doiPrefix"
+msgstr "DOI префикс"
+
+msgid "doi.manager.settings.doiPrefixPattern"
+msgstr "DOI префикс је обавезан и мора бити у форми 10.xxxx."
+
+msgid "doi.manager.settings.doiSuffixPattern"
+msgstr "Унесите прилагођени шаблон суфикса за сваку врсту публикације. Прилагођени шаблон суфикса може користити сљедеће симболе за генерисање суфикса:<br><br> "
+"<code>%p</code> Иницијали издавачке куће<br> "
+"<code>%m</code> ID монографије<br> "
+"<code>%c</code> ID поглавља<br> "
+"<code>%f</code> ID формата публикације<br> "
+"<code>%s</code> ID датотеке<br> "
+"<code>%x</code> Прилагођени идентификатор<br><br> "
+"Имајте на уму да прилагођени шаблони суфикса често доводе до проблема при генерисању и депоновању DOI-јева. Када користите прилагођени шаблон суфикса, пажљиво тестирајте да ли уредници могу генерисати DOI-јеве и депоновати их агенцији за регистрацију као што је Crossref. "
+
+msgid "doi.manager.settings.doiSuffixPattern.example"
+msgstr "На примјер, press%ppub%r може створити DOI као што је 10.1234/pressESPpub100"
+
+msgid "doi.manager.settings.doiSuffixPattern.submissions"
+msgstr "за монографије"
+
+msgid "doi.manager.settings.doiSuffixPattern.chapters"
+msgstr "за поглавља"
+
+msgid "doi.manager.settings.doiSuffixPattern.representations"
+msgstr "за формате публикација"
+
+msgid "doi.manager.settings.doiSuffixPattern.files"
+msgstr "за датотеке"
+
+msgid "doi.manager.settings.doiPublicationSuffixPatternRequired"
+msgstr "Молимо унесите шаблон суфикса DOI за монографије."
+
+msgid "doi.manager.settings.doiChapterSuffixPatternRequired"
+msgstr "Молимо унесите шаблон суфикса DOI за поглавља."
+
+msgid "doi.manager.settings.doiRepresentationSuffixPatternRequired"
+msgstr "Молимо унесите шаблон суфикса DOI за формате публикација."
+
+msgid "doi.manager.settings.doiSubmissionFileSuffixPatternRequired"
+msgstr "Молимо унесите шаблон суфикса DOI за датотеке."
+
+msgid "doi.manager.settings.doiReassign"
+msgstr "Поново додијели DOI-јеве"
+
+msgid "doi.manager.settings.doiReassign.description"
+msgstr "Ако мијењате вашу DOI конфигурацију, DOI-јеви који су већ додијељени неће бити погођени. Након што се DOI конфигурација сачува, користите ово дугме да бисте обрисали све постојеће DOI-јеве тако да ће нове поставке важити за све постојеће објекте."
+
+msgid "doi.manager.settings.doiReassign.confirm"
+msgstr "Да ли сте сигурни да желите избрисати све постојеће DOI-јеве?"
+
+msgid "doi.editor.doi"
+msgstr "DOI"
+
+msgid "doi.editor.doi.description"
+msgstr "DOI мора почети са {$prefix}."
+
+msgid "doi.editor.doi.assignDoi"
+msgstr "Додијели"
+
+msgid "doi.editor.doiObjectTypeSubmission"
+msgstr "монографија"
+
+msgid "doi.editor.doiObjectTypeChapter"
+msgstr "поглавље"
+
+msgid "doi.editor.doiObjectTypeRepresentation"
+msgstr "формат публикације"
+
+msgid "doi.editor.doiObjectTypeSubmissionFile"
+msgstr "датотека"
+
+msgid "doi.editor.customSuffixMissing"
+msgstr "DOI не може бити додијељен јер недостаје прилагођени суфикс."
+
+msgid "doi.editor.missingParts"
+msgstr "Не можете генерисати DOI јер недостају подаци за један или више дијелова DOI шаблона."
+
+msgid "doi.editor.patternNotResolved"
+msgstr "DOI не може бити додијељен јер садржи неријешен шаблон."
+
+msgid "doi.editor.canBeAssigned"
+msgstr "Оно што видите је преглед DOI-ја. Означите кутијицу и сачувајте формулар да бисте додијелили DOI."
+
+msgid "doi.editor.assigned"
+msgstr "DOI је додијељен овој {$pubObjectType}."
+
+msgid "doi.editor.doiSuffixCustomIdentifierNotUnique"
+msgstr "Дати DOI суфикс се већ користи за други објављени рад. Молимо унесите јединствени DOI суфикс за сваку ставку."
+
+msgid "doi.editor.clearObjectsDoi"
+msgstr "Обриши"
+
+msgid "doi.editor.clearObjectsDoi.confirm"
+msgstr "Да ли сте сигурни да желите избрисати постојећи DOI?"
+
+msgid "doi.editor.assignDoi"
+msgstr "Додијели DOI {$pubId} овој {$pubObjectType}"
+
+msgid "doi.editor.assignDoi.emptySuffix"
+msgstr "DOI не може бити додијељен јер недостаје прилагођени суфикс."
+
+msgid "doi.editor.assignDoi.pattern"
+msgstr "DOI {$pubId} не може бити додијељен јер садржи неријешен шаблон."
+
+msgid "doi.editor.assignDoi.assigned"
+msgstr "DOI {$pubId} је додијељен."
+
+msgid "doi.editor.missingPrefix"
+msgstr "DOI мора почети са {$doiPrefix}."
+
+msgid "doi.editor.preview.publication"
+msgstr "DOI за ову публикацију ће бити {$doi}."
+
+msgid "doi.editor.preview.publication.none"
+msgstr "DOI није додијељен овој публикацији."
+
+msgid "doi.editor.preview.chapters"
+msgstr "Поглавље: {$title}"
+
+msgid "doi.editor.preview.publicationFormats"
+msgstr "Формат публикације: {$title}"
+
+msgid "doi.editor.preview.files"
+msgstr "Датотека: {$title}"
+
+msgid "doi.editor.preview.objects"
+msgstr "Ставка"
+
+msgid "doi.manager.submissionDois"
+msgstr "DOI-јеви монографија"
+
+msgid "mailable.decision.sendInternalReview.notifyAuthor.description"
+msgstr "Ова е-пошта обавијештава аутора да је његова пријава послата у фазу унутрашње рецензије."
+
+msgid "mailable.decision.initialDecline.notifyAuthor.description"
+msgstr "Ова е-пошта обавијештава аутора да је његова пријава одбијена, прије него што је послата на рецензију, јер пријава не испуњава захтјеве за објављивање у издавачкој кући."
+
+msgid "manager.institutions.noContext"
+msgstr "Издавачка кућа ове институције није пронађена."
+
+msgid "manager.manageEmails.description"
+msgstr "Уредите поруке послате путем е-поште из ове издавачке куће."
+
+msgid "mailable.decision.sendInternalReview.notifyAuthor.name"
+msgstr "Послато на унутрашњу рецензију"
+
+msgid "mailable.indexRequest.name"
+msgstr "Затражен индекс"
+
+msgid "mailable.indexComplete.name"
+msgstr "Индекс завршен"
+
+msgid "mailable.layoutComplete.name"
+msgstr "Лејаут завршен"
+
+msgid "mailable.publicationVersionNotify.name"
+msgstr "Нова верзија креирана"
+
+msgid "mailable.publicationVersionNotify.description"
+msgstr "Ова е-пошта аутоматски обавијештава додијељене уреднике када је креирана нова верзија пријаве."
+
+msgid "mailable.submissionNeedsEditor.description"
+msgstr ""
+"Ова е-пошта се шаље менаџерима издавачке куће када је направљена нова пријава и ниједан уредник није додијељен."

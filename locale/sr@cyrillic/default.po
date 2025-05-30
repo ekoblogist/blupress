@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:02+00:00\n"
+"PO-Revision-Date: 2019-11-19T10:50:02+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "default.genres.appendix"
+msgstr "Апендикс"
+
+msgid "default.genres.bibliography"
+msgstr "Библиографија"
+
+msgid "default.genres.manuscript"
+msgstr "Рукопис књиге"
+
+msgid "default.genres.chapter"
+msgstr "Рукопис поглавља"
+
+msgid "default.genres.glossary"
+msgstr "Глосар"
+
+msgid "default.genres.index"
+msgstr "Индекс"
+
+msgid "default.genres.preface"
+msgstr "Предговор"
+
+msgid "default.genres.prospectus"
+msgstr "Проспект"
+
+msgid "default.genres.table"
+msgstr "Табела"
+
+msgid "default.genres.figure"
+msgstr "Слика"
+
+msgid "default.genres.photo"
+msgstr "Фотографија"
+
+msgid "default.genres.illustration"
+msgstr "Илустрација"
+
+msgid "default.genres.other"
+msgstr "Друго"
+
+msgid "default.groups.name.manager"
+msgstr "Администратор"
+
+msgid "default.groups.plural.manager"
+msgstr "Администратори"
+
+msgid "default.groups.abbrev.manager"
+msgstr "PM"
+
+msgid "default.groups.name.editor"
+msgstr "Главни уредник"
+
+msgid "default.groups.plural.editor"
+msgstr "Главни уредници"
+
+msgid "default.groups.abbrev.editor"
+msgstr "PE"
+
+msgid "default.groups.name.sectionEditor"
+msgstr "Уредник серијског издања"
+
+msgid "default.groups.plural.sectionEditor"
+msgstr "Уредници серијског издања"
+
+msgid "default.groups.abbrev.sectionEditor"
+msgstr "AcqE"
+
+msgid "default.groups.name.subscriptionManager"
+msgstr "Менаџер претплата"
+
+msgid "default.groups.plural.subscriptionManager"
+msgstr "Менаџери претплата"
+
+msgid "default.groups.abbrev.subscriptionManager"
+msgstr "SubM"
+
+msgid "default.groups.name.chapterAuthor"
+msgstr "Аутор поглавља"
+
+msgid "default.groups.plural.chapterAuthor"
+msgstr "Аутори поглавља"
+
+msgid "default.groups.abbrev.chapterAuthor"
+msgstr "CA"
+
+msgid "default.groups.name.volumeEditor"
+msgstr "Уредник"
+
+msgid "default.groups.plural.volumeEditor"
+msgstr "Уредници"
+
+msgid "default.groups.abbrev.volumeEditor"
+msgstr "VE"
+
+msgid "default.contextSettings.authorGuidelines"
+msgstr ""
+"<p>Аутори су позвани да поднесу рукопис овом издању. Рукописи који се сматрају погодним биће послати на рецензију прије него што се одлучи да ли ће бити прихваћени или одбијени.</p>"
+"<p>Прије подношења рукописа, аутори су одговорни за добијање дозволе за објављивање било ког материјала који је део рукописа, као што су фотографије, документи и скупови података. Сви аутори наведени у рукопису морају дати сагласност да буду идентификовани као аутори. Уколико је примјерено, истраживање треба да буде одобрено од стране одговарајућег етичког одбора у складу са законским захтјевима земље у којој се студија спроводи.</p>"
+"<p>Уредник може одбити рукопис ако не испуњава минималне стандарде квалитета. Прије подношења, молимо вас да осигурате да су опсег и структура књиге правилно дефинисани. Наслов треба да буде сажет, а сажетак треба да стоји самостално. Ово ће повећати вјероватноћу да ће рецензенти прихватити да рецензирају књигу. Када будете сигурни да ваш рукопис испуњава ове стандарде, молимо вас да пратите контрольну листу испод припремајући ваш рукопис.</p>"
+
+msgid "default.contextSettings.checklist"
+msgstr ""
+"<p>Сви рукописи морају испуњавати сљедеће захтјеве.</p>"
+"<ul>"
+"<li>Овај рукопис испуњава захтјеве наведене у <a href=\"{$submissionGuidelinesUrl}\">Упутству за ауторе</a>.</li>"
+"<li>Овај рукопис није претходно објављен, нити је поднесен другом издању на разматрање.</li>"
+"<li>Све референце су провјерене у погледу тачности и потпуности.</li>"
+"<li>Све табеле и слике су нумерисане и означене.</li>"
+"<li>Добијена је дозвола за објављивање свих фотографија, скупова података и другог материјала који је део овог рукописа.</li>"
+"</ul>"
+
+msgid "default.contextSettings.privacyStatement"
+msgstr "<p>Имена и адресе е-поште унете на сајту овог издања користе се искључиво за наведене сврхе овог издања и неће бити доступне ни за једну другу сврху нити трећој страни.</p>"
+
+msgid "default.contextSettings.openAccessPolicy"
+msgstr "Ово издање обезбјеђује непосредан отворени приступ свом садржају на принципу да слободно доступна истраживања јавности подржавају већу глобалну размјену знања."
+
+msgid "default.contextSettings.forReaders"
+msgstr "Читаоце подстичемо да се пријаве за сервис обавјештења о објавама за ово издање. Користите везу <a href=\"{$indexUrl}/{$contextPath}/user/register\">Регистрација</a> на врху главне странице издања. Ова регистрација ће резултирати тиме што ће читалац примати садржај по е-пошти за сваку нову монографију издања. Ова листа такође омогућава издању да утврди одређени ниво подршке или читалачке публике. Погледајте <a href=\"{$indexUrl}/{$contextPath}/about/submissions#privacyStatement\">Изјаву о приватности</a> издања која читаоце увјерава да њихово име и адреса е-поште неће бити коришћени у друге сврхе."
+
+msgid "default.contextSettings.forAuthors"
+msgstr "Заинтересовани сте да поднесете рукопис овом издању? Препоручујемо вам да прегледате страницу <a href=\"{$indexUrl}/{$contextPath}/about\">О издању</a> ради политике секција издања и <a href=\"{$indexUrl}/{$contextPath}/about/submissions#authorGuidelines\">Упутства за ауторе</a>. Аутори се морају <a href=\"{$indexUrl}/{$contextPath}/user/register\">регистровати</a> прије подношења рукописа, или ако су већ регистровани, могу се једноставно <a href=\"{$indexUrl}/index/login\">пријавити</a> и започети процес од 5 корака."
+
+msgid "default.contextSettings.forLibrarians"
+msgstr ""
+"Истраживачке библиотеке подстичемо да наведу ово издање међу електронским издањима своје библиотеке. Такође, овај систем отвореног приступа објављивања је погодан за библиотеке да га хостовања за своје чланове факултета који га користе са издањима у чијем уређивању учествују (погледајте <a href=\"https://pkp.sfu.ca/omp\">Open Monograph Press</a>)."
+
+msgid "default.groups.name.externalReviewer"
+msgstr "Вањски рецензент"
+
+msgid "default.groups.plural.externalReviewer"
+msgstr "Вањски рецензенти"
+
+msgid "default.groups.abbrev.externalReviewer"
+msgstr "ER"

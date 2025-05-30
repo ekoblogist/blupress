@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:02+00:00\n"
+"PO-Revision-Date: 2019-11-19T10:50:02+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "api.submissions.400.submissionIdsRequired"
+msgstr "Морате навести један или више идентификатора поднесака за додавање у каталог."
+
+msgid "api.submissions.400.submissionsNotFound"
+msgstr "Један или више поднесака које сте навели нису пронађени."
+
+msgid "api.submissions.400.wrongContext"
+msgstr "Поднесак који сте захтијевали није у овом издању."
+
+msgid "api.emails.403.disabled"
+msgstr "Функција обавјештења е-поштом није омогућена за ово издање."
+
+msgid "api.emailTemplates.403.notAllowedChangeContext"
+msgstr "Немате дозволу да премјестите овај шаблон е-поште у друго издање."
+
+msgid "api.publications.403.contextsDidNotMatch"
+msgstr "Публикација коју сте захтијевали није дио овог издања."
+
+msgid "api.publications.403.submissionsDidNotMatch"
+msgstr "Публикација коју сте захтијевали није дио овог поднеска."
+
+msgid "api.submissions.403.cantChangeContext"
+msgstr "Не можете промијенити издање поднеска."
+
+msgid "api.submission.400.inactiveSection"
+msgstr "Ова рубрика више не прихвата поднеске."

@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:02+00:00\n"
+"PO-Revision-Date: 2019-11-19T10:50:02+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "sushi.reports.pr.description"
+msgstr "Активности сумиране по издавачу."
+
+msgid "sushi.reports.pr_p1.description"
+msgstr "Употреба на нивоу издавача сумирана по Metric_Type."
+
+msgid "sushi.reports.tr.description"
+msgstr "Активности на нивоу књиге."
+
+msgid "sushi.reports.tr_b3.description"
+msgstr "Извештаји о употреби књига приказују све применљиве Metric_Types подељене по Access_Type."

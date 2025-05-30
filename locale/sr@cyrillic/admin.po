@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:02+00:00\n"
+"PO-Revision-Date: 2019-11-19T10:50:02+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "admin.hostedContexts"
+msgstr "Инсталирана издања"
+
+msgid "admin.settings.appearance.success"
+msgstr "Изглед је успјешно ажуриран."
+
+msgid "admin.settings.config.success"
+msgstr "Конфигурација је успјешно ажурирана."
+
+msgid "admin.settings.info.success"
+msgstr "Подаци о сајту су успјешно ажурирани."
+
+msgid "admin.settings.redirect"
+msgstr "Преусмјеравање"
+
+msgid "admin.settings.redirectInstructions"
+msgstr ""
+"Позивање на главни сајт биће преусмјерено ка овом издању. То може бити корисно "
+"уколико сајт хостује само једно издање, на примјер."
+
+msgid "admin.settings.noPressRedirect"
+msgstr "Не преусмјеравај"
+
+msgid "admin.languages.primaryLocaleInstructions"
+msgstr "Ово ће бити задати језик за сајт и свако инсталирано издање."
+
+msgid "admin.languages.supportedLocalesInstructions"
+msgstr ""
+"Изаберите све језике који ће бити подржани на сајту. Изабрани језици ће бити "
+"доступни за употребу у свим издањима на сајту, а такође ће се појавити у изборнику "
+"језика на свакој страници сајта (што се може заобићи на страницама специфичним за "
+"издање). Ако није изабрано више језика, изборник језика се неће приказивати, а "
+"проширене језичке поставке неће бити доступне за издања."
+					   
+
+msgid "admin.locale.maybeIncomplete"
+msgstr "Језици означени звјездицом * могу бити непотпуни."
+
+msgid "admin.languages.confirmUninstall"
+msgstr ""
+"Да ли сте сигурни да желите да деинсталирате овај језик? То може утицати на "
+"сва издања која тренутно користе овај језик."
+
+msgid "admin.languages.installNewLocalesInstructions"
+msgstr ""
+"Изаберите додатне језике за инсталацију подршке у овом систему. Језици морају "
+"бити инсталирани прије него што их издања могу користити. Погледајте OMP "
+"документацију за информације о додавању подршке за нове језике."
+
+msgid "admin.languages.confirmDisable"
+msgstr ""
+"Да ли сте сигурни да желите да онемогућите овај језик? То може утицати на сва "
+"издања која тренутно користе овај језик."
+
+msgid "admin.systemVersion"
+msgstr "OMP верзија"
+
+msgid "admin.systemConfiguration"
+msgstr "OMP конфигурација"
+
+msgid "admin.presses.pressSettings"
+msgstr "Подешавања издања"
+
+msgid "admin.presses.noneCreated"
+msgstr "Ниједно издање није направљено."
+
+msgid "admin.contexts.create"
+msgstr "Направите издање"
+
+msgid "admin.contexts.form.titleRequired"
+msgstr "Наслов је обавезан."
+
+msgid "admin.contexts.form.pathRequired"
+msgstr "Путања је обавезна."
+
+msgid "admin.contexts.form.pathAlphaNumeric"
+msgstr ""
+"Путања може да садржи само слова, бројеве и знакове _ и -. "
+"Путања мора почињати и завршавати словом или бројем."
+
+msgid "admin.contexts.form.pathExists"
+msgstr "Изабрану путању већ користи друго издање."
+
+msgid "admin.contexts.form.primaryLocaleNotSupported"
+msgstr "Главни језик мора бити један од подржаних језика."
+
+msgid "admin.contexts.form.create.success"
+msgstr "{$name} је успјешно креиран."
+
+msgid "admin.contexts.form.edit.success"
+msgstr "{$name} је успјешно измијењен."
+
+msgid "admin.contexts.contextDescription"
+msgstr "Опис издања"
+
+msgid "admin.presses.addPress"
+msgstr "Додај издање"
+
+msgid "admin.overwriteConfigFileInstructions"
+msgstr ""
+"<h4>ОБАВЈЕШТЕЊЕ!</h4>\n"
+"<p>Систем није био у могућности аутоматски измијенити конфигурациони фајл. Да бисте "
+"примијенили измјене конфигурације морате отворити <tt>config.inc.php</tt> у "
+"одговарајућем текстуалном едитору и измијенити његов садржај садржајем из текстуалног "
+"поља испод.</p>"
+
+msgid "admin.settings.enableBulkEmails.description"
+msgstr ""
+"Изаберите издања која треба омогућити за слање масовних е-порука. Када је ова "
+"функција омогућена, менаџер издања ће моћи послати е-поруку свим корисницима "
+"регистрованим за њихово издање.<br><br>Злоупотреба ове функције за слање "
+"нежељене поште може да прекрши законе против непожељне поште у неким "
+"јурисдикцијама и може довести до блокирања е-порука са вашег сервера као "
+"нежељене поште. Потражите технички савјет прије него што омогућите ову "
+"функцију и размислите о консултацијама са менаџерима издања како бисте "
+"осигурали да се користи на одговарајући начин.<br><br>Додатна ограничења ове "
+"функције могу се омогућити за свако издање посјетом његовог чаробњака за "
+"подешавања на списку <a href=\"{$hostedContextsUrl}\">Инсталираних издања</a>."
+
+msgid "admin.settings.disableBulkEmailRoles.description"
+msgstr ""
+"Менаџер издања неће моћи слати масовне е-поруке ниједној од улога изабраних "
+"испод. Користите ову поставку да ограничите злоупотребу функције обавјештења "
+"е-поштом. На примјер, може бити сигурније онемогућити масовне е-поруке "
+"читаоцима, ауторима или другим великим корисничким групама које нису дале "
+"сагласност за примање таквих порука.<br><br>Функција масовне е-поште може се "
+"потпуно онемогућити за ово издање у <a href=\"{$siteSettingsUrl}\">Админ > "
+"Подешавања сајта</a>."
+
+msgid "admin.settings.disableBulkEmailRoles.contextDisabled"
+msgstr ""
+"Функција масовне е-поште је онемогућена за ово издање. Омогућите ову функцију "
+"у <a href=\"{$siteSettingsUrl}\">Админ > Подешавања сајта</a>."
+
+msgid "admin.siteManagement.description"
+msgstr ""
+"Додајте, измијените или уклоните издања са сајта и управљајте подешавањима за сва издања."
+
+msgid "admin.job.processLogFile.invalidLogEntry.chapterId"
+msgstr "Идентификациони број поглавља није број"
+
+msgid "admin.job.processLogFile.invalidLogEntry.seriesId"
+msgstr "Идентификациони број серије није број"
+
+msgid "admin.settings.statistics.geo.description"
+msgstr ""
+"Изаберите врсту географских статистика употребе које могу бити прикупљене од "
+"стране издања на овом сајту. Детаљније географске статистике могу значајно "
+"повећати величину ваше базе података и, у неким ријетким случајевима, могу "
+"угрозити анонимност ваших посјетилаца. Свако издање може конфигурисати ову "
+"поставку другачије, али издање никада не може прикупљати детаљније записе од "
+"онога што је овдје конфигурисано. На примјер, ако сајт подржава само државу и "
+"регион, издање може изабрати државу и регион или само државу. Издање неће "
+"моћи пратити државу, регион и град."
+
+msgid "admin.settings.statistics.institutions.description"
+msgstr ""
+"Омогућите институцијске статистике ако желите да издања на овом сајту могу "
+"прикупљати статистике употребе по институцијама. Издања ће морати да додају "
+"институцију и њене IP опсеге да би користила ову функцију. Омогућавање "
+"институцијских статистика може значајно повећати величину ваше базе података."
+
+msgid "admin.settings.statistics.sushi.public.description"
+msgstr ""
+"Да ли да се SUSHI API крајње тачке учине јавно доступним за сва издања на "
+"овом сајту. Ако омогућите јавни API, свако издање може да заобиђе ову "
+"поставку да учини своје статистике приватним. Међутим, ако онемогућите јавни "
+"API, издања не могу да учине свој API јавним."
+
+msgid "admin.settings.statistics.sushiPlatform.isSiteSushiPlatform"
+msgstr "Користите сајт као платформу за сва издања."
