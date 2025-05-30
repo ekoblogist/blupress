@@ -1,0 +1,308 @@
+# Biljana Cubrovic <biljana.cubrovic@gmail.com>, 2021, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:02+00:00\n"
+"PO-Revision-Date: 2023-02-17 03:48+0000\n"
+"Last-Translator: Biljana Cubrovic <biljana.cubrovic@gmail.com>\n"
+"Language-Team: Serbian (cyrillic) <http://translate.pkp.sfu.ca/projects/pkp-"
+"lib/admin/sr_Cyrl/>\n"
+"Language: sr@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "api.400.errorUploadingImage"  
+msgstr "Дошло је до грешке при отпремању ове слике."  
+
+msgid "api.400.paramNotSupported"  
+msgstr "Параметар {$param} није подржан."  
+
+msgid "api.400.propReadOnly"  
+msgstr "Својство {$prop} се не може измјенити."  
+
+msgid "api.400.invalidApiToken"  
+msgstr "API токен није могао бити потврђен. Ово може указивати на грешку у API токену или да токен више није важећи."  
+
+msgid "api.400.tokenCouldNotBeDecoded"  
+msgstr "apiToken није могао бити декодован због сљедеће грешке: {$error}"  
+
+msgid "api.400.requireEmailSubjectBody"  
+msgstr "Морате навести тему и садржај е-поште."  
+
+msgid "api.files.400.notAllowedCreatedAt"  
+msgstr "Није могуће измјенити вријеме креирања."  
+
+msgid "api.dois.403.prefixRequired"  
+msgstr "DOI префикс је неопходан за генерисање DOI-ја."  
+
+msgid "api.403.unauthorized"  
+msgstr "Нисте овлашћени за приступ траженом ресурсу."  
+
+msgid "api.404.resourceNotFound"  
+msgstr "Тражени ресурс није пронађен."  
+
+msgid "api.404.endpointNotFound"  
+msgstr "Тражени URL није препознат."  
+
+msgid "api.500.apiSecretKeyMissing"  
+msgstr "API токен се не може користити за приступ овом сајту јер администратор сајта није конфигурисао тајни кључ."  
+
+msgid "api.announcements.404.announcementNotFound"  
+msgstr "Обавијест коју сте тражили није пронађена."  
+
+msgid "api.institutions.404.institutionNotFound"  
+msgstr "Институција коју сте тражили није пронађена."  
+
+msgid "api.contexts.400.localesNotSupported"  
+msgstr "Сљедећи локали нису подржани: {$locales}."  
+
+msgid "api.dois.403.editItemOutOfContext"  
+msgstr "Не можете уредити DOI ставке која није у овом контексту."  
+
+msgid "api.dois.403.editItemDoiCantBeAssigned"  
+msgstr "DOI се не може додијелити овој ставци."  
+
+msgid "api.dois.403.pubTypeNotRecognized"  
+msgstr "Тип публикације није препознат."  
+
+msgid "api.dois.404.contextNotFound"  
+msgstr "Овај ендпоинт није доступан из глобалног именског простора сајта и мора бити захтијеван за одређени контекст."  
+
+msgid "api.dois.404.doiNotFound"  
+msgstr "DOI који сте тражили није пронађен."  
+
+msgid "api.dois.404.pubObjectNotFound"  
+msgstr "Објекат публикације који сте тражили није пронађен."  
+
+msgid "api.dois.404.submissionNotFound"  
+msgstr "Поднесак који сте тражили није пронађен."  
+
+msgid "api.dois.400.noUnpublishedItems"  
+msgstr "Необјављене ставке се не могу извозити/депоновати. Молимо да поништите избор необјављених ставки и покушајте поново."  
+
+msgid "api.dois.400.creationFailed"  
+msgstr "Дошло је до грешке и DOI објекат није могао бити креиран."  
+
+msgid "api.dois.400.xmlExportFailed"  
+msgstr "Дошло је до грешке при XML валидацији и XML није могао бити извезен."  
+
+msgid "api.dois.400.markRegisteredFailed"  
+msgstr "Дошло је до грешке и неки од поднесених ставки нису означени као регистровани."  
+
+msgid "api.dois.400.depositFailed"  
+msgstr "Неке ставке нису успјешно депоноване. Молимо провјерите појединачне ставке за одговарајуће поруке о грешкама."  
+
+msgid "api.dois.404.noPubObjectIncluded"  
+msgstr "Ниједан важећи објекат публикације није укључен у захтијев."  
+
+msgid "api.dois.400.invalidPubObjectIncluded"  
+msgstr "Један или више неважећих објеката публикације је укључен у захтијев."  
+
+msgid "api.dois.400.invalidPluginType"  
+msgstr "Тренутно конфигурисани додатак мора бити додатак за агенцију за регистрацију."  
+
+msgid "api.decisions.403.alreadyPublished"  
+msgstr "Не можете уписати одлуку или препоручити одлуку за овај поднесак јер је већ објављен."  
+
+msgid "api.emails.400.missingBody"  
+msgstr "Морате укључити е-пошту која ће бити послата."  
+
+msgid "api.emails.400.missingSubject"  
+msgstr "Морате навести тему за е-пошту."  
+
+msgid "api.emails.400.missingUserGroups"  
+msgstr "Морате навести корисничке улоге које треба да примају ову е-пошту."  
+
+msgid "api.emails.403.notAllowedUserGroup"  
+msgstr "Није вам дозвољено слати е-пошту корисницима у једној или више изабраних улога."  
+
+msgid "api.emailTemplates.400.invalidAlternateTo"  
+msgstr "Ово није подразумијевани шаблон е-поште за познату е-пошту."  
+
+msgid "api.emailTemplates.400.invalidContext"  
+msgstr "Ово није важећи контекст."  
+
+msgid "api.emailTemplates.404.templateNotFound"  
+msgstr "Шаблон е-поште који сте тражили није пронађен."  
+
+msgid "api.files.400.noUpload"  
+msgstr "Није пронађена датотека за отпремање у захтијеву."  
+
+msgid "api.files.400.uploadFailed"  
+msgstr "Једна или више датотека није могла бити отпремљена."  
+
+msgid "api.files.400.fileSize"  
+msgstr "Датотеке веће од {$maxSize} се не могу отпремити."  
+
+msgid "api.files.400.config"  
+msgstr "Датотека није могла бити отпремљена због грешке у конфигурацији сервера. Молимо контактирајте администратора система."  
+
+msgid "api.highlights.400.noOrderData"  
+msgstr "Редослијед истакнутих ставки није могао бити сачуван јер нису пронађени подаци о редослиједу."  
+
+msgid "api.highlights.400.orderHighlightNotFound"  
+msgstr "Редослијед истакнутих ставки није могао бити сачуван јер једна или више ставки нису пронађене."  
+
+msgid "api.highlights.404.highlightNotFound"  
+msgstr "Истакнута ставка коју сте тражили није пронађена."  
+
+msgid "api.publication.403.alreadyPublished"  
+msgstr "Публикација коју желите објавити је већ објављена."  
+
+msgid "api.publication.403.alreadyUnpublished"  
+msgstr "Публикација коју желите поништити није објављена."  
+
+msgid "api.publication.403.cantEditPublished"  
+msgstr "Не можете уредити ову публикацију јер је већ објављена."  
+
+msgid "api.publication.403.cantEditStatus"  
+msgstr "Не можете директно модификовати статус преко API-ја. Умјесто тога, користите /publish и /unpublish ендпоинте."  
+
+msgid "api.publication.403.cantDeletePublished"  
+msgstr "Морате поништити објаву ове публикације прије него што је обришете."  
+
+msgid "api.publicFiles.400.extensionNotSupported"  
+msgstr "Можете отпремити само сљедеће типове датотека: {$fileTypes}."  
+
+msgid "api.publicFiles.400.invalidImage"  
+msgstr "Слика коју сте отпремили није важећа."  
+
+msgid "api.publicFiles.400.mimeTypeNotMatched"  
+msgstr "Датотека коју сте отпремили се не поклапа са екстензијом датотеке. Ово се може десити када је датотека преименована у некомпатибилни тип, на примјер, ако промјените photo.png у photo.jpg."  
+
+msgid "api.publicFiles.403.unauthorized"  
+msgstr "Није вам дозвољено отпремање датотека."  
+
+msgid "api.publicFiles.413.noDirSpace"  
+msgstr "Немате довољно простора у свом корисничком директоријуму. Датотека коју отпремате је {$fileUploadSize}KB, а ви имате преостало {$dirSizeLeft}KB."  
+
+msgid "api.publicFiles.500.badFilesDir"  
+msgstr "Директоријум јавних датотека није пронађен или датотеке се не могу у њега сачувати. Молимо контактирајте администратора да рјеши овај проблем."  
+
+msgid "api.stats.400.wrongDateFormat"  
+msgstr "Датум мора бити у формату ГГГГ-ММ-ДД."  
+
+msgid "api.stats.400.wrongDateRange"  
+msgstr "Почетни датум не може бити каснији од завршног датума."  
+
+msgid "api.stats.400.earlyDateRange"  
+msgstr "Почетни датум не може бити ранији од 2001-01-01."  
+
+msgid "api.stats.400.lateDateRange"  
+msgstr "Завршни датум не може бити каснији од јучерашњег дана."  
+
+msgid "api.stats.400.wrongTimelineInterval"  
+msgstr "Ваш захтијев није важећи. timelineInterval мора бити `day` или `month`."  
+
+msgid "api.stats.400.invalidOrderDirection"  
+msgstr "Ваш захтијев није важећи. orderDirection мора бити `desc` или `asc`."  
+
+msgid "api.stats.400.invalidTimelineInterval"  
+msgstr "Ваш захтијев није важећи. timelineInterval мора бити `day` или `month`."  
+
+msgid "api.submissionFiles.400.assocTypeAndIdRequired"  
+msgstr "Не можете измјенити асоцијацију датотеке без просљеђивања assocType и assocId."  
+
+msgid "api.submissionFiles.400.badDependentFileAssocType"  
+msgstr "Не можете асоцирати датотеку из ове фазе датотеке са другим поднесеним датотекама."  
+
+msgid "api.submissionFiles.400.badNoteAssocType"  
+msgstr "Не можете асоцирати датотеку из ове фазе датотеке са дискусионом напоменом."  
+
+msgid "api.submissionFiles.400.badReviewAssignmentAssocType"  
+msgstr "Не можете асоцирати датотеку из ове фазе датотеке са задатком рецензије."  
+
+msgid "api.submissionFiles.400.badReviewRoundAssocType"  
+msgstr "Не можете асоцирати датотеку из ове фазе датотеке са кругом рецензије."  
+
+msgid "api.submissionFiles.400.missingReviewRoundAssocType"  
+msgstr "Морате навести круг рецензије када захтијевате датотеке у фази рецензије."  
+
+msgid "api.submissionFiles.400.noFileStageId"  
+msgstr "Морате навести фазу датотеке."  
+
+msgid "api.submissionFiles.400.invalidFileStage"  
+msgstr "Фаза датотеке коју сте навели није важећа."  
+
+msgid "api.submissionsFiles.400.noParams"  
+msgstr "Није пронађена ниједна промјена у захтијеву за уређивање ове датотеке."  
+
+msgid "api.submissionFiles.400.reviewRoundIdRequired"  
+msgstr "Морате навести ID круга рецензије при премјештању датотеке у ову фазу датотеке."  
+
+msgid "api.submissionFiles.400.reviewRoundSubmissionNotMatch"  
+msgstr "Круг рецензије који сте навели није дио овог поднеска."  
+
+msgid "api.submissionFiles.403.unauthorizedFileStageId"  
+msgstr "Није вам дозвољено приступати овим датотекама."  
+
+msgid "api.submissionFiles.403.unauthorizedFileStageIdWrite"  
+msgstr "Није вам дозвољено додавати и уређивати ове датотеке."  
+
+msgid "api.submissionFiles.403.unauthorizedReviewRound"  
+msgstr "Није вам дозвољено приступати датотекама у овом кругу рецензије."  
+
+msgid "api.submissions.400.missingRequired"  
+msgstr "Ваш захтијев није могао бити испуњен јер недостају неопходне информације."  
+
+msgid "api.submissions.400.invalidIssueIdentifiers"  
+msgstr "Тражени волумен, број или година нису важећи."  
+
+msgid "api.submissions.400.invalidSubmitAs"  
+msgstr "Није вам дозвољено подносити у овој корисничкој улози."  
+
+msgid "api.submissions.403.csrfTokenFailure"  
+msgstr "Ваш захтијев је одбијен. Ово може бити зато што је ваша пријава истекла. Покушајте да поново учитате страницу и покушате поново."  
+
+msgid "api.submissions.403.deleteSubmissionOutOfContext"  
+msgstr "Не можете обрисати поднесак који није додијељен овом контексту."  
+
+msgid "api.submissions.403.requestedOthersUnpublishedSubmissions"  
+msgstr "Можете прегледати само необјављене поднеске који су вам додијељени."  
+
+msgid "api.submissions.403.unauthorizedDeleteSubmission"  
+msgstr "Немате дозволу за брисање овог поднеска."  
+
+msgid "api.submissions.403.userCantEdit"  
+msgstr "Није вам дозвољено уређивати ову публикацију."  
+
+msgid "api.submissions.404.siteWideEndpoint"  
+msgstr "Овај ендпоинт није доступан из контекста. Морате му приступити из глобалног именског простора сајта."  
+
+msgid "api.themes.404.themeUnavailable"  
+msgstr "Активна тема, {$themePluginPath}, није омогућена и можда није инсталирана."  
+
+msgid "api.vocabs.400.localeNotSupported"  
+msgstr "Локал {$locale} није подржан."  
+
+msgid "api.mailables.404.mailableNotFound"  
+msgstr "Е-пошта коју сте тражили није пронађена."  
+
+msgid "api.jobs.404.failedJobNotFound"  
+msgstr "Неуспјешни посао није пронађен у листи неуспјелих."  
+
+msgid "api.jobs.406.failedJobPayloadMissing"  
+msgstr "Неуспјешном послу недостаје payload за поновно слање."  
+
+msgid "api.jobs.406.failedJobEmpty"  
+msgstr "Није пронађен ниједан неуспјешни посао у листи."  
+
+msgid "api.jobs.400.failedJobRedispatchedFailed"  
+msgstr "Није могуће поново послати неуспјешни посао."  
+
+msgid "api.jobs.200.failedJobRedispatchedSucceed"  
+msgstr "Неуспјешни посао је поново послан успјешно."  
+
+msgid "api.jobs.200.allFailedJobRedispatchedSucceed"  
+msgstr "Сви неуспјешни послови са важећим payload-ом су поново успјешно стављени у ред."  
+
+msgid "api.jobs.400.failedJobDeleteFailed"  
+msgstr "Није могуће обрисати неуспјешни посао из листе неуспјелих."  
+
+msgid "api.jobs.200.failedJobDeleteSucceed"  
+msgstr "Неуспјешни посао је успјешно обрисан из листе неуспјелих."  

@@ -12,65 +12,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "author.editPublishedDisabled"
-msgstr ""
+msgstr "Autori ove publikacije ne mogu biti uređivani jer je već objavljena."
 
 msgid "author.publicationNotFound"
-msgstr ""
+msgstr "Publikacija za ovog autora nije pronađena."
 
 msgid "author.submit.submissionCitations"
-msgstr ""
-"Daje formatiranu listu referenci za radove citiran dokumentu. Odvojte "
-"reference prazninama."
+msgstr "Navedite formatiranu listu referenci za radove citirane u ovom podnesku. Molimo razdvojite pojedinačne reference praznom linijom."
 
 msgid "author.submission.roundStatus.reviewsReady"
-msgstr "Nema podnesenih recenzija niti recenzija koje urednik razmatra."
+msgstr "Nove recenzije su podnijete i urednik ih razmatra."
 
 msgid "author.submission.roundStatus.reviewOverdue"
-msgstr ""
+msgstr "Jedan ili više recenzenata je propustilo rok. Urednički tim je obaviješten i preduzima mjere da se recenzije završe. Ne morate preduzimati ništa u ovom trenutku. Bićete obaviješteni kada se donese odluka."
 
 msgid "submission.submit.availableUserGroups"
-msgstr ""
+msgstr "Podnesi kao"
+
+msgid "submission.authors.label"
+msgstr "Autori"
+
+msgid "submission.author.list"
+msgstr "Lista autora podneska"
 
 msgid "submission.submit.availableUserGroupsDescription"
-msgstr ""
+msgstr "Izaberite ulogu koja najbolje opisuje vaš doprinos ovom podnesku."
 
 msgid "submission.submit.managerUserGroupsDescription"
-msgstr ""
+msgstr "Izaberite uredničku ulogu ako želite sami urediti i objaviti ovaj podnesak."
 
 msgid "submission.submit.submissionChecklist"
-msgstr "Uslovi za predaju članka"
+msgstr "Uslovi za podnošenje"
 
-#, fuzzy
 msgid "submission.submit.submissionChecklistDescription"
-msgstr ""
-"Morate pročitati i potvrditi da ste zadovoljili uslove pre nastavka prijave."
+msgstr "Svi podnesci moraju ispuniti sljedeće uslove."
 
 msgid "submission.submit.submissionChecklistConfirm"
-msgstr ""
+msgstr "Da, moj podnesak ispunjava sve ove uslove."
 
 msgid "submission.submit.submissionComplete"
-msgstr "Predaja je završena"
+msgstr "Podnošenje završeno"
 
 msgid "submission.submit.genre.label"
-msgstr ""
+msgstr "Koja je vrsta ovog fajla?"
 
 msgid "submission.submit.genre.description"
-msgstr ""
+msgstr "Izaberite opciju koja najbolje opisuje ovaj fajl."
 
 msgid "submission.submit.removeConfirm"
-msgstr ""
+msgstr "Da li ste sigurni da želite ukloniti ovaj fajl?"
 
 msgid "submission.submit.whatNext.forNow"
-msgstr "Za sada, možete:"
+msgstr "Za sada možete:"
 
 msgid "submission.submit.whatNext.review"
-msgstr "Izvršite recenziju prijavljenog članka"
+msgstr "Pregledati ovaj podnesak"
 
 msgid "submission.submit.whatNext.create"
-msgstr "Prijavite novi članak"
+msgstr "Kreirati novi podnesak"
 
 msgid "submission.submit.whatNext.return"
-msgstr "Vratite se na kontrolnu tablu"
+msgstr "Povratak na kontrolnu tablu"
 
 msgid "submission.submit.extendedMetadata"
 msgstr "Prošireni metapodaci"
@@ -79,390 +81,373 @@ msgid "metadata.filters.crossref.settings.email.displayName"
 msgstr "Crossref registracioni imejl"
 
 msgid "metadata.filters.crossref.settings.email.validationMessage"
-msgstr "Unesite imejl za koji je urađena registracija na Crossref sajtu."
+msgstr "Unesite važeći Crossref registracioni imejl. Možete besplatno registrovati imejl na Crossref veb sajtu."
 
 msgid "metadata.filters.isbndb.settings.apiKey.displayName"
 msgstr "ISBNdb API ključ"
 
 msgid "metadata.filters.isbndb.settings.apiKey.validationMessage"
-msgstr ""
-"Unesite ISBNdb API ključ. Ukoliko ga nemate, možete ga dobiti besplatno an "
-"ISBNdb projektu."
+msgstr "Unesite vaš ISBNdb API ključ. Ako još uvek nemate ključ, možete ga zatražiti besplatno od projekta ISBNdb."
 
 msgid "metadata.filters.pubmed.settings.email.displayName"
 msgstr "PubMed registracioni imejl"
 
 msgid "metadata.filters.pubmed.settings.email.validationMessage"
-msgstr "Unesite PubMed registracioni imejl ukoliko ga imate."
+msgstr "Unesite važeći PubMed registracioni imejl ako ga imate."
 
 msgid "metadata.filters.worldcat.settings.apiKey.displayName"
 msgstr "WorldCat API ključ"
 
 msgid "metadata.filters.worldcat.settings.apiKey.validationMessage"
-msgstr "Unesite ispravan WorldCat API ključ ukoliko ga imate."
+msgstr "Unesite važeći WorldCat API ključ ako ga imate."
 
 msgid "metadata.filters.paracite.settings.citationModule.displayName"
-msgstr "Citatni modul"
+msgstr "Modul za citiranje"
 
 msgid "metadata.filters.paracite.settings.citationModule.validationMessage"
-msgstr "Izaberite jedan od ponuđenih citatnih modula."
+msgstr "Izaberite jedan od ponuđenih modula za citiranje."
 
 msgid "metadata.filters.settings.isOptional.displayName"
-msgstr "Po pravilu ne koristi (i dalje će biti dostupno uredniku)"
+msgstr "Ne koristiti po defaultu (i dalje će biti dostupno uredniku)"
 
 msgid "metadata.filters.settings.isOptional.validationMessage"
-msgstr ""
-"Interna greška. Neispravna vrednost je uneta za 'optional filter' "
-"podešavanja. Molimo vas da ovo prijavite kao \"bug\"."
+msgstr "Interna greška. Poslat je nevažeći vrednost za postavku 'opcioni filter'. Prijavite ovo kao grešku."
 
 msgid "metadata.property.displayName.author"
 msgstr "Autori"
 
 msgid "metadata.property.validationMessage.author"
-msgstr ""
-"Za najbolje rezultate, autori bi trebali biti unešeni u formatu: Coleman Jr, "
-"D. (Ralf) Dr."
+msgstr "Za najbolje rezultate, autore unosite u sljedećem formatu: Coleman Jr, D. (Ralf) Dr."
 
 msgid "metadata.property.displayName.editor"
 msgstr "Urednici"
 
 msgid "metadata.property.validationMessage.editor"
-msgstr ""
-"Za najbolje rezultate, urednici bi trebali biti unešeni u formatu: Coleman "
-"Jr, D. (Ralf) Dr."
+msgstr "Za najbolje rezultate, urednike unosite u sljedećem formatu: Coleman Jr, D. (Ralf) Dr."
 
 msgid "metadata.property.displayName.article-title"
-msgstr "Naslov rada"
+msgstr "Naslov članka/rada"
 
 msgid "metadata.property.validationMessage.article-title"
-msgstr "Molimo Vas da unesete ispravan naslov rada"
+msgstr "Unesite važeći naslov članka/rada."
 
 msgid "metadata.property.displayName.source"
-msgstr "Naslov časopisa/knjige"
+msgstr "Naslov publikacije"
 
 msgid "metadata.property.validationMessage.source"
-msgstr "Molimo Vas da unesete ispravan naslov časopisa/knjige."
+msgstr "Unesite važeći naslov publikacije."
 
 msgid "metadata.property.displayName.date"
-msgstr "Datum objavljivanja"
+msgstr "Datum publikacije"
 
 msgid "metadata.property.validationMessage.date"
-msgstr "Molimo Vas da unesete ispravan datum izdavanja (format: dd.mm.gggg.)."
+msgstr "Unesite važeći datum publikacije (format: GGGG-MM-DD)."
 
 msgid "metadata.property.displayName.access-date"
-msgstr "Datum pristupanja"
+msgstr "Datum pristupa"
 
 msgid "metadata.property.validationMessage.access-date"
-msgstr "Unesite ispravan datum pristupanja (format: dd.mm.gggg.)."
+msgstr "Unesite važeći datum pristupa (format: GGGG-MM-DD)."
 
 msgid "metadata.property.displayName.issue"
-msgstr "Izdanje (broj)"
+msgstr "Broj"
 
 msgid "metadata.property.validationMessage.issue"
-msgstr "Unesite ispravno izdanje (broj)."
+msgstr "Unesite važeći broj."
 
 msgid "metadata.property.displayName.volume"
-msgstr "Knjiga"
+msgstr "Tom"
 
 msgid "metadata.property.validationMessage.volume"
-msgstr "Unesite ispravan broj knjige."
+msgstr "Unesite važeći tom."
 
 msgid "metadata.property.displayName.season"
 msgstr "Sezona"
 
 msgid "metadata.property.validationMessage.season"
-msgstr "Unesite ispravan identifikator sezone."
+msgstr "Unesite važeći identifikator sezone."
 
 msgid "metadata.property.displayName.chapter-title"
 msgstr "Naslov poglavlja"
 
 msgid "metadata.property.validationMessage.chapter-title"
-msgstr "Unesite ispravan naslov poglavlja."
+msgstr "Unesite važeći naslov poglavlja."
 
 msgid "metadata.property.displayName.edition"
-msgstr "Edicija"
+msgstr "Izdanje"
 
 msgid "metadata.property.validationMessage.edition"
-msgstr "Unesite ispravnu ediciju."
+msgstr "Unesite važeće izdanje."
 
 msgid "metadata.property.displayName.series"
 msgstr "Serija"
 
 msgid "metadata.property.validationMessage.series"
-msgstr "Unesite ispravnu seriju."
+msgstr "Unesite važeću seriju."
 
 msgid "metadata.property.displayName.supplement"
 msgstr "Dodatak"
 
 msgid "metadata.property.validationMessage.supplement"
-msgstr "Unesite ispravan dodatak."
+msgstr "Unesite važeći dodatak."
 
 msgid "metadata.property.displayName.conf-date"
 msgstr "Datum konferencije"
 
 msgid "metadata.property.validationMessage.conf-date"
-msgstr "Unesite ispravan datum koncerencije (format: DD.MM.GGGG.)."
+msgstr "Unesite važeći datum konferencije (format: GGGG-MM-DD)."
 
 msgid "metadata.property.displayName.conf-loc"
-msgstr "Mesto održavanja konferencije"
+msgstr "Lokacija konferencije"
 
 msgid "metadata.property.validationMessage.conf-loc"
-msgstr "Unesite mesto održavanja konferencije."
+msgstr "Unesite važeću lokaciju konferencije."
 
 msgid "metadata.property.displayName.conf-name"
 msgstr "Naziv konferencije"
 
 msgid "metadata.property.validationMessage.conf-name"
-msgstr "Unesite ispravan naziv konferencije."
+msgstr "Unesite važeći naziv konferencije."
 
 msgid "metadata.property.displayName.conf-sponsor"
 msgstr "Sponzor konferencije"
 
 msgid "metadata.property.validationMessage.conf-sponsor"
-msgstr "Unesite sponzora konferencije."
+msgstr "Unesite važećeg sponzora konferencije."
 
 msgid "metadata.property.displayName.institution"
 msgstr "Institucija"
 
 msgid "metadata.property.validationMessage.institution"
-msgstr "Unesite naziv institucije."
+msgstr "Unesite važeću instituciju."
 
 msgid "metadata.property.displayName.fpage"
-msgstr "Prva strana"
+msgstr "Prva stranica"
 
 msgid "metadata.property.validationMessage.fpage"
-msgstr "Unesite ispravnu prvu stranu (mora biti numerička vrednost)."
+msgstr "Unesite važeću prvu stranicu (mora biti numerička vrijednost)."
 
 msgid "metadata.property.displayName.lpage"
-msgstr "Poslednja strana"
+msgstr "Poslednja stranica"
 
 msgid "metadata.property.validationMessage.lpage"
-msgstr "Unesite ispravnu poslednju stranu (mora biti numerička vrednost)."
+msgstr "Unesite važeću poslednju stranicu (mora biti numerička vrijednost)."
 
 msgid "metadata.property.displayName.size"
-msgstr "Broj strana"
+msgstr "Broj stranica"
 
 msgid "metadata.property.validationMessage.size"
-msgstr "Unesite broj strana (mora biti numerička vrednost)."
+msgstr "Unesite važeći ukupan broj stranica (mora biti numerička vrijednost)."
 
 msgid "metadata.property.displayName.publisher-loc"
-msgstr "Mesto izdavača"
+msgstr "Lokacija izdavača"
 
 msgid "metadata.property.validationMessage.publisher-loc"
-msgstr "Unesite mesto izdavača."
+msgstr "Unesite važeću lokaciju izdavača."
 
 msgid "metadata.property.displayName.publisher-name"
 msgstr "Naziv izdavača"
 
 msgid "metadata.property.validationMessage.publisher-name"
-msgstr "Unesite naziv izdavača."
+msgstr "Unesite važeći naziv izdavača."
 
 msgid "metadata.property.displayName.isbn"
 msgstr "ISBN"
 
 msgid "metadata.property.validationMessage.isbn"
-msgstr "Unesite ispravan ISBN."
+msgstr "Unesite važeći ISBN (9 ili 13 cifara)."
 
 msgid "metadata.property.displayName.issn"
-msgstr "Štampani ISSN"
+msgstr "Print ISSN"
 
 msgid "metadata.property.validationMessage.issn"
-msgstr "Unesite štampani ISSN."
+msgstr "Unesite važeći Print ISSN."
 
 msgid "metadata.property.displayName.eissn"
 msgstr "eISSN"
 
 msgid "metadata.property.validationMessage.eissn"
-msgstr "Unesite ispravan eISSN"
+msgstr "Unesite važeći eISSN."
 
 msgid "metadata.property.displayName.doi"
 msgstr "DOI"
 
 msgid "metadata.property.validationMessage.doi"
-msgstr "Unesite ispravan DOI."
+msgstr "Unesite važeći DOI."
 
 msgid "metadata.property.displayName.publisher-id"
 msgstr "Prilagođeni ID publikacije"
 
 msgid "metadata.property.validationMessage.publisher-id"
-msgstr "Unesite ispravan prilagođeni ID publikacije."
+msgstr "Unesite važeći prilagođeni ID publikacije."
 
 msgid "metadata.property.displayName.coden"
 msgstr "CODEN"
 
 msgid "metadata.property.validationMessage.coden"
-msgstr "Unesite ispravan CODEN."
+msgstr "Unesite važeći CODEN."
 
 msgid "metadata.property.displayName.sici"
 msgstr "SICI"
 
 msgid "metadata.property.validationMessage.sici"
-msgstr "Unesite ispravan SICI."
+msgstr "Unesite važeći SICI."
 
 msgid "metadata.property.displayName.pmid"
 msgstr "PMID"
 
 msgid "metadata.property.validationMessage.pmid"
-msgstr "Unesite ispravan PMID."
+msgstr "Unesite važeći PMID."
 
 msgid "metadata.property.displayName.uri"
-msgstr "Link ka publikaciji"
+msgstr "Link do publikacije"
 
 msgid "metadata.property.validationMessage.uri"
-msgstr "Unesite alternativni link ka publikaciji."
+msgstr "Unesite važeći alternativni link do publikacije."
 
 msgid "metadata.property.displayName.comment"
 msgstr "Komentar"
 
 msgid "metadata.property.validationMessage.comment"
-msgstr "Unesite ispravan komentar."
+msgstr "Unesite važeći komentar."
 
 msgid "metadata.property.displayName.annotation"
-msgstr "Beleške"
+msgstr "Anotacija"
 
 msgid "metadata.property.validationMessage.annotation"
-msgstr "Unesite ispravne beleške."
+msgstr "Unesite važeću anotaciju."
 
 msgid "metadata.property.displayName.publication-type"
-msgstr "Tip publikacije."
+msgstr "Tip publikacije"
 
 msgid "metadata.property.validationMessage.publication-type"
-msgstr ""
-"Uvek podesite tip publikacije. Trenutno su podržani tipovi: knjiga (za "
-"knjige i poglavlja) časopisi. U suprotnom formatiranje citata neće raditi "
-"ispravno."
+msgstr "Obavezno navedite tip publikacije. Trenutno podržane vrijednosti su book (za knjige ili poglavlja knjiga) i journal (za članke u časopisima). U suprotnom, formatiranje izlaza citiranja neće raditi ispravno."
 
 msgid "metadata.property.displayName.title-type"
 msgstr "Tip naslova"
 
 msgid "metadata.property.validationMessage.title-type"
-msgstr ""
-"Unesite ispravan tip naslova. Podržani tipovi su: 'skraćen', 'preveden', "
-"'alternativan' i 'uniforman'."
+msgstr "Obavezno navedite važeći tip naslova. Podržane vrijednosti su 'skraćeni', 'prevedeni', 'alternativni' i 'jednolični'."
 
 msgid "metadata.property.displayName.nonSort"
-msgstr "Deo naslova koji će se ignorisati kod sortiranja"
+msgstr "Dio naslova koji se ignoriše pri sortiranju"
 
 msgid "metadata.property.validationMessage.nonSort"
-msgstr ""
-"Unesite početne karaktere naslova koji bi trebali biti ignorisani prilikom "
-"sortiranja."
+msgstr "Unesite samo početne znakove naslova koji treba da se ignorišu pri sortiranju."
 
 msgid "metadata.property.displayName.title"
 msgstr "Naslov"
 
 msgid "metadata.property.validationMessage.title"
-msgstr "Unesite ispravan naslov."
+msgstr "Unesite važeći naslov."
 
 msgid "metadata.property.displayName.subTitle"
 msgstr "Podnaslov"
 
 msgid "metadata.property.validationMessage.subTitle"
-msgstr "Unesite ispravan podnaslov."
+msgstr "Unesite važeći podnaslov."
 
 msgid "metadata.property.displayName.partNumber"
-msgstr "Broj dela"
+msgstr "Broj dijela"
 
 msgid "metadata.property.validationMessage.partNumber"
-msgstr "Unesite ispravan broj dela."
+msgstr "Unesite važeći broj dijela."
 
 msgid "metadata.property.displayName.partName"
-msgstr "Ime dela"
+msgstr "Naziv dijela"
 
 msgid "metadata.property.validationMessage.partName"
-msgstr "Unesite ispravno ime dela."
+msgstr "Unesite važeći naziv dijela."
 
 msgid "metadata.property.displayName.name-type"
 msgstr "Tip imena"
 
 msgid "metadata.property.validationMessage.name-type"
-msgstr ""
-"Molimo proverite da li ste podesili ispravan tip imena. Podržane vrednosti "
-"su 'lično', 'korporativno' i 'konferencija'."
+msgstr "Obavezno navedite važeći tip imena. Podržane vrijednosti su 'lični', 'korporativni' i 'konferencijski'."
 
 msgid "metadata.property.displayName.abstract"
-msgstr ""
+msgstr "Apstrakt"
 
 msgid "common.queue.long.submissionsUnassigned"
-msgstr "Nedodeljeno"
+msgstr "Nedodjeljeni"
 
 msgid "common.queue.long.myAssigned"
-msgstr "Dodeljeno meni"
+msgstr "Moji dodjeljeni"
 
 msgid "common.queue.long.submissionsArchived"
-msgstr "Arhivirane predaje"
+msgstr "Arhivirani podnesi"
 
 msgid "submission.authors"
 msgstr "Autori"
 
 msgid "submission.authorBiography"
-msgstr ""
+msgstr "Biografija autora"
 
 msgid "submission.authorBiographies"
 msgstr "Biografije autora"
 
 msgid "submission.authorWithAffiliation"
-msgstr ""
+msgstr "{$name}, {$affiliation}"
 
 msgid "submission.shortAuthor"
-msgstr "{$author} i drugi."
+msgstr "{$author} i dr."
 
 msgid "submission.representationOfTitle"
-msgstr ""
+msgstr "{$representation} od {$title}"
 
 msgid "submission.mySubmissions"
-msgstr "Moje autorstvo"
+msgstr "Moji autorski radovi"
 
 msgid "submission.addFile"
-msgstr "Dodaj fajl"
+msgstr "Otpremi fajl"
 
 msgid "submission.additionalFiles"
-msgstr ""
+msgstr "Dodatni fajlovi"
 
 msgid "submission.agencies"
-msgstr "Ustanove"
+msgstr "Agencije"
 
 msgid "submission.abstractViews"
-msgstr "Pregleda apstrakta"
+msgstr "Pregledi apstrakta"
 
 msgid "submission.accepted"
 msgstr "Prihvaćeno"
 
 msgid "submission.acknowledge"
-msgstr "Potvrđeno"
+msgstr "Potvrdi"
 
 msgid "submission.ask"
-msgstr "Zahtevaj"
+msgstr "Pitaj"
 
 msgid "submission.attachedFile"
-msgstr "Pridodati fajlovi"
+msgstr "Priloženi fajl"
 
 msgid "submission.backToSubmissionEditing"
-msgstr "Povratak na uređivanje prijave"
+msgstr "Nazad na uređivanje podneska"
 
 msgid "submission.changeComments"
-msgstr "Promeni u"
+msgstr "Promjeni na"
 
 msgid "submission.changeFile"
-msgstr "Izmeni fajl"
+msgstr "Promjeni fajl"
 
 msgid "submission.citations"
 msgstr "Reference"
 
 msgid "submission.citations.description"
-msgstr ""
+msgstr "Unesite svaku referencu u novi red kako bi se mogle izdvojiti i zabilježiti posebno."
 
 msgid "submission.parsedCitations"
-msgstr ""
+msgstr "Izdvojene reference"
 
 msgid "submission.parsedCitations.DOI"
-msgstr ""
+msgstr "DOI"
 
 msgid "submission.parsedCitations.description"
-msgstr ""
+msgstr "Sljedeće reference su izdvojene i biće povezane sa metapodacima podneska."
 
 msgid "submission.parsedAndSaveCitations"
-msgstr ""
+msgstr "Izdvoji i sačuvaj reference"
 
 msgid "submission.comments.addComment"
 msgstr "Dodaj komentar"
@@ -471,16 +456,16 @@ msgid "submission.comments.comments"
 msgstr "Komentari"
 
 msgid "submission.comments.confirmDelete"
-msgstr "Da li ste sigurni da želite da obrišete komentar?"
+msgstr "Da li ste sigurni da želite izbrisati ovaj komentar?"
 
 msgid "submission.comments.corrections"
-msgstr "Ispravke"
+msgstr "Korekture"
 
 msgid "submission.comments.editComment"
-msgstr "Izmeni komentar"
+msgstr "Uredi komentar"
 
 msgid "submission.comments.importPeerReviews"
-msgstr "Uvezi stručne recenzije"
+msgstr "Uvezi recenzije"
 
 msgid "submission.comments.addReviews"
 msgstr "Dodaj recenzije u imejl"
@@ -498,10 +483,10 @@ msgid "submission.comments.review"
 msgstr "Recenzija"
 
 msgid "submission.comments.sendDecisionToReviewers"
-msgstr "Pošalji recenzentima urednikovu odluku"
+msgstr "Pošalji recenzentima uredničku odluku"
 
 msgid "submission.comments.subject"
-msgstr "Tema"
+msgstr "Naslov"
 
 msgid "submission.complete"
 msgstr "Završeno"
@@ -510,314 +495,310 @@ msgid "submission.contributors"
 msgstr "Lista saradnika"
 
 msgid "submission.copyedited"
-msgstr "Lektorisano"
+msgstr "Lektorirano"
 
 msgid "submission.copyediting"
-msgstr "Lektura"
+msgstr "Lektoriranje"
 
 msgid "submission.queryNoteFiles"
-msgstr "Fajl diskusije"
+msgstr "Fajlovi diskusije"
 
 msgid "submission.coverage"
-msgstr "Informacija o široj oblasti"
+msgstr "Informacije o pokrivenosti"
 
 msgid "submission.details"
-msgstr ""
+msgstr "Detalji podneska"
 
 msgid "submission.done"
 msgstr "Gotovo"
 
 msgid "submission.downloads"
-msgstr ""
+msgstr "Preuzimanja"
 
 msgid "submission.dueDate"
-msgstr "Do datuma"
+msgstr "Rok"
 
 msgid "submission.due"
-msgstr "Do"
+msgstr "Due"
 
 msgid "submission.editing"
 msgstr "Uređivanje"
 
 msgid "submission.editMetadata"
-msgstr "Izmeni metapodatke"
+msgstr "Uredi metapodatke"
 
 msgid "submission.editorial"
-msgstr "Lektura"
+msgstr "Lektoriranje"
 
 msgid "submission.email.backToEmailLog"
-msgstr "Povratak na log imejlova"
+msgstr "Nazad na dnevnik imejlova"
 
 msgid "submission.email.confirmClearLog"
-msgstr ""
-"Da li ste sigurni da želite obrisati log za poruke za ovaj prijavljeni "
-"članak?"
+msgstr "Da li ste sigurni da želite obrisati dnevnik imejlova za ovaj podnesak?"
 
 msgid "submission.email.confirmDeleteLogEntry"
-msgstr "Da li ste sigurni da želite obristai email log unos?"
+msgstr "Da li ste sigurni da želite izbrisati ovaj unos u dnevniku imejlova?"
 
 msgid "submission.email.deleteLogEntry"
-msgstr "Obriši unos u logu"
+msgstr "Izbriši unos u dnevniku"
 
 msgid "submission.emailLog"
-msgstr "Log imejlova"
+msgstr "Dnevnik imejlova"
 
 msgid "submission.event.participantAdded"
-msgstr "\"{$userFullName}\" ({$username}) je dodeljen predaji kao {$userGroupName}."
+msgstr "{$userFullName} ({$username}) je dodjeljen ovom podnesku kao {$userGroupName}."
 
 msgid "submission.event.participantRemoved"
-msgstr ""
+msgstr "\"{$userFullName}\" ({$username}) je uklonjen kao {$userGroupName}."
 
 msgid "submission.event.backToEventLog"
-msgstr "Povratak na log dešavanja"
+msgstr "Nazad na dnevnik događaja"
 
 msgid "submission.event.confirmClearLog"
-msgstr "Da li ste sigurni da želite obristai log unos za ovaj članak?"
+msgstr "Da li ste sigurni da želite obrisati dnevnik događaja za ovaj podnesak?"
 
 msgid "submission.event.confirmDeleteLogEntry"
-msgstr "Da li ste sigurni da želite obrisati ovaj unos u logu?"
+msgstr "Da li ste sigurni da želite izbrisati ovaj unos u dnevniku događaja?"
 
 msgid "submission.event.deleteLogEntry"
-msgstr "Obriši unos u logu."
+msgstr "Izbriši unos u dnevniku"
 
 msgid "submission.event.decisionReviewerEmailSent"
-msgstr ""
+msgstr "Imejl o odluci je poslan {$recipientCount} recenzentu/ima sa naslovom {$subject}."
 
 msgid "submission.event.submissionSubmitted"
-msgstr "Incijalna prijava članka kompletirana."
+msgstr "Početni podnesak završen."
 
 msgid "submission.event.copyrightAgreed"
-msgstr ""
+msgstr "{$filename} ({$username}) je prihvatio uslove autorskih prava za podnesak."
 
-#, fuzzy
 msgid "submission.event.fileRevised"
-msgstr "Revizija \"{$filename}\" (file ID {$fileId}-{$revision}) je dostavljena."
+msgstr "Revizija \"{$filename}\" je otpremljena za fajl {$submissionFileId}."
 
 msgid "submission.event.general.metadataUpdated"
-msgstr "Metapodaci predaje su ažurirani"
+msgstr "Metapodaci podneska ažurirani"
 
 msgid "submission.event.general.suppFileUpdated"
-msgstr "Dokument predaje je ažuriran"
+msgstr "Fajl podneska ažuriran"
 
 msgid "submission.event.reviewer.reviewAcceptedByProxy"
-msgstr "Dodela recenzije prihvaćena preko ovlašćene osobe"
+msgstr "Zadatak recenzije prihvaćen putem punomoćnika"
 
 msgid "submission.event.reviewer.reviewAccepted"
-msgstr "Dodela recenzije prihvaćena"
+msgstr "Zadatak recenzije prihvaćen"
 
 msgid "submission.event.reviewer.reviewDeclined"
-msgstr "Obustava dodele recenzije"
+msgstr "Zadatak recenzije odbijen"
 
 msgid "submission.event.reviewer.reviewDueDate"
-msgstr "Modifikovan rok za recenziju"
+msgstr "Rok za recenziju izmjenjen"
 
 msgid "submission.event.reviewer.reviewerAssigned"
-msgstr "Recenzent dodeljen članku"
+msgstr "Recenzent dodjeljen podnesku"
 
 msgid "submission.event.reviewer.reviewerRated"
-msgstr "Priloženo vrednovanje recenzenta"
+msgstr "Ocjena recenzenta podnijeta"
 
 msgid "submission.event.reviewer.reviewerUnassigned"
-msgstr "Recenzent odjavljen od prijavljenog članka"
+msgstr "Recenzent uklonjen sa podneska"
 
 msgid "submission.event.reviewer.reviewFile"
-msgstr "Ažurirana recenzija fajla"
+msgstr "Fajl recenzije ažuriran"
 
 msgid "submission.event.reviewer.reviewInitiated"
-msgstr "Dodela recenzije pokrenuta"
+msgstr "Zadatak recenzije pokrenut"
 
 msgid "submission.event.reviewer.reviewRecommendation"
-msgstr "Recenzija preporučenog fajla"
+msgstr "Fajl preporuke recenzije"
 
 msgid "submission.event.reviewer.reviewReinitiated"
-msgstr "Dodela recenzije ponovo pokrenuta"
+msgstr "Zadatak recenzije ponovo pokrenut"
 
 msgid "submission.event.reviewer.reviewResubmitted"
-msgstr "Recenzija ponovo poslata"
+msgstr "Recenzija ponovo podnijeta"
 
 msgid "submission.event.reviewer.reviewRevision"
-msgstr "Ažuriran fajl recenzirane verzije"
+msgstr "Fajl revizija recenzenta ažuriran"
 
 msgid "submission.event.reviewer.reviewerReminded"
-msgstr ""
+msgstr "{$senderName} je poslao podsetnik {$recipientName} u vezi njihovog zadatka recenzije"
 
 msgid "submission.event.reviewer.reviewerRemindedAuto"
-msgstr ""
+msgstr "Automatski imejl podsetnika je poslan {$recipientName} u vezi njihovog zadatka recenzije"
 
 msgid "submission.event.subjectPrefix"
-msgstr "Imejl je poslat:"
+msgstr "Imejl je poslan:"
 
 msgid "submission.event.viewEmail"
-msgstr "Vidi imejl"
+msgstr "Pogledaj imejl"
 
 msgid "submission.event.addedStageToAllowedAuthorMetadataChange"
-msgstr ""
+msgstr "Autorima je sada dozvoljeno da uređuju metapodatke kada je podnesak u fazi {stage}."
 
 msgid "submission.event.removedStageToAllowedAuthorMetadataChange"
-msgstr ""
+msgstr "Autorima sada nije dozvoljeno da uređuju metapodatke kada je podnesak u fazi {stage}."
 
 msgid "submission.files"
 msgstr "Fajlovi"
 
 msgid "submission.files.downloadAll"
-msgstr "Preuzmi sve dokumente"
+msgstr "Preuzmi sve fajlove"
 
 msgid "submission.file.notAllowedUploaderUserId"
-msgstr ""
+msgstr "Zapis o otpremaču fajla se čuva kada se fajl kreira i ne može se promjeniti."
 
 msgid "submission.firstPublished"
-msgstr ""
+msgstr "Prvi put objavljeno"
 
 msgid "submission.forTheEditors"
-msgstr ""
+msgstr "Za urednike"
 
 msgid "submission.galley"
-msgstr "Fajl prikaza"
+msgstr "Galija"
 
 msgid "submission.history.clearLog"
-msgstr "Očisti log"
+msgstr "Očisti dnevnik"
 
 msgid "submission.history"
 msgstr "Istorija"
 
 msgid "submission.history.noLogEntries"
-msgstr "Nema unosa u logu."
+msgstr "Nema unosa u dnevniku."
 
 msgid "submission.history.recentLogEntries"
-msgstr "Nedavni unosi"
+msgstr "Skorašnji unosi"
 
 msgid "submission.history.submissionEmailLog"
-msgstr "Log email poruka"
+msgstr "Dnevnik imejlova"
 
 msgid "submission.history.submissionEventLog"
-msgstr "Log događaja"
+msgstr "Dnevnik događaja"
 
 msgid "submission.history.submissionNotes"
-msgstr "Beleške o prijavljenom članku"
+msgstr "Bilješke podneska"
 
 msgid "submission.history.viewLog"
-msgstr "Vidi log"
+msgstr "Pogledaj dnevnik"
 
 msgid "submission.howToCite"
 msgstr "Kako citirati"
 
 msgid "submission.howToCite.citationFormats"
-msgstr "Formati citiranja"
+msgstr "Više formatiranja citiranja"
 
 msgid "submission.howToCite.downloadCitation"
-msgstr ""
+msgstr "Preuzmi citat"
 
 msgid "submission.initiated"
-msgstr "Započeto"
+msgstr "Pokrenuto"
 
 msgid "submission.updatedOn"
-msgstr ""
+msgstr "{$datePublished} — Ažurirano {$dateUpdated}"
 
 msgid "submission.versions"
-msgstr ""
+msgstr "Verzije"
 
 msgid "submission.versionIdentity"
-msgstr ""
+msgstr "{$datePublished} ({$version})"
 
 msgid "submission.outdatedVersion"
-msgstr ""
+msgstr "Ovo je zastarela verzija objavljena {$datePublished}. Pročitajte <a href=\"{$urlRecentVersion}\">najnoviju verziju</a>."
 
 msgid "submission.identifiers"
 msgstr "Identifikatori"
 
 msgid "submission.publisherId"
-msgstr "Javna URL odrednica"
+msgstr "ID izdavača"
 
 msgid "submission.publisherId.description"
-msgstr ""
+msgstr "ID izdavača se može koristiti za zabilježivanje ID-a iz eksterne baze podataka. Na primjer, stavke izvezene za deponovanje u PubMed mogu uključivati ID izdavača. Ovo se ne bi trebalo koristiti za DOI-e."
 
 msgid "submission.publisherId.enable"
-msgstr ""
+msgstr "Omogući za {$objects}"
 
 msgid "submission.informationCenter.submissionInfo"
-msgstr "Informacije o predaji"
+msgstr "Informacije o podnesku"
 
 msgid "submission.informationCenter.metadata"
 msgstr "Metapodaci"
 
 msgid "submission.informationCenter.notes"
-msgstr "Napomene"
+msgstr "Bilješke"
 
 msgid "submission.informationCenter.history"
 msgstr "Istorija"
 
 msgid "submission.informationCenter.history.allEvents"
-msgstr "Pokaži događaje iz prethodnih verzija"
+msgstr "Prikaži događaje iz prethodnih verzija"
 
 msgid "submission.stageParticipants.notify"
-msgstr "Obavesti"
+msgstr "Obavijesti"
 
 msgid "submission.lastModified"
-msgstr "Poslednji put izmenjeno"
+msgstr "Posljednja izmjena"
 
 msgid "submission.layout.addGalley"
-msgstr "Dodaj izgled probne kopije"
+msgstr "Dodaj galiju za izgled"
 
 msgid "submission.layout.confirmDeleteGalley"
-msgstr "Da li ste sigurni da želite da trajno uklonite ovu probnu kopiju?"
+msgstr "Da li ste sigurni da želite trajno izbrisati ovu galiju?"
 
 msgid "submission.layout.confirmDeleteGalleyImage"
-msgstr "Da li ste sigurni da želite da uklonite ovu sliku iz probne kopije?"
+msgstr "Da li ste sigurni da želite ukloniti ovu sliku iz galije?"
 
 msgid "submission.layout.deleteGalleyStylesheet"
-msgstr "Obriši ovu stranicu stila."
+msgstr "Izbriši ovaj stil."
 
 msgid "submission.layout.editGalley"
-msgstr "Uredi izgled probne kopije"
+msgstr "Uredi galiju za izgled"
 
 msgid "submission.layout.galleyFormat"
-msgstr "Format probne kopije"
+msgstr "Format galije"
 
 msgid "submission.layout.galleyHTMLData"
-msgstr "HTML fajlovi probne kopije"
+msgstr "HTML fajlovi galije"
 
 msgid "submission.layout.galleyImages"
 msgstr "Slike"
 
 msgid "submission.layout.galleyLabel"
-msgstr "Etiketa probne kopije"
+msgstr "Oznaka galije"
 
 msgid "submission.layout.galleyLabelInstructions"
-msgstr ""
-"Obično se koristi za identifikovanje formata fajla (npr. PDF, HTML, itd.)."
+msgstr "Obično se koristi za identifikaciju formata fajla (npr. PDF, HTML, itd.)."
 
 msgid "submission.layout.galleyLabelRequired"
-msgstr "Potrebna etiketa za probnu kopiju."
+msgstr "Oznaka galije je obavezna."
 
 msgid "submission.layout.galleyLanguageRequired"
-msgstr "Potreban jezik za lokalnu kopiju"
+msgstr "Jezik galije je obavezan."
 
 msgid "submission.layout.galleyLocaleRequired"
-msgstr "Potrebna lokalizacija za probnu kopiju"
+msgstr "Lokalitet galije je obavezan."
 
 msgid "submission.layout.galleyRemoteURL"
 msgstr "Udaljeni URL"
 
 msgid "submission.layout.galleyRemoteURLValid"
-msgstr "Molimo dodajte ispravan URL (uključujući http://)."
+msgstr "Molimo unesite važeći udaljeni URL (uključite http://)."
 
 msgid "submission.layout.galleyNoImages"
 msgstr "Nema slika"
 
 msgid "submission.layout.galleys"
-msgstr "Probne kopije"
+msgstr "Galije"
 
 msgid "submission.layout.galleyStylesheet"
-msgstr "Fajl stranice stila"
+msgstr "Fajl stilova"
 
 msgid "submission.layout.galleyStyle"
 msgstr "Stil"
 
 msgid "submission.layout.initialGalleyCreation"
-msgstr "Početno kreiranje probne kopije"
+msgstr "Početno kreiranje galije"
 
 msgid "submission.layout.layoutFile"
-msgstr "Fajl izgleda/preloma"
+msgstr "Fajl izgleda"
 
 msgid "submission.layout"
 msgstr "Izgled"
@@ -826,76 +807,76 @@ msgid "submission.layout.layoutVersion"
 msgstr "Verzija izgleda"
 
 msgid "submission.layout.newGalley"
-msgstr "Kreiraj novu probnu kopiju"
+msgstr "Kreiraj novu galiju"
 
 msgid "submission.layout.noStyleFile"
-msgstr "Nema stranice stila za ovu probnu kopiju."
+msgstr "Nijedan fajl stilova nije dodan ovoj galiji."
 
 msgid "submission.layout.viewingGalley"
-msgstr "Pregled probne kopije članka"
+msgstr "Pregled galije podneska"
 
 msgid "submission.layout.viewProof"
-msgstr "Vidi probnu kopiju"
+msgstr "Pogledaj probu"
 
 msgid "submission.metadata"
-msgstr "Metapodaci o članku"
+msgstr "Metapodaci podneska"
 
 msgid "submission.noReviewAssignments"
-msgstr "Nema dodeljenih recenzija"
+msgstr "Nema dodjeljenih recenzija"
 
 msgid "submission.notes.addNewNote"
-msgstr "Dodaj novu belešku"
+msgstr "Dodaj novu bilješku"
 
 msgid "submission.notes.attachedFile"
-msgstr "Fajl u prilogu"
+msgstr "Priloženi fajl"
 
 msgid "submission.notes.backToSubmissionNotes"
-msgstr "Povratak na beleške"
+msgstr "Nazad na bilješke podneska"
 
 msgid "submission.notes.breadcrumb"
-msgstr "Beleške"
+msgstr "Bilješke"
 
 msgid "submission.notes.clearAllNotes"
-msgstr "Obriši sve beleške"
+msgstr "Očisti sve bilješke"
 
 msgid "submission.notes.collapseNotes"
-msgstr "Sakupi beleške"
+msgstr "Skupi bilješke"
 
 msgid "submission.notes.confirmDeleteAll"
-msgstr "Ukloniti sve beleške za ovaj članak?"
+msgstr "Ukloni sve bilješke podneska?"
 
 msgid "submission.notes.confirmDelete"
-msgstr "Ukloniti belešku za ovaj članak?"
+msgstr "Ukloni ovu bilješku podneska?"
 
 msgid "submission.notes.createNewNote"
-msgstr "Napiši novu belešku"
+msgstr "Kreiraj novu bilješku"
 
 msgid "submission.notes.deleteNote"
-msgstr "Obriši belešku"
+msgstr "Izbriši bilješku"
 
 msgid "submission.notes.editNote"
-msgstr "Uredi belešku"
+msgstr "Uredi bilješku"
 
 msgid "submission.notes.expandNotes"
-msgstr "Proširi beleške"
+msgstr "Proširi bilješke"
 
 msgid "submission.notes.noSubmissionNotes"
-msgstr "Nema beleški o prijavi"
+msgstr "Nema bilježaka podneska"
 
 msgid "submission.notes.removeUploadedFile"
-msgstr "Ukloni postavljen fajl"
+msgstr "Ukloni otpremljeni fajl"
 
 msgid "submission.notes"
-msgstr "Beleške o prijavljenom članku"
+msgstr "Bilješke podneska"
 
 msgid "submission.notes.updateNote"
-msgstr "Ažuriraj belešku"
+msgstr "Ažuriraj bilješku"
 
 msgid "submission.notes.viewNotes"
-msgstr "Vidi beleške"
+msgstr "Pogledaj bilješke"
 
 msgid "submission.originalFile"
-msgstr "Izvorni fajl"
+msgstr "Originalni fajl"
 
 msgid "submission.page.editing"
 msgstr "#{$id} Uređivanje"
@@ -910,10 +891,10 @@ msgid "submission.page.summary"
 msgstr "#{$id} Sažetak"
 
 msgid "submission.page.citations"
-msgstr "#{$id} Citati"
+msgstr "#{$id} Reference"
 
 msgid "submission.peerReview"
-msgstr "Стручна&nbsp;Recenzija"
+msgstr "Recenzija"
 
 msgid "submission.production"
 msgstr "Produkcija"
@@ -925,7 +906,7 @@ msgid "submission.rejected"
 msgstr "Odbijeno"
 
 msgid "submission.request"
-msgstr "Zahtev"
+msgstr "Zahtjev"
 
 msgid "submission.response"
 msgstr "Odgovor"
@@ -934,52 +915,52 @@ msgid "submission.restrictions"
 msgstr "Ograničenja"
 
 msgid "submission.reviewMetadata"
-msgstr "Pregled metapodataka"
+msgstr "Metapodaci recenzije"
 
 msgid "submission.review"
 msgstr "Recenzija"
 
 msgid "submission.reviewAndSubmit"
-msgstr ""
+msgstr "Recenziraj i podnesi"
 
 msgid "submission.reviewed"
 msgstr "Recenzirano"
 
 msgid "submission.reviewVersion"
-msgstr "Recenzirana verzija"
+msgstr "Verzija za recenziju"
 
 msgid "submission.rights"
 msgstr "Prava"
 
 msgid "submissions.active"
-msgstr "Aktivno"
+msgstr "Aktivni"
 
 msgid "submissions.archived"
-msgstr "Arhivirano"
+msgstr "Arhivirani"
 
 msgid "submission.saveMetadata"
 msgstr "Sačuvaj metapodatke"
 
 msgid "submissions.completed"
-msgstr "Završeno"
+msgstr "Završeni"
 
 msgid "submissions.declined"
-msgstr "Odbijeno"
+msgstr "Odbijeni"
 
 msgid "submissions.incomplete"
-msgstr "Nekompletno"
+msgstr "Nezavršeni"
 
 msgid "submissions.noSubmissions"
-msgstr "Nema predaja"
+msgstr "Nema podnesaka"
 
 msgid "submissions.queuedEditing"
-msgstr "U uređivanju"
+msgstr "Na uređivanju"
 
 msgid "submissions.queued"
 msgstr "Na čekanju"
 
 msgid "submissions.queuedUnassigned"
-msgstr "Čeka dodelu"
+msgstr "Nijedan urednik nije dodjeljen ovom podnesku."
 
 msgid "submissions.ruling"
 msgstr "Odluka"
@@ -988,94 +969,91 @@ msgid "submission.source"
 msgstr "Izvor"
 
 msgid "submissions.submit"
-msgstr "Predaj"
+msgstr "Podnesi"
 
 msgid "submissions.submitted"
-msgstr "Predato"
+msgstr "Podnijeli"
 
 msgid "submission.submission"
-msgstr "Predaja"
+msgstr "Podnesak"
 
 msgid "submission.submissionTitle"
-msgstr "Naslov rada:"
+msgstr "Naslov podneska:"
 
 msgid "submission.start"
-msgstr "Započni"
+msgstr "Početak"
 
 msgid "submission.submissionHistory"
-msgstr "Istorija predaja"
+msgstr "Istorija podneska"
 
 msgid "submission.submissionManuscript"
-msgstr "Rukopis predaje"
+msgstr "Rukopis podneska"
 
 msgid "submission.submissionReview"
-msgstr "Recenzije predaje"
+msgstr "Recenzija podneska"
 
 msgid "submission.submitter"
 msgstr "Podnosilac"
 
 msgid "submission.submit.selectFile"
-msgstr "Odaberi dokument"
+msgstr "Izaberi fajl"
 
 msgid "submission.submit.fileInformation"
-msgstr "Informacije o dokumentu"
+msgstr "Informacije o fajlu"
 
 msgid "submission.submit.fileAdded"
-msgstr "Dokument je dodat"
+msgstr "Fajl dodan"
 
 msgid "submission.submit.includeInBrowse"
-msgstr "Dodati ovog koautora u listu za pretragu?"
+msgstr "Uključi ovog saradnika prilikom identifikacije autora u listama publikacija."
 
 msgid "submission.submit.includeInBrowse.title"
-msgstr ""
+msgstr "Liste publikacija"
 
 msgid "submission.submit.newFile"
-msgstr "Dodaj sledeći dokument"
+msgstr "Dodaj još jedan fajl"
 
 msgid "submission.submit.metadataForm"
-msgstr "Dodatna prečišćavanja"
+msgstr "Dodatna poboljšanja"
 
 msgid "submission.submit.submissionLocale"
-msgstr "Jezik predaje"
+msgstr "Jezik podneska"
 
-#, fuzzy
 msgid "submission.submit.submissionLocaleDescription"
-msgstr ""
-"Ovaj časopis prihvata predaje radova na više jezika. Odaberite primarni "
-"jezik predaj iz menija."
+msgstr "Izaberite primarni jezik podneska."
 
 msgid "submission.submit.submissionFiles"
-msgstr "Dokumenti predaje"
+msgstr "Fajlovi podneska"
 
 msgid "submission.submit.dependentFiles"
-msgstr "Zavisni dokumenti"
+msgstr "Zavisni fajlovi"
 
 msgid "submission.manageDependentFiles"
-msgstr "Upravljaj zavisnim dokumentima"
+msgstr "Upravljaj zavisnim fajlovima"
 
 msgid "submission.upload.instructions"
-msgstr ""
+msgstr "Otpremite sve fajlove koji su potrebni uredničkom timu za evaluaciju vašeg podneska."
 
 msgid "submission.upload.percentComplete"
-msgstr ""
+msgstr "Otpremanje {$percent}% završeno"
 
 msgid "submission.upload.dependent"
-msgstr "Dostavi zavisni dokument"
+msgstr "Otpremi zavisni fajl"
 
 msgid "submission.upload.query"
-msgstr "Dostavi dokument diskusije"
+msgstr "Otpremi fajl diskusije"
 
 msgid "submission.summary"
-msgstr "Rezime"
+msgstr "Sažetak"
 
 msgid "submission.supportingAgencies"
-msgstr "Ustanove podrške"
+msgstr "Agencije podrške"
 
 msgid "submission.currentAgencies"
 msgstr "Trenutne agencije"
 
 msgid "submission.indexingInformation"
-msgstr "Informacije za indeksiranje"
+msgstr "Informacije o indeksiranju"
 
 msgid "submission.titleAndAbstract"
 msgstr "Naslov i apstrakt"
@@ -1084,37 +1062,37 @@ msgid "submission.underway"
 msgstr "U toku"
 
 msgid "submission.uploadFileTo"
-msgstr "Dostavi dokument u"
+msgstr "Otpremi fajl u"
 
 msgid "submission.createRemote"
-msgstr "Napravi udaljeno"
+msgstr "Kreiraj udaljeni"
 
 msgid "submission.viewMetadata"
-msgstr "Prikaži metapodatke"
+msgstr "Pogledaj metapodatke"
 
 msgid "submission.views"
-msgstr "Prikazi"
+msgstr "Pregledi"
 
 msgid "submission.uploadSuccessful"
-msgstr "Dokument je dostavljen."
+msgstr "Vaš fajl je otpremljen."
 
 msgid "submission.loadMessage"
-msgstr "Sačekajte dok se dokument dostavlja na server."
+msgstr "Molimo sačekajte dok se vaš fajl otprema na server."
 
 msgid "submission.artworkFileDetails"
-msgstr "Detalji dokumenta ilustracije"
+msgstr "Detalji umetničkog fajla"
 
 msgid "submission.fileDetails"
-msgstr "Detalji dokumenta"
+msgstr "Detalji fajla"
 
 msgid "submission.nameRequired"
-msgstr "Unesite naziv"
+msgstr "Naziv je obavezan za ovu stavku."
 
 msgid "submission.date.mmdd"
-msgstr "DD.MM"
+msgstr "MM-DD"
 
 msgid "submission.date.yyyymmdd"
-msgstr "DD.MM.GGGG."
+msgstr "GGGG-MM-DD"
 
 msgid "submission.submit.contributorRole"
 msgstr "Uloga saradnika"
@@ -1123,40 +1101,40 @@ msgid "submission.submit.addAuthor"
 msgstr "Dodaj saradnika"
 
 msgid "submission.submit.form.languagesRequired"
-msgstr ""
+msgstr "Molimo unesite jezik."
 
 msgid "submission.submit.form.subjectsRequired"
-msgstr ""
+msgstr "Molimo unesite temu."
 
 msgid "submission.submit.form.disciplinesRequired"
-msgstr ""
+msgstr "Molimo unesite disciplinu."
 
 msgid "submission.submit.form.keywordsRequired"
-msgstr ""
+msgstr "Molimo unesite ključnu riječ."
 
 msgid "submission.submit.form.coverageRequired"
-msgstr ""
+msgstr "Molimo unesite informacije o pokrivenosti."
 
 msgid "submission.submit.form.typeRequired"
-msgstr ""
+msgstr "Molimo unesite tip."
 
 msgid "submission.submit.form.sourceRequired"
-msgstr ""
+msgstr "Molimo unesite izvor."
 
 msgid "submission.submit.form.rightsRequired"
-msgstr ""
+msgstr "Molimo unesite prava."
 
 msgid "submission.submit.form.citationsRequired"
-msgstr ""
+msgstr "Molimo unesite reference."
 
 msgid "submission.submit.form.dataAvailabilityRequired"
-msgstr ""
+msgstr "Molimo unesite izjavu o dostupnosti podataka."
 
 msgid "submission.form.name"
-msgstr "Unesite ime dokumenta (npr. Rukopis; Tabela 1)"
+msgstr "Imenujte fajl (npr. Rukopis; Tabela 1)"
 
 msgid "submission.form.replaceExisting"
-msgstr "Zameniti postojeći fajl?"
+msgstr "Zamjena postojećeg fajla?"
 
 msgid "workflow.review.internalReview"
 msgstr "Interna recenzija"
@@ -1168,7 +1146,7 @@ msgid "workflow.stage"
 msgstr "Faza"
 
 msgid "submission.status.editorial"
-msgstr "Na lekturi"
+msgstr "Na lektoriranju"
 
 msgid "submission.status.production"
 msgstr "Na korekturi"
@@ -1177,10 +1155,10 @@ msgid "submission.status.review"
 msgstr "Na recenziji"
 
 msgid "submission.status.submission"
-msgstr "Čeka odluku urednika"
+msgstr "Čeka se odluka urednika"
 
 msgid "submission.status.unassigned"
-msgstr "Nedodeljeno"
+msgstr "Nije dodjeljeno"
 
 msgid "submission.status.declined"
 msgstr "Odbijeno"
@@ -1189,10 +1167,10 @@ msgid "submission.status.published"
 msgstr "Objavljeno"
 
 msgid "submission.submit.uploadStep"
-msgstr "1. Dostavljanje dokumenta"
+msgstr "1. Otpremi fajl"
 
 msgid "submission.submit.uploadSubmissionFile"
-msgstr "Dostavljanje dokumenta predaje"
+msgstr "Otpremi fajl podneska"
 
 msgid "submission.submit.metadataStep"
 msgstr "2. Pregled detalja"
@@ -1201,712 +1179,676 @@ msgid "submission.submit.finishingUpStep"
 msgstr "3. Potvrda"
 
 msgid "submission.submit.fileNameRequired"
-msgstr "Morate uneti naziv dokumenta"
+msgstr "Morate uneti naziv fajla za ovaj fajl"
 
 msgid "submission.upload.noGenre"
-msgstr "Nepostojeća ili neispravna komponenta!"
+msgstr "Nedostajuća ili nevažeća komponenta!"
 
 msgid "submission.upload.invalidUserGroup"
-msgstr "Nepostojeća ili neispravna korisnička grupa!"
+msgstr "Nedostajuća ili nevažeća korisnička grupa!"
 
 msgid "submission.upload.possibleRevision"
-msgstr "Otkriveno je moguća dupla revizija"
+msgstr "Detektovana moguća duplikacija ili revizija"
 
 msgid "submission.upload.possibleRevisionDescription"
-msgstr ""
-"Ime postavljenog fajlа podseća na ime prethodno postavljenog fajla "
-"\"{$revisedFileName}.\". Da li je to fajl koji treba da zameni "
-"\"{$revisedFileName}\"? Ako jeste odaberite fajl ispod. AKo nije odaberite "
-"\"Ovo nije revizija postojećeg fajla\" pre nego što nastavite."
+msgstr "Naziv otpremljenog fajla podseća na naziv prethodno otpremljenog fajla, \"{$revisedFileName}\". Da li je ovaj fajl namjenjen da zamijeni \"{$revisedFileName}\"? Ako jeste, izaberite fajl ispod. U suprotnom, izaberite \"Ovo nije revizija postojećeg fajla\" prije nego što nastavite."
 
 msgid "submission.upload.selectMandatoryFileToRevise"
-msgstr "Odaberite dokument koji želite da revidirate."
+msgstr "Molimo izaberite fajl koji želite revidirati."
 
 msgid "submission.upload.selectOptionalFileToRevise"
-msgstr ""
-"Ukoliko dostavljate reviziju postojećeg dokumenta, obavezno naznačite kojeg."
+msgstr "Ako otpremate reviziju postojećeg fajla, molimo naznačite koji fajl."
 
 msgid "submission.upload.uploadNewFile"
-msgstr "Ovo nije revizija postojećeg dokumenta"
+msgstr "Ovo nije revizija postojećeg fajla"
 
 msgid "submission.upload.userGroup"
-msgstr "Dostavi dokument u mojoj ulozi kao..."
+msgstr "Otpremi ovaj fajl u mojoj ulozi kao..."
 
 msgid "submission.upload.userGroupDescription"
-msgstr ""
-"Ako prijavljujete Uređeni volumen/svesku morate postaviti na server svako "
-"poglavlje posebno u vašoj ulozi urednika volumena/sveske."
+msgstr "Ako podnosite uređeni tom, trebate da otpremite sva poglavlja toma pojedinačno, u vašoj ulozi urednika toma."
 
 msgid "submission.upload.uploadLibraryFile"
-msgstr "Dostavi dokument biblioteke"
+msgstr "Otpremi fajl biblioteke"
 
 msgid "submission.upload.libraryCategory"
-msgstr "Kategorija dokumenata predaje"
+msgstr "Kategorija dokumenta podneska"
 
 msgid "submission.upload.finalDraft"
-msgstr "Dostavi dokument"
+msgstr "Otpremi fajl"
 
 msgid "submission.upload.copyeditedVersion"
-msgstr "Dostavi lektorisani dokument"
+msgstr "Otpremi lektorirani fajl"
 
 msgid "submission.upload.uploadFiles"
-msgstr "Dostavi dokumente"
+msgstr "Otpremi fajlove"
 
 msgid "submission.upload.response.description"
-msgstr ""
-"Nakon recenzije dodeljenog fajla, zabeležite  niže komentare na fajl i/ili "
-"postavite kopiju sa beleškama fajla (ili drugi fajl)."
+msgstr "Nakon pregleda dodjeljenog fajla, zabilježite bilo kakve komentare na fajlu ispod, i/ili otpremite anotiranu kopiju fajla (ili drugi fajl)."
 
 msgid "submission.upload.productionReady"
-msgstr "Dostavite dokument spreman za produkciju"
+msgstr "Otpremi fajl spreman za produkciju"
 
 msgid "submission.upload.proof"
-msgstr "Dostavite dоkument spreman za objavljivanje"
+msgstr "Otpremi fajl spreman za objavljivanje"
 
 msgid "submission.upload.noAvailableReviewFiles"
-msgstr "Nemate dokumenata za revidiranje."
+msgstr "Trenutno nema fajlova za vas da revidirate."
 
 msgid "editor.submission.roundStatus.revisionsRequested"
-msgstr "Zahteva se revizija."
+msgstr "Zatražene su revizije."
 
 msgid "editor.submission.roundStatus.revisionsSubmitted"
-msgstr ""
+msgstr "Revizije su podnijete i potrebna je odluka."
 
 msgid "editor.submission.roundStatus.resubmitForReview"
-msgstr ""
+msgstr "Podnesak mora biti ponovo podnijet na još jednu rundu recenzija."
 
 msgid "editor.submission.roundStatus.submissionResubmitted"
-msgstr ""
+msgstr "Podnesak je ponovo podnijet na još jednu rundu recenzija."
 
 msgid "editor.submission.roundStatus.sentToExternal"
-msgstr "Poslato na spoljašnju recenziju."
+msgstr "Poslato na eksternu recenziju."
 
 msgid "editor.submission.roundStatus.accepted"
-msgstr "Predaja je prihvaćena"
+msgstr "Podnesak prihvaćen."
 
 msgid "editor.submission.roundStatus.declined"
-msgstr "Predaja je odbijena."
+msgstr "Podnesak odbijen."
 
 msgid "editor.submission.roundStatus.pendingReviewers"
-msgstr "Čeka se odabir recenzenata"
+msgstr "Čeka se dodjela recenzenata."
 
 msgid "editor.submission.roundStatus.pendingReviews"
-msgstr "Čeka se odgovor od recenzenata."
+msgstr "Čekaju se odgovori recenzenata."
 
 msgid "editor.submission.roundStatus.reviewsReady"
-msgstr "Dostavljene su nove recenzije."
+msgstr "Nove recenzije su podnijete."
 
 msgid "editor.submission.roundStatus.reviewsCompleted"
-msgstr "Recenzije su završene."
+msgstr "Svi recenzenti su odgovorili i potrebna je odluka."
 
 msgid "editor.submission.roundStatus.reviewOverdue"
-msgstr ""
+msgstr "Recenzija je zakasnila."
 
 msgid "editor.submission.roundStatus.pendingRecommendations"
-msgstr ""
+msgstr "Čekaju se preporuke urednika."
 
 msgid "editor.submission.roundStatus.recommendationsReady"
-msgstr ""
+msgstr "Nove uredničke preporuke su podnijete."
 
 msgid "editor.submission.roundStatus.recommendationsCompleted"
-msgstr ""
+msgstr "Sve preporuke su unesene i potrebna je odluka."
+
+msgid "editor.submission.roundStatus.returnedToReview"
+msgstr "Vraćeno na recenziju."
 
 msgid "editor.submission.status.inactiveDaysInStage"
-msgstr ""
+msgstr "Neaktivno više od {$days} dana u fazi {$stage}."
 
 msgid "editor.submission.status.waitingInitialReview"
-msgstr ""
+msgstr "Novi podnesak čeka da bude poslan na recenziju ili odbijen."
 
 msgid "editor.submission.stageParticipants"
 msgstr "Učesnici"
 
 msgid "editor.submission.noneAssigned"
-msgstr "Nema dodeljenih"
+msgstr "Nijedan nije dodjeljen"
 
 msgid "editor.submission.participant"
 msgstr "Učesnik"
 
 msgid "editor.submission.addStageParticipant"
-msgstr "Dodaj učesnika"
+msgstr "Dodjeli učesnika"
 
 msgid "editor.submission.editStageParticipant"
-msgstr ""
+msgstr "Uredi dodjelu"
 
 msgid "editor.submission.addStageParticipant.userGroup"
-msgstr ""
-"Korisnici su dodeljeni fazama procesa rada u korisničkoj grupi. Korisnik "
-"dodeljen ovoj fazi če automatski biti dodeljen drugim fazama kojima je "
-"dodeljena njegova korisnička grupa. Ovo je obično rezervisano za urednike, "
-"autore i prevodioce."
+msgstr "Korisnici se dodjeljuju fazama radnog toka po korisničkim grupama. Svaki korisnik dodjeljen ovoj fazi će automatski biti dodjeljen drugim fazama na koje je njihova korisnička grupa dodjeljena. Ovo je obično rezervisano za urednike, autore i prevodioce."
 
 msgid "editor.submission.removeStageParticipant"
 msgstr "Ukloni učesnika"
 
 msgid "editor.submission.removeStageParticipant.description"
-msgstr ""
-"Vi ćete ukloniti ovog učesnika iz <strong>свих</strong> faza. Ako korisnik "
-"ima otvorene revizorske zadatke oni će biti takođe uklonjeni."
+msgstr "Uklonićete ovog učesnika iz <strong>svih</strong> faza."
 
 msgid "editor.submission.addStageParticipant.form.userGroupRequired"
-msgstr "Morate odabrati korisničku grupu."
+msgstr "Morate izabrati korisničku grupu."
 
 msgid "editor.submission.addStageParticipant.form.userRequired"
-msgstr "Morate odabrati korisnika za odabranu korisničku grupu."
+msgstr "Morate izabrati korisnika za naznačenu korisničku grupu."
 
 msgid "editor.submission.addStageParticipant.form.reviewerWarning"
-msgstr ""
+msgstr "Učesnik kog ste izabrali je dodjeljen da obavi anonimnu recenziju. Ako ga dodjelite kao učesnika, imaće pristup identitetu autora. Preporučuje se da ne dodjeljujete ovog učesnika osim ako možete samostalno osigurati integritet procesa recenzija."
 
 msgid "editor.submission.removePermissionToEdit"
-msgstr ""
+msgstr "Onemogući uređivanje metapodataka"
 
 msgid "editor.submission.addPermissionToEdit"
-msgstr ""
+msgstr "Omogući uređivanje metapodataka"
 
 msgid "editor.submission.removePermissionToEditDescription"
-msgstr ""
+msgstr "Da li ste sigurni da želite da autori ovog podneska ne mogu da uređuju metapodatke podneska u toj fazi?"
 
 msgid "editor.submission.addPermissionToEditDescription"
-msgstr ""
+msgstr "Da li ste sigurni da želite da autori ovog podneska mogu da uređuju metapodatke podneska u toj fazi?"
 
 msgid "editor.submission.decision"
 msgstr "Odluka"
 
 msgid "editor.submission.decision.notifyAuthors"
-msgstr ""
+msgstr "Obavijesti autore"
 
 msgid "editor.submission.decision.notifyReviewers"
-msgstr ""
+msgstr "Obavijesti recenzente"
 
 msgid "editor.submission.decision.notifyReviewers.description"
-msgstr ""
+msgstr "Pošaljite e-poštu recenzentima da ih zahvalite na recenziji i obavijestite ih da je donesena odluka. Svaki recenzent će dobiti posebnu e-poruku kako bi se sačuvala njihova anonimnost. Fraza {$recipientName} može se koristiti u poruci da bi se bezbjedno uključilo ime svakog recenzenta."
 
-msgid ""
-"editor.submission.decision.reviewerUnassigned.notifyReviewers.description"
-msgstr ""
+msgid "editor.submission.decision.reviewerUnassigned.notifyReviewers.description"
+msgstr "Pošaljite e-poštu dodjeljenim recenzentima da ih obavijestite da je njihov zadatak recenziranja otkazan."
 
 msgid "editor.submission.decision.accept"
-msgstr ""
+msgstr "Prihvati podnošenje"
 
 msgid "editor.submission.decision.accept.description"
-msgstr ""
+msgstr "Ovo podnošenje će biti prihvaćeno za objavljivanje i poslato na uredničku obradu."
 
 msgid "editor.submission.decision.accept.log"
-msgstr ""
+msgstr "{$editorName} je prihvatio/la ovo podnošenje i poslao/la ga u fazu uredničke obrade."
 
 msgid "editor.submission.decision.accept.completed"
-msgstr ""
+msgstr "Podnošenje prihvaćeno"
 
 msgid "editor.submission.decision.accept.completedDescription"
-msgstr ""
+msgstr "Podnošenje, {$title}, je prihvaćeno za objavljivanje i poslato u fazu uredničke obrade. Sva obaviještenja su poslata, osim onih koja ste odlučili da preskočite."
 
 msgid "editor.submission.decision.accept.notifyAuthorsDescription"
-msgstr ""
+msgstr "Pošaljite e-poštu autorima da ih obavijestite da je njihov rad prihvaćen za objavljivanje. Ova poruka neće biti poslata dok se odluka ne zabilježi."
 
 msgid "editor.submission.decision.cancelReviewRound.notifyAuthorsDescription"
-msgstr ""
+msgstr "Pošaljite e-poštu autorima da ih obavijestite da je krug recenziranja zatvoren. Ova poruka neće biti poslata dok se odluka ne zabilježi."
 
 msgid "editor.submission.decision.decline"
-msgstr "Odbij predati članak"
+msgstr "Odbij podnošenje"
 
 msgid "editor.submission.decision.decline.description"
-msgstr ""
+msgstr "Ovo podnošenje će biti odbijeno za objavljivanje. Faza recenziranja će biti zatvorena, a podnošenje će biti arhivirano."
 
 msgid "editor.submission.decision.decline.log"
-msgstr ""
+msgstr "{$editorName} je odbio/la ovo podnošenje."
 
 msgid "editor.submission.decision.decline.completed"
-msgstr ""
+msgstr "Podnošenje odbijeno"
 
 msgid "editor.submission.decision.decline.completed.description"
-msgstr ""
+msgstr "Podnošenje, {$title}, je odbijeno i poslato u arhivu. Sva obaviještenja su poslata, osim onih koja ste odlučili da preskočite."
 
 msgid "editor.submission.decision.decline.notifyAuthorsDescription"
-msgstr ""
+msgstr "Pošaljite e-poštu autorima da ih obavijestite da je njihov rad odbijen. Ova poruka neće biti poslata dok se odluka ne zabilježi."
 
 msgid "editor.submission.decision.initialDecline.description"
-msgstr ""
+msgstr "Ovo podnošenje će biti odbijeno za objavljivanje. Neće biti daljih recenzija, a podnošenje će biti arhivirano."
 
 msgid "editor.submission.decision.newReviewRound"
-msgstr ""
+msgstr "Novi krug recenziranja"
 
 msgid "editor.submission.decision.newReviewRound.description"
-msgstr ""
+msgstr "Otvorite novi krug recenziranja za ovo podnošenje."
 
 msgid "editor.submission.decision.newReviewRound.log"
-msgstr ""
+msgstr "{$editorName} je otvorio/la novi krug recenziranja za ovo podnošenje."
 
 msgid "editor.submission.decision.newReviewRound.completed"
-msgstr ""
+msgstr "Krug recenziranja kreiran"
 
 msgid "editor.submission.decision.newReviewRound.completedDescription"
-msgstr ""
+msgstr "Novi krug recenziranja je kreiran za podnošenje, {$title}. Autor je obaviješten, osim ako niste odlučili da preskočite tu poruku."
 
 msgid "editor.submission.decision.newReviewRound.notifyAuthorsDescription"
-msgstr ""
+msgstr "Pošaljite e-poštu autorima da ih obavijestite da je njihov rad poslat na novi krug recenziranja. Ova poruka neće biti poslata dok se odluka ne zabilježi."
 
 msgid "editor.submission.decision.promoteFiles.copyediting"
-msgstr ""
+msgstr "Izaberite datoteke koje treba poslati u fazu uredničke obrade."
 
 msgid "editor.submission.decision.promoteFiles.review"
-msgstr ""
+msgstr "Izaberite datoteke koje treba poslati na recenziju."
 
 msgid "editor.submission.decision.promoteFiles.production"
-msgstr ""
+msgstr "Izaberite datoteke koje treba poslati u fazu proizvodnje."
 
 msgid "editor.submission.decision.requestRevisions"
-msgstr "Zahtevaj reviziju"
+msgstr "Zatraži revizije"
 
 msgid "editor.submission.decision.requestRevisions.description"
-msgstr ""
+msgstr "Autor mora pružiti revizije prije nego što će podnošenje biti prihvaćeno za objavljivanje."
 
 msgid "editor.submission.decision.requestRevisions.log"
-msgstr ""
+msgstr "{$editorName} je zatražio/la revizije za ovo podnošenje."
 
 msgid "editor.submission.decision.requestRevisions.completed"
-msgstr ""
+msgstr "Revizije zatražene"
 
 msgid "editor.submission.decision.requestRevisions.completed.description"
-msgstr ""
+msgstr "Zatražene su revizije za podnošenje, {$title}. Sva obaviještenja su poslata, osim onih koja ste odlučili da preskočite."
 
 msgid "editor.submission.decision.requestRevisions.notifyAuthorsDescription"
-msgstr ""
+msgstr "Pošaljite e-poštu autorima da ih obavijestite da su revizije potrebne prije nego što će podnošenje biti prihvaćeno za objavljivanje. Uključite sve detalje koji su autoru potrebni da bi revidirao svoj rad. Gdje je prikladno, ne zaboravite da anonimizujete komentare recenzenata. Ova poruka neće biti poslata dok se odluka ne zabilježi."
 
 msgid "editor.submission.decision.cancelReviewRound"
-msgstr ""
+msgstr "Otkaži krug recenziranja"
 
 msgid "editor.submission.decision.cancelReviewRound.description"
-msgstr ""
+msgstr "Otkažite trenutni krug recenziranja i vratite podnošenje na prethodni krug recenziranja. Ako je ovo prvi krug recenziranja, podnošenje će biti vraćeno u fazu podnošenja."
 
 msgid "editor.submission.decision.cancelReviewRound.log"
-msgstr ""
+msgstr "{$editorName} je otkazao/la krug recenziranja."
 
 msgid "editor.submission.decision.cancelReviewRound.completed"
-msgstr ""
+msgstr "Posljednji krug recenziranja je otkazan."
 
 msgid "editor.submission.decision.cancelReviewRound.completed.description"
-msgstr ""
+msgstr "Krug recenziranja za podnošenje, {$title}, je otkazan. Sva obaviještenja su poslata, osim onih koja ste odlučili da preskočite."
 
 msgid "editor.submission.decision.cancelReviewRound.restriction"
-msgstr ""
+msgstr "Krug recenziranja se može otkazati samo ako nijedan dodjeljeni recenzent nema završenu ili podnijetu recenziju."
 
 msgid "editor.submission.decision.resubmit"
-msgstr "Ponovo pošalji na recenziju"
+msgstr "Ponovo podnesi na recenziju"
 
 msgid "editor.submission.decision.resubmit.description"
-msgstr ""
+msgstr "Autor mora pružiti revizije koje će biti poslate na novi krug recenziranja prije nego što će podnošenje biti prihvaćeno za objavljivanje."
 
 msgid "editor.submission.decision.resubmit.log"
-msgstr ""
+msgstr "{$editorName} je zatražio/la revizije za ovo podnošenje koje treba poslati na novi krug recenziranja."
 
 msgid "editor.submission.decision.resubmit.completed"
-msgstr ""
+msgstr "Revizije zatražene"
 
 msgid "editor.submission.decision.resubmit.completed.description"
-msgstr ""
+msgstr "Zatražene su revizije za podnošenje, {$title}. Zabilježena je odluka da se revizije pošalju na novi krug recenziranja. Sva obaviještenja su poslata, osim onih koja ste odlučili da preskočite."
 
 msgid "editor.submission.decision.resubmit.notifyAuthorsDescription"
-msgstr ""
+msgstr "Pošaljite e-poštu autorima da ih obavijestite da revizije moraju biti završene i poslate na novi krug recenziranja. Uključite sve detalje koji su autoru potrebni da bi revidirao svoj rad. Gdje je prikladno, ne zaboravite da anonimizujete komentare recenzenata."
 
 msgid "editor.submission.decision.sendExternalReview"
-msgstr ""
+msgstr "Pošalji na recenziju"
 
 msgid "editor.submission.decision.sendExternalReview.description"
-msgstr ""
+msgstr "Ovo podnošenje je spremno za slanje na recenziju."
 
 msgid "editor.submission.decision.sendExternalReview.log"
-msgstr ""
+msgstr "{$editorName} je poslao/la ovo podnošenje u fazu recenziranja."
 
 msgid "editor.submission.decision.sendExternalReview.completed"
-msgstr ""
+msgstr "Poslato na recenziju"
 
 msgid "editor.submission.decision.sendExternalReview.completed.description"
-msgstr ""
+msgstr "Podnošenje, {$title}, je poslato u fazu recenziranja. Autor je obaviješten, osim ako niste odlučili da preskočite tu poruku."
 
 msgid "editor.submission.decision.newRound"
-msgstr ""
+msgstr "Novi krug recenziranja"
 
 msgid "editor.submission.decision.sendToProduction"
-msgstr "Pošalji u produkciju"
+msgstr "Pošalji u proizvodnju"
 
 msgid "editor.submission.decision.sendToProduction.description"
-msgstr ""
+msgstr "Pošaljite ovo podnošenje u fazu proizvodnje da bi se pripremilo za objavljivanje."
 
 msgid "editor.submission.decision.sendToProduction.log"
-msgstr ""
+msgstr "{$editorName} je poslao/la ovo podnošenje u fazu proizvodnje."
 
 msgid "editor.submission.decision.sendToProduction.completed"
-msgstr ""
+msgstr "Poslato u proizvodnju"
 
 msgid "editor.submission.decision.sendToProduction.completed.description"
-msgstr ""
+msgstr "Podnošenje, {$title}, je poslato u fazu proizvodnje. Autor je obaviješten, osim ako niste odlučili da preskočite tu poruku."
 
 msgid "editor.submission.decision.sendToProduction.notifyAuthorsDescription"
-msgstr ""
+msgstr "Pošaljite e-poštu autorima da ih obavijestite da je ovo podnošenje poslato u fazu proizvodnje. Ova poruka neće biti poslata dok se odluka ne zabilježi."
 
 msgid "editor.submission.decision.backFromCopyediting"
-msgstr ""
+msgstr "Otkaži uredničku obradu"
 
 msgid "editor.submission.decision.backFromCopyediting.description"
-msgstr ""
+msgstr "Vratite ovo podnošenje iz faze uredničke obrade."
 
 msgid "editor.submission.decision.backFromCopyediting.log"
-msgstr ""
+msgstr "{$editorName} je vratio/la ovo podnošenje iz faze uredničke obrade."
 
 msgid "editor.submission.decision.backFromCopyediting.completed"
-msgstr ""
+msgstr "Vraćeno iz uredničke obrade"
 
 msgid "editor.submission.decision.backFromCopyediting.completed.description"
-msgstr ""
+msgstr "Podnošenje, {$title}, je vraćeno iz faze uredničke obrade. Autor je obaviješten, osim ako niste odlučili da preskočite tu poruku."
 
 msgid "editor.submission.decision.backFromCopyediting.notifyAuthorsDescription"
-msgstr ""
+msgstr "Pošaljite e-poštu autorima da ih obavijestite da je urednička obrada otkazana i da će njihov rad proći dalju uredničku provjeru."
 
 msgid "editor.submission.decision.backToCopyediting"
-msgstr ""
+msgstr "Vrati u uredničku obradu"
 
 msgid "editor.submission.decision.backToCopyediting.description"
-msgstr ""
+msgstr "Vratite ovo podnošenje u fazu uredničke obrade."
 
 msgid "editor.submission.decision.backToCopyediting.log"
-msgstr ""
+msgstr "{$editorName} je vratio/la ovo podnošenje u fazu uredničke obrade."
 
 msgid "editor.submission.decision.backToCopyediting.completed"
-msgstr ""
+msgstr "Vraćeno u uredničku obradu"
 
 msgid "editor.submission.decision.backToCopyediting.completed.description"
-msgstr ""
+msgstr "Podnošenje, {$title}, je vraćeno u fazu uredničke obrade. Autor je obaviješten, osim ako niste odlučili da preskočite tu poruku."
 
 msgid "editor.submission.decision.backToCopyediting.notifyAuthorsDescription"
-msgstr ""
+msgstr "Pošaljite e-poštu autorima da ih obavijestite da je ovo podnošenje vraćeno u fazu uredničke obrade. Objasnite zašto je donesena ova odluka i obavijestite autora o tome kakva dalja uređivanja su potrebna prije nego što rad bude spreman za proizvodnju."
 
 msgid "editor.submission.decision.skipReview"
-msgstr ""
+msgstr "Prihvati i preskoči recenziju"
 
 msgid "editor.submission.decision.skipReview.description"
-msgstr ""
+msgstr "Prihvatite ovo podnošenje za objavljivanje i preskočite fazu recenziranja. Ova odluka će poslati podnošenje u fazu uredničke obrade."
 
 msgid "editor.submission.decision.skipReview.log"
-msgstr ""
+msgstr "{$editorName} je preskočio/la fazu recenziranja i poslao/la ovo podnošenje u fazu uredničke obrade."
 
 msgid "editor.submission.decision.skipReview.completed"
-msgstr ""
+msgstr "Recenzija preskočena"
 
 msgid "editor.submission.decision.skipReview.completed.description"
-msgstr ""
+msgstr "Podnošenje, {$title}, je preskočilo fazu recenziranja i poslato je u fazu uredničke obrade. Autor je obaviješten, osim ako niste odlučili da preskočite tu poruku."
 
 msgid "editor.submission.decision.skipReview.notifyAuthorsDescription"
-msgstr ""
+msgstr "Pošaljite e-poštu autorima da ih obavijestite da je njihov rad prihvaćen za objavljivanje i poslat u fazu uredničke obrade bez recenzije. Ova poruka neće biti poslata dok se odluka ne zabilježi."
 
 msgid "editor.submission.decision.sendInternalReview"
 msgstr "Pošalji na internu recenziju"
 
 msgid "editor.submission.decision.approveProofsDescription"
-msgstr ""
-"Stranica sa probnim kopijama mora biti označena kao odobrena da bi bila "
-"dostupna. Da li želite da je odobrite?"
+msgstr "Fajl korekture mora biti označen kao odobren da bi bio dostupan. Da li želite da ga odobrite?"
 
 msgid "editor.submission.decision.approveProofs"
-msgstr "Odobri probne kopije"
+msgstr "Odobri korekture"
 
 msgid "editor.submission.decision.disapproveProofsDescription"
-msgstr ""
-"Ova proverena kopija više neće biti javno dostupna za preuzimanje ili "
-"kupovinu. Da li želite da je ukinete?"
+msgstr "Ovaj fajl korekture više neće biti javno dostupan za preuzimanje ili kupovinu. Da li želite da ga odbijete?"
 
 msgid "editor.submission.decision.revertDecline"
-msgstr ""
+msgstr "Opozovi odbijanje"
 
 msgid "editor.submission.decision.revertDecline.description"
-msgstr ""
+msgstr "Opozovite prethodnu odluku o odbijanju ovog podnošenja i vratite ga u aktivni urednički proces. Autor je obaviješten, osim ako niste odlučili da preskočite tu poruku."
 
 msgid "editor.submission.decision.revertDecline.log"
-msgstr ""
+msgstr "{$editorName} je opozvao/la odluku o odbijanju ovog podnošenja."
 
 msgid "editor.submission.decision.revertDecline.completed"
-msgstr ""
+msgstr "Podnošenje reaktivirano"
 
 msgid "editor.submission.decision.revertDecline.completed.description"
-msgstr ""
+msgstr "Podnošenje, {$title}, je sada aktivna prijava u fazi recenziranja."
 
 msgid "editor.submission.decision.revertDecline.notifyAuthorsDescription"
-msgstr ""
+msgstr "Pošaljite e-poštu autorima da ih obavijestite da je prethodna odluka o odbijanju ovog podnošenja opozvana. Objasnite zašto je odluka opozvana i obavijestite ih da li se očekuje da podnošenje prođe dalju recenziju."
 
 msgid "editor.submission.decision.revertInitialDecline.completed.description"
-msgstr ""
+msgstr "Podnošenje, {$title}, je sada aktivno u fazi podnošenja. Autor je obaviješten, osim ako niste odlučili da preskočite tu poruku."
 
 msgid "editor.submission.decision.noDecisionsAvailable"
-msgstr ""
+msgstr "Dodjelite urednika da biste omogućili uredničke odluke za ovu fazu."
 
 msgid "editor.submission.recommend.notifyEditors.description"
-msgstr ""
+msgstr "Pošaljite poruku odlučujućim urednicima da ih obavijestite o preporuci. Objasnite zašto je data ova preporuka kao odgovor na preporuke i komentare recenzenata."
 
 msgid "editor.submission.recommend.accept"
-msgstr ""
+msgstr "Preporuči prihvatanje"
 
 msgid "editor.submission.recommend.accept.description"
-msgstr ""
+msgstr "Preporučite da se ovo podnošenje prihvati za objavljivanje i pošalje u uredničku obradu."
 
 msgid "editor.submission.recommend.accept.log"
-msgstr ""
+msgstr "{$editorName} je preporučio/la da se ovo podnošenje prihvati i pošalje u uredničku obradu."
 
 msgid "editor.submission.recommend.completed"
-msgstr ""
+msgstr "Preporuka podnijeta"
 
 msgid "editor.submission.recommend.completed.description"
-msgstr ""
+msgstr "Vaša preporuka je zabilježena i odlučujući urednici su obaviješteni."
 
 msgid "editor.submission.recommend.revisions"
-msgstr ""
+msgstr "Preporuči revizije"
 
 msgid "editor.submission.recommend.revisions.description"
-msgstr ""
+msgstr "Preporučite da se od autora zatraže revizije prije nego što se podnošenje prihvati za objavljivanje."
 
 msgid "editor.submission.recommend.revisions.log"
-msgstr ""
+msgstr "{$editorName} je preporučio/la da se zatraže revizije."
 
 msgid "editor.submission.recommend.resubmit"
-msgstr ""
+msgstr "Preporuči ponovno podnošenje na recenziju"
 
 msgid "editor.submission.recommend.resubmit.description"
-msgstr ""
+msgstr "Preporučite da se od autora zatraži da pošalje revizije na novi krug recenziranja."
 
 msgid "editor.submission.recommend.resubmit.log"
-msgstr ""
+msgstr "{$editorName} je preporučio/la da se zatraže revizije i da se one pošalju na novi krug recenziranja."
 
 msgid "editor.submission.recommend.decline"
-msgstr ""
+msgstr "Preporuči odbijanje"
 
 msgid "editor.submission.recommend.decline.description"
-msgstr ""
+msgstr "Preporučite da se podnošenje odbije za objavljivanje."
 
 msgid "editor.submission.recommend.decline.log"
-msgstr ""
+msgstr "{$editorName} je preporučio/la da se ovo podnošenje odbije."
 
 msgid "editor.submission.makeRecommendation"
-msgstr ""
+msgstr "Daj preporuku"
 
 msgid "editor.submission.changeRecommendation"
-msgstr ""
+msgstr "Promjeni preporuku"
 
 msgid "editor.submission.recommendation.display"
-msgstr ""
+msgstr "Preporuka: {$recommendation}"
 
 msgid "editor.submission.allRecommendations.display"
-msgstr ""
+msgstr "Preporuke: {$recommendations}"
 
 msgid "editor.submission.recommendation.noDecidingEditors"
-msgstr ""
+msgstr "Ne možete dati preporuku dok se ne dodjeli urednik sa dozvolom da zabilježi odluku."
 
 msgid "editor.submission.recommendation"
-msgstr ""
+msgstr "Preporuka"
 
 msgid "editor.submission.recommendation.description"
-msgstr ""
+msgstr "Preporučite uredničku odluku za ovo podnošenje."
 
 msgid "editor.submission.recordedRecommendations"
-msgstr ""
+msgstr "Zabilježene preporuke"
 
 msgid "submission.currentStage"
 msgstr "Trenutna faza"
 
 msgid "submission.noActionRequired"
-msgstr "Nema potrebnih radnji"
+msgstr "Nije potrebna akcija"
 
 msgid "submission.actionNeeded"
-msgstr "Potrebna je radnja"
+msgstr "Potrebna akcija"
 
 msgid "reviewer.submission.reviewFiles"
-msgstr "Pregledaj fajlove"
+msgstr "Datoteke za recenziju"
 
 msgid "submission.submit.currentFile"
-msgstr "Trenutni fajlovi"
+msgstr "Trenutna datoteka"
 
 msgid "submission.finalDraft"
-msgstr "Privremeni fajlovi"
+msgstr "Datoteke nacrta"
 
 msgid "editor.submission.addAuditorError"
-msgstr "Pojavila se greška u dodeli revizora. Pokušajte ponovo."
+msgstr "Došlo je do greške pri pokušaju dodjele revizora. Pokušajte ponovo."
 
 msgid "submission.event.fileEdited"
-msgstr ""
+msgstr "Metapodaci za datoteku \"{$filename}\" su uređeni od strane {$username}."
 
 msgid "submission.event.fileUploaded"
-msgstr ""
-"{$username} je dostavio dokument \"{$filename}\" uz predaju "
-"{$submissionId}."
+msgstr "Datoteka \"{$filename}\" je otpremljena za podnošenje {$submissionId} od strane {$username}."
 
 msgid "submission.event.fileDeleted"
-msgstr ""
-"{$username} je obrisao fajl {$filename}\" za prijavljen članak "
-"{$submissionId}."
+msgstr "Datoteka \"{$filename}\" je izbrisana za podnošenje {$submissionId} od strane {$username}."
 
 msgid "submission.event.revisionUploaded"
-msgstr ""
-"{$username} je postavio na server reviziju fajla \"{$filename}\" za "
-"prijavljen članak  {$submissionId}."
+msgstr "Revizija datoteke \"{$filename}\" je otpremljena za podnošenje {$submissionId} od strane {$username}."
 
 msgid "submission.event.revisionDeleted"
-msgstr ""
-"{$username} je izbrisao reviziju fajla \"{$filename}\" za prijavljen "
-"članak {$submissionId}."
+msgstr "Revizija datoteke \"{$filename}\" je izbrisana za podnošenje {$submissionId} od strane {$username}."
 
 msgid "submission.event.lastRevisionDeleted"
-msgstr "{$username} je uklonio poslednju reviziju za fajl \"{$filename}\"."
+msgstr "Posljednja revizija datoteke \"{$filename}\" je uklonjena od strane {$username}."
 
 msgid "submission.event.fileAuditorAdded"
-msgstr "\"{$userFullName}\" ({$username}) je dodat kao revizor za fajl \"{$filename}.\""
+msgstr "\"{$userFullName}\" ({$username}) je dodjeljen kao revizor za datoteku \"{$filename}.\""
 
 msgid "submission.event.fileAuditorCleared"
-msgstr "\"{$userFullName}\" ({$username}) je uklonjen kao revizor za fajl \"{$filename}.\""
+msgstr "\"{$userFullName}\" ({$username}) je uklonjen kao revizor za datoteku \"{$filename}.\""
 
 msgid "submission.event.fileAuditUploaded"
-msgstr ""
-"\"{$userFullName}\" ({$username}) je kompletirao reviziju za postavljen \"{$filename}.\""
+msgstr "\"{$userFullName}\" ({$username}) je završio/la reviziju i otpremio/la \"{$filename}.\""
 
 msgid "submission.event.signoffSignoff"
-msgstr ""
-"\"{$userFullName}\" ({$username}) je odjavljen na delu za odjavu za \"{$filename}.\""
+msgstr "\"{$userFullName}\" ({$username}) je potvrdio/la potvrdu za \"{$filename}.\""
 
 msgid "submission.event.proofsApproved"
-msgstr ""
-"\"{$userFullName}\" ({$username}) je odobrio probnu kopiju za \"{$publicationFormatName}.\""
+msgstr "\"{$userFullName}\" ({$username}) je odobrio/la korekture za \"{$publicationFormatName}.\""
 
 msgid "submission.overview"
-msgstr "Pregled predaje"
+msgstr "Pregled podnošenja"
 
 msgid "submission.description"
 msgstr "Opis"
 
 msgid "submission.stageNotInitiated"
-msgstr "Faza nije započeta."
+msgstr "Faza nije pokrenuta."
 
 msgid "submission.documents"
-msgstr "Dokumenti predaje"
+msgstr "Dokumenti podnošenja"
 
 msgid "notification.type.editorAssign"
-msgstr ""
+msgstr "Dodjeljeni ste kao urednik za podnošenje \"{$title}\"."
 
 msgid "notification.type.copyeditorRequest"
-msgstr "Zamoljeni ste da pregledate probnu kopiju za \"{$title}\"."
+msgstr "Zamolili su vas da pregledate uredničke ispravke za \"{$title}\"."
 
 msgid "notification.type.layouteditorRequest"
-msgstr "Zamoljeni ste da pregledate izgled časopisa \"{$title}\"."
+msgstr "Zamolili su vas da pregledate izgled za \"{$title}\"."
 
 msgid "notification.type.indexRequest"
-msgstr "Zamoljeni ste da uradite sadržaj za \"{$title}\"."
+msgstr "Zamolili su vas da kreirate indeks za \"{$title}\"."
 
 msgid "notification.type.editorDecisionTitle"
-msgstr "Poslednja urednička odluka."
+msgstr "Posljednja urednička odluka."
 
 msgid "notification.type.editorDecisionAccept"
-msgstr "Predati članak je prihvaćen."
+msgstr "Podnošenje prihvaćeno."
 
 msgid "notification.type.editorDecisionExternalReview"
-msgstr "Proces recenziranja od strane spoljnih recenzenata ja započeo."
+msgstr "Pokrenut je proces spoljne recenzije."
 
 msgid "notification.type.editorDecisionPendingRevisions"
-msgstr "Revizija je potrebna."
+msgstr "Potrebne su revizije."
 
 msgid "notification.type.editorDecisionResubmit"
-msgstr "Ponovo pošalji na recenziju."
+msgstr "Ponovo podnesi na recenziju."
 
 msgid "notification.type.editorDecisionNewRound"
-msgstr ""
+msgstr "Pokrenut je novi krug recenzija."
 
 msgid "notification.type.editorDecisionDecline"
-msgstr "Predati članak je odbijen."
+msgstr "Podnošenje odbijeno."
 
 msgid "notification.type.editorDecisionRevertDecline"
-msgstr ""
+msgstr "Odbijeno podnošenje reaktivirano."
 
 msgid "notification.uploadedResponse"
-msgstr "Odgovor je dostavljen."
+msgstr "Odgovor otpremljen."
 
 msgid "notification.type.editorAssignment"
-msgstr ""
-"Urednik mora biti dodeljen pre nego što recenziranje može biti započeto. "
-"Dodajte urednika koristeći link \"Učesnici\"."
+msgstr "Urednik mora biti dodjeljen prije pokretanja recenzije. Dodajte urednika koristeći listu učesnika."
 
 msgid "notification.type.submissionNewVersion"
-msgstr ""
+msgstr "Kreirana je nova verzija podnošenja"
 
 msgid "notification.type.revertDecline"
-msgstr ""
+msgstr "Odluka o odbijanju ovog podnošenja je opozvana."
 
 msgid "grid.reviewAttachments.title"
-msgstr "Dodati fajlovi recenzenta"
+msgstr "Prilozi recenzenta"
 
 msgid "grid.reviewAttachments.send.title"
-msgstr ""
+msgstr "Izaberite datoteke recenzije da biste ih dijelili sa autorom/ima"
 
 msgid "submission.productionReady"
-msgstr "Knjiga je dostupna"
+msgstr "Knjiga dostupna"
 
 msgid "submission.review.uploadRevisionToRound"
-msgstr "Dostavi revidirane fajlove"
+msgstr "Otpremite revidiranu datoteku"
 
 msgid "log.review.reviewerAssigned"
-msgstr ""
-"{$reviewerName} je dodeljen(a) kao recenzent predaje {$submissionId} u "
-"{$round}. krugu recenzije."
+msgstr "{$reviewerName} je dodjeljen da recenzira podnošenje {$submissionId} za krug recenziranja {$round}."
 
 msgid "log.review.reviewCleared"
-msgstr ""
-"Recenzija {$round}. kruga recenzenta {$reviewerName} za prilog "
-"{$submissionId} je obrisana."
+msgstr "Recenzija kruga {$round} od strane {$reviewerName} za podnošenje {$submissionId} je očišćena."
 
 msgid "log.review.reviewUnconsidered"
-msgstr ""
+msgstr "{$editorName} je označio/la recenziju kruga {$round} za podnošenje {$submissionId} kao nerazmatranu."
 
 msgid "log.review.reviewReinstated"
-msgstr ""
-"{$round}. krug recenzije recenzenta {$reviewerName} za prilog "
-"{$submissionId} je iznova pokrenut."
+msgstr "Recenzija kruga {$round} od strane {$reviewerName} za podnošenje {$submissionId} je ponovo pokrenuta."
 
 msgid "log.review.reviewerResendRequest"
-msgstr ""
+msgstr "Ponovo poslat zahtjev za recenziju u krugu {$round} do {$reviewerName} za podnošenje {$submissionid}."
 
 msgid "log.review.reviewConfirmed"
-msgstr ""
+msgstr "Urednik {$userName} je potvrdio recenziju za krug recenziranja {$round} za podnošenje {$submissionId}."
 
 msgid "log.review.reviewReady"
-msgstr ""
+msgstr "{$reviewerName} je završio/la recenziju za krug recenziranja {$round} za podnošenje {$submissionId}."
 
 msgid "submission.review.status.awaitingResponse"
-msgstr ""
+msgstr "Čeka se odgovor recenzenta."
 
 msgid "submission.review.status.declined"
-msgstr ""
+msgstr "Recenzent je odbio ovaj zahtjev za recenzijom."
 
 msgid "submission.review.status.responseOverdue"
-msgstr ""
+msgstr "Recenzent je propustio rok za odgovor."
 
 msgid "submission.review.status.reviewOverdue"
-msgstr ""
+msgstr "Recenzent je propustio rok za recenziju."
 
 msgid "submission.review.status.accepted"
-msgstr ""
+msgstr "Ova recenzija je prihvaćena."
 
 msgid "submission.review.status.received"
-msgstr ""
+msgstr "Recenzent je podnio/la svoju recenziju."
 
 msgid "submission.review.status.complete"
-msgstr ""
+msgstr "Ova recenzija je završena."
 
 msgid "submission.review.status.thanked"
-msgstr ""
+msgstr "Ova recenzija je završena i recenzent je zahvaljen na doprinosu."
 
 msgid "submission.document"
 msgstr "Dokument"
 
 msgid "submission.art"
-msgstr "Ilustracija"
+msgstr "Umjetnički rad"
 
 msgid "submission.supplementary"
-msgstr "Dopunski sadržaј"
+msgstr "Dopunski sadržaj"
 
 msgid "submission.supplementary.creator"
-msgstr "Kreator (ili vlasnik) dokumenta (fajla)"
+msgstr "Kreator (ili vlasnik) datoteke"
 
 msgid "submission.supplementary.subject"
 msgstr "Tema"
@@ -1915,42 +1857,37 @@ msgid "submission.supplementary.publisher"
 msgstr "Izdavač"
 
 msgid "submission.supplementary.sponsor"
-msgstr "Saradnik ili ustanova podrške"
+msgstr "Doprinosilac ili sponzorska agencija"
 
 msgid "grid.action.itemWorkflow"
-msgstr "Idi na proces predaje"
+msgstr "Idi na tok rada ovog podnošenja"
 
 msgid "notification.type.editorDecisionSendToProduction"
-msgstr "Proces produkcije je započet."
+msgstr "Pokrenut je proces proizvodnje."
 
 msgid "notification.type.editorAssignmentProduction"
-msgstr ""
-"Urednik produkcije mora biti dodeljen časopisu pre nego što produkcijski "
-"proces može biti započet. Dodajte urednika produkcije koristeći link "
-"\"Učesnici\"."
+msgstr "Urednik proizvodnje mora biti dodjeljen prije pokretanja procesa proizvodnje. Dodajte urednika proizvodnje koristeći listu učesnika."
 
 msgid "notification.type.editorAssignmentEditing"
-msgstr ""
-"Urednik produkcije mora biti dodeljen časopisu pre nego što urednički proces "
-"može biti započet. Dodajte urednika produkcije koristeći link \"Učesnici\"."
+msgstr "Urednik proizvodnje mora biti dodjeljen prije pokretanja uredničkog procesa. Dodajte urednika proizvodnje koristeći listu učesnika."
 
 msgid "submission.reviewForm"
-msgstr "Recenzentski obrazac"
+msgstr "Formular recenzije"
 
 msgid "submission.reviewFormResponse"
-msgstr "Odgovor na recenzentski obrazac"
+msgstr "Odgovor na formular recenzije"
 
 msgid "grid.action.createReviewFormElement"
-msgstr "Kreirajte novi element za recenzentski obrazac"
+msgstr "Kreirajte novi element formulara recenzije"
 
 msgid "grid.action.editMetadata"
-msgstr "Izmeni metapodatke"
+msgstr "Uredi metapodatke"
 
 msgid "submission.permissions"
-msgstr "Prava"
+msgstr "Dozvole"
 
 msgid "submission.attachPermissions"
-msgstr "Dodaj sledeća prava uz predaju:"
+msgstr "Priložite sljedeće dozvole uz podnošenje:"
 
 msgid "submission.license"
 msgstr "Licenca"
@@ -1959,122 +1896,91 @@ msgid "submission.copyright"
 msgstr "Autorska prava"
 
 msgid "submission.copyright.agree"
-msgstr ""
+msgstr "Da, slažem se sa izjavom o autorskim pravima."
 
 msgid "submission.copyrightHolder"
 msgstr "Nosilac autorskih prava"
 
 msgid "submission.copyrightHolder.other"
-msgstr ""
+msgstr "Prilagođena izjava o autorskim pravima"
 
 msgid "submission.copyrightOther"
-msgstr ""
+msgstr "Izjava o autorskim pravima"
 
 msgid "submission.copyrightYear"
-msgstr "Godina autorskog prava"
+msgstr "Godina autorskih prava"
 
 msgid "submission.copyrightStatement"
-msgstr "Sva prava zadržana (c) {$copyrightYear} {$copyrightHolder}"
+msgstr "Autorska prava (c) {$copyrightYear} {$copyrightHolder}"
 
 msgid "submission.licenseURLValid"
-msgstr "Unesite ispravan udaljeni URL (uključujući i http://)."
+msgstr "Molimo dajte važeću udaljenu URL adresu (uključujući http://)."
 
 msgid "submission.licenseURL"
-msgstr "URL licenci"
+msgstr "URL licence"
 
 msgid "submission.license.cc.by-nc-nd4"
-msgstr "CC Autorstvo-Nekomercijalno-Bez prerade 4.0"
+msgstr "CC Attribution-NonCommercial-NoDerivatives 4.0"
 
 msgid "submission.license.cc.by-nc4"
-msgstr "CC Autorstvo-Nekomercijalno 4.0"
+msgstr "CC Attribution-NonCommercial 4.0"
 
 msgid "submission.license.cc.by-nc-sa4"
-msgstr "CC Autorstvo-Nekomercijalno-Deli pod sitim uslovima 4.0"
+msgstr "CC Attribution-NonCommercial-ShareAlike 4.0"
 
 msgid "submission.license.cc.by-nd4"
-msgstr "CC Autorstvo-Bez prerade 4.0"
+msgstr "CC Attribution-NoDerivatives 4.0"
 
 msgid "submission.license.cc.by4"
-msgstr "CC Autorstvo 4.0"
+msgstr "CC Attribution 4.0"
 
 msgid "submission.license.cc.by-sa4"
-msgstr "CC Autorstvo-Deli pod istim uslovima 4.0"
+msgstr "CC Attribution-ShareAlike 4.0"
 
 msgid "submission.license.cc.by-nc-nd4.footer"
-msgstr ""
-"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/"
-"\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-"
-"nc-nd/4.0/88x31.png\" /></a><p>Ovaj rad je pod <a rel=\"license\" href="
-"\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons "
-"Aуторство-Nekomercijalno-Bez prerade 4.0 Internacionalna licenca</a>.</p>"
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>"
 
 msgid "submission.license.cc.by-nc4.footer"
-msgstr ""
-"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc/4.0/"
-"\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-"
-"nc/4.0/88x31.png\" /></a><p>Ovaj rad je pod <a rel=\"license\" href="
-"\"https://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons "
-"Autorstvo-Nekomercijalno 4.0 Internacionalna licenca</a>.</p>"
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nc/4.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>"
 
 msgid "submission.license.cc.by-nc-sa4.footer"
-msgstr ""
-"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/"
-"\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-"
-"nc-sa/4.0/88x31.png\" /></a><p>Ovaj rad je pod <a rel=\"license\" href="
-"\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons "
-"Autorstvo-Nekomercijalno-Deli pod istim uslovima 4.0 Internacionalna "
-"licenca</a>.</p>"
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>"
 
 msgid "submission.license.cc.by-nd4.footer"
-msgstr ""
-"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nd/4.0/"
-"\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-"
-"nd/4.0/88x31.png\" /></a><p>Ovaj rad je pod <a rel=\"license\" href="
-"\"https://creativecommons.org/licenses/by-nd/4.0/\">Creative Commons "
-"Autorstvo-Bez prerada 4.0 Internacionalna licenca</a>.</p>"
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nd/4.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nd/4.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nd/4.0/\">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</p>"
 
 msgid "submission.license.cc.by4.footer"
-msgstr ""
-"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/"
-"\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/"
-"by/4.0/88x31.png\" /></a><p>Ovaj rad je pod <a rel=\"license\" href="
-"\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons Autorstvo "
-"4.0 Internacionalna licenca</a>.</p>"
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by/4.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>.</p>"
 
 msgid "submission.license.cc.by-sa4.footer"
-msgstr ""
-"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/"
-"\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-"
-"sa/4.0/88x31.png\" /></a><p>Ovaj rad je pod <a rel=\"license\" href="
-"\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
-"Autorstvo-Deli pod istim uslovima 4.0 Internacionalna licenca</a>.</p>"
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-sa/4.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>"
 
 msgid "submission.license.cc.by-nc-nd3.footer"
-msgstr ""
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-nd/3.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nc-nd/3.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-nd/3.0/\">Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Unported License</a>.</p>"
 
 msgid "submission.license.cc.by-nc3.footer"
-msgstr ""
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc/3.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nc/3.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc/3.0/\">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p>"
 
 msgid "submission.license.cc.by-nc-sa3.footer"
-msgstr ""
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-sa/3.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nc-sa/3.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-sa/3.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</p>"
 
 msgid "submission.license.cc.by-nd3.footer"
-msgstr ""
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nd/3.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nd/3.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nd/3.0/\">Creative Commons Attribution-NoDerivatives 3.0 Unported License</a>.</p>"
 
 msgid "submission.license.cc.by3.footer"
-msgstr ""
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by/3.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by/3.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by/3.0/\">Creative Commons Attribution 3.0 Unported License</a>.</p>"
 
 msgid "submission.license.cc.by-sa3.footer"
-msgstr ""
+msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/3.0/\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-sa/3.0/88x31.png\" /></a><p>Ovaj rad je licenciran pod <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>"
 
 msgid "submission.queries.submission"
-msgstr "Pred recenzentske diskusije"
+msgstr "Diskusije prije recenzije"
 
 msgid "submission.queries.review"
-msgstr "Recenzentske diskusije"
+msgstr "Diskusije o recenziji"
 
 msgid "submission.queries.editorial"
-msgstr "Korekturne diskusije"
+msgstr "Diskusije o uredničkoj obradi"
 
 msgid "submission.query.subject"
 msgstr "Tema"
@@ -2089,7 +1995,7 @@ msgid "submission.query.from"
 msgstr "Od"
 
 msgid "submission.query.lastReply"
-msgstr "Poslednji odgovor"
+msgstr "Posljednji odgovor"
 
 msgid "submission.query.closed"
 msgstr "Zatvoreno"
@@ -2098,324 +2004,316 @@ msgid "submission.query.addNote"
 msgstr "Dodaj poruku"
 
 msgid "submission.query.leaveQuery"
-msgstr ""
+msgstr "Napusti diskusiju"
 
 msgid "submission.query.leaveQuery.confirm"
-msgstr ""
+msgstr "Ako napustite ovu diskusiju, nećete biti obaviješteni o novim porukama. Da li želite da napustite diskusiju?"
 
 msgid "grid.action.openNoteForm"
-msgstr "Dodaj odgovor u diskusiju"
+msgstr "Dodajte novi odgovor u diskusiju"
 
 msgid "submission.query.activity"
-msgstr "{$responderName} je odgovorila/o na {$noteTitle}: {$noteContents}"
+msgstr "{$responderName} je odgovorio/la na {$noteTitle}: {$noteContents}"
 
 msgid "submission.query.new"
-msgstr "{$creatorName} je započela/o diskusiju: {$noteTitle}: {$noteContents}"
+msgstr "{$creatorName} je pokrenuo/la diskusiju: {$noteTitle}: {$noteContents}"
 
 msgid "submission.query.activity.contents"
-msgstr ""
-"Došlo je do promena u diskusiji \"{$queryTitle}\" povodom predaje "
-"\"{$submissionTitle}\"."
+msgstr "Postoji nova aktivnost u diskusiji pod nazivom \"{$queryTitle}\" u vezi sa podnošenjem \"{$submissionTitle}\"."
 
 msgid "submission.query.new.contents"
-msgstr ""
-"Dodati ste u diskusiju \"{$queryTitle}\" povodom predaje "
-"\"{$submissionTitle}\"."
+msgstr "Dodati ste u diskusiju pod nazivom \"{$queryTitle}\" u vezi sa podnošenjem \"{$submissionTitle}\"."
 
 msgid "submission.query.participantTitle"
-msgstr ""
+msgstr "{$fullName}, {$userGroup}"
 
 msgid "submission.query.noParticipantOptions"
-msgstr ""
+msgstr "Morate dodjeliti bar jednog učesnika ovom podnošenju prije pokretanja diskusije."
+
+msgid "submission.query.allowedEditTime"
+msgstr "Možete ažurirati ovu diskusiju narednih {$allowedEditTimeNoticeLimit} minuta."
 
 msgid "submission.list.infoCenter"
-msgstr ""
+msgstr "Dnevnik aktivnosti i bilješke"
 
 msgid "submission.list.empty"
-msgstr ""
+msgstr "Nema pronađenih podnošenja."
 
 msgid "submission.list.responseDue"
-msgstr ""
+msgstr "Rok za odgovor: {$date}"
 
 msgid "submission.list.reviewAssignment"
-msgstr ""
+msgstr "Zadatak recenziranja"
 
 msgid "submission.list.reviewDue"
-msgstr ""
+msgstr "Rok za recenziju: {$date}"
 
 msgid "submission.list.reviewComplete"
-msgstr ""
+msgstr "Recenzija podnijeta"
 
 msgid "submission.list.reviewCancelled"
-msgstr ""
+msgstr "Recenzija otkazana"
 
 msgid "submission.list.confirmDelete"
-msgstr ""
+msgstr "Izbriši podnesak?"
 
 msgid "submission.list.viewAllSubmissions"
-msgstr ""
+msgstr "Pogledaj sve podneske"
 
 msgid "submission.list.viewSubmission"
-msgstr ""
+msgstr "Pogledaj podnesak"
 
 msgid "submission.list.reviewsCompleted"
-msgstr ""
+msgstr "Dodjeljene recenzije završene"
 
 msgid "submission.list.revisionsSubmitted"
-msgstr ""
+msgstr "Revizije podnijete"
 
 msgid "submission.list.copyeditsSubmitted"
-msgstr ""
+msgstr "Lektorirani fajlovi podnijeti"
 
 msgid "submission.list.galleysCreated"
-msgstr ""
+msgstr "Kreirani proizvodni gali"
 
 msgid "submission.list.filesPrepared"
-msgstr ""
+msgstr "Fajlovi pripremljeni"
 
 msgid "submission.list.discussions"
-msgstr ""
+msgstr "Otvorene diskusije"
 
 msgid "submission.list.dualWorkflowLinks"
-msgstr ""
+msgstr "Dodjeljene su vam više uloga za ovaj podnesak. Da li želite pristupiti <a href=\"{$urlAuthorWorkflow}\">Autorskom radnom toku</a> ili <a href=\"{$urlEditorialWorkflow}\">Uredničkom radnom toku</a>?"
 
 msgid "submission.list.reviewerWorkflowLink"
-msgstr ""
+msgstr "Dodjeljena vam je urednička uloga za ovaj podnesak. Da li želite pristupiti <a href=\"{$urlEditorialWorkflow}\">Uredničkom radnom toku</a>?"
 
 msgid "submission.list.incompleteSubmissionNotice"
-msgstr ""
+msgstr "Ovaj podnesak mora biti završen prije nego što ga urednik pregleda."
 
 msgid "submission.list.currentStage"
-msgstr ""
+msgstr "Trenutno u fazi {$stage}."
 
 msgid "submission.list.activity"
-msgstr ""
+msgstr "Aktivnost"
 
 msgid "submission.list.daysSinceLastActivity"
-msgstr ""
+msgstr "Dana od poslednje aktivnosti"
 
 msgid "submission.list.assignEditor"
-msgstr ""
+msgstr "Dodjeli urednika"
 
 msgid "submission.wizard.alreadySubmitted"
-msgstr ""
+msgstr "Ovaj podnesak je već podnijet. Posjetite vašu <a href=\"{$url}\">kontrolnu tablu podnesaka</a> da biste ga pregledali."
 
 msgid "submission.wizard.beforeStart"
-msgstr ""
+msgstr "Prije nego što počnete"
 
 msgid "submission.wizard.categories.description"
-msgstr ""
+msgstr "Izaberite samo kategorije koje su prikladne za vaš podnesak."
 
 msgid "submission.wizard.changeSubmission"
-msgstr ""
+msgstr "Izmjeni postavke podneska"
 
 msgid "submission.wizard.completeSteps"
-msgstr ""
+msgstr "Završite korake da biste podnijeli podnesak"
 
 msgid "submission.wizard.confirmSubmit"
-msgstr ""
+msgstr "Podnesak <strong>{$title}</strong> biće podnijet u <strong>{$context}</strong> na urednički pregled. Da li ste sigurni da želite završiti ovo podnošenje?"
 
 msgid "submission.wizard.errors"
-msgstr ""
+msgstr "Postoji jedan ili više problema koje treba riješiti prije nego što možete podnijeti. Molimo pregledajte informacije ispod i izvršite tražene izmjene."
 
 msgid "submission.wizard.validating"
-msgstr ""
+msgstr "Provjeravam vaš podnesak"
 
 msgid "submission.wizard.commentsForTheEditor.description"
-msgstr ""
+msgstr "Dodajte bilo kakve informacije za koje mislite da bi naš urednički tim trebao znati prilikom ocjenjivanja vašeg podneska."
 
 msgid "submission.wizard.confirm"
-msgstr ""
+msgstr "Molimo potvrdite sljedeće prije nego što podnesete."
 
 msgid "submission.wizard.title"
-msgstr ""
+msgstr "Napravi podnesak"
 
 msgid "submission.wizard.titleWithStep"
-msgstr ""
+msgstr "Napravi podnesak: {$step}"
 
 msgid "submission.wizard.noContributors"
-msgstr ""
+msgstr "Nema dodatih saradnika za ovaj podnesak."
 
 msgid "submission.wizard.missingContributorLanguage"
-msgstr ""
+msgstr "Ime je nedostajuće na {$language} za jednog ili više saradnika."
 
 msgid "submission.wizard.notAllowed"
-msgstr ""
+msgstr "Nije dozvoljeno"
 
 msgid "submission.wizard.privacyConsent"
-msgstr ""
+msgstr "Pristanak na privatnost"
 
 msgid "submission.wizard.saved"
-msgstr ""
+msgstr "Sačuvano za kasnije"
 
 msgid "submission.wizard.saved.description"
-msgstr ""
+msgstr "Detalji vašeg podneska su sačuvani u našem sistemu, ali još nije podnijet na razmatranje. Možete se vratiti da završite vaš podnesak u bilo koje vrijeme prateći link ispod."
 
 msgid "submission.wizard.saved.emailConfirmation"
-msgstr ""
+msgstr "Poslali smo vam kopiju ovog linka na {$email}."
 
 msgid "submission.wizard.sectionClosed"
-msgstr ""
+msgstr "Sekcija zatvorena"
 
 msgid "submission.wizard.start"
-msgstr ""
+msgstr "Započni podnošenje"
 
 msgid "submission.wizard.startingStatus"
-msgstr ""
+msgstr "Počinjem novi podnesak"
 
 msgid "submission.wizard.unableToSave"
-msgstr ""
+msgstr "Došlo je do greške i nismo mogli sačuvati vaš podnesak. Možda ste prekinuli vezu."
 
 msgid "grid.category.categories"
-msgstr ""
+msgstr "Kategorije"
 
 msgid "catalog.sortBy.titleAsc"
-msgstr ""
+msgstr "Naslov (A-Š)"
 
 msgid "catalog.sortBy.titleDesc"
-msgstr ""
+msgstr "Naslov (Š-A)"
 
 msgid "catalog.sortBy.datePublishedAsc"
-msgstr ""
+msgstr "Datum objavljivanja (najstarije prvo)"
 
 msgid "catalog.sortBy.datePublishedDesc"
-msgstr ""
+msgstr "Datum objavljivanja (najnovije prvo)"
 
 msgid "category.category"
-msgstr ""
+msgstr "Kategorije"
 
 msgid "category.coverImage"
-msgstr ""
+msgstr "Naslovna slika"
 
 msgid "submission.submit.placement.categories"
-msgstr ""
+msgstr "Kategorije"
 
 msgid "submission.currentCoverImage"
-msgstr ""
+msgstr "Trenutna slika"
 
 msgid "catalog.category.noItems"
-msgstr ""
+msgstr "Još ništa nije objavljeno u ovoj kategoriji."
 
 msgid "catalog.category.subcategories"
-msgstr ""
+msgstr "Potkategorije"
 
 msgid "publication.contributors"
-msgstr ""
+msgstr "Saradnici"
 
 msgid "publication.createVersion"
-msgstr ""
+msgstr "Kreiraj novu verziju"
 
 msgid "publication.datePublished.errorFormat"
-msgstr ""
+msgstr "Datum mora biti u formatu GGGG-MM-DD, na primjer 2019-01-01."
 
 msgid "publication.event.versionCreated"
-msgstr ""
+msgstr "Kreirana je nova verzija."
 
 msgid "publication.publicationLicense"
-msgstr ""
+msgstr "Dozvole i otkrivanje"
 
 msgid "publication.status.scheduled"
-msgstr ""
+msgstr "Zakazano"
 
 msgid "publication.status.unpublished"
-msgstr ""
+msgstr "Neobjavljeno"
 
 msgid "publication.titleAbstract"
-msgstr ""
+msgstr "Naslov i apstrakt"
 
 msgid "publication.unschedule"
-msgstr ""
+msgstr "Otkaži zakazivanje"
 
 msgid "publication.urlPath"
-msgstr ""
+msgstr "URL putanja"
 
 msgid "publication.urlPath.description"
-msgstr ""
+msgstr "Opcionalna putanja za korišćenje u URL-u umesto ID-a."
 
 msgid "publication.urlPath.duplicate"
-msgstr ""
+msgstr "URL putanja je već iskorišćena i ne može se ponovo koristiti."
 
 msgid "publication.urlPath.numberInvalid"
-msgstr ""
+msgstr "URL putanja ne može biti broj."
 
 msgid "publication.version.all"
-msgstr ""
+msgstr "Sve verzije"
 
 msgid "publication.version.confirm"
-msgstr ""
+msgstr "Da li ste sigurni da želite kreirati novu verziju?"
 
 msgid "publication.wordCountLong"
-msgstr ""
+msgstr "Apstrakt je predug. Treba da bude {$limit} riječi ili manje. Trenutno ima {$count} riječi."
 
 msgid "publication.wordCount"
-msgstr ""
+msgstr "Broj riječi: {$count}/{$limit}"
 
 msgid "doi.incorrectStaleStatus"
-msgstr ""
+msgstr "Nije uspjelo označiti DOI potreban za sinhronizaciju za {$pubObjectTitle}. DOI ne može biti označen kao potreban za sinhronizaciju jer još nije registrovan ili podnijet."
 
 msgid "doi.submission.notPublished"
-msgstr ""
+msgstr "Nije uspjelo označiti DOI kao registrovan za {$pubObjectTitle}. Podnesak mora biti objavljen prije nego što se status može ažurirati."
 
 msgid "submission.viewingPreview"
-msgstr ""
+msgstr "Ovo je pregled i nije objavljeno. <a href=\"{$url}\">Pogledaj podnesak</a>"
 
-#, fuzzy
 msgid "author.submit.noFiles"
-msgstr "Fajlovi nisu dodati uz ovu prijavu."
+msgstr "Nema otpremljenih fajlova za ovaj podnesak."
 
 msgid "author.submit.confirmation"
 msgstr "Potvrda"
 
 msgid "submission.wizard.submittingInLanguage"
-msgstr ""
+msgstr "Podnošenje na <strong>{$language}</strong>."
 
 msgid "submission.wizard.submittingToSection"
-msgstr ""
+msgstr "Podnošenje u sekciju <strong>{$section}</strong>."
 
 msgid "submission.wizard.submittingToSectionInLanguage"
-msgstr ""
+msgstr "Podnošenje u sekciju <strong>{$section}</strong> na <strong>{$language}</strong>."
 
 msgid "submission.type.tip"
-msgstr ""
-"Tip prijavljenog dela je obično 'slika', 'tekst', ili drugi multimedijalni "
-"tip uključujući i 'kompjuterski program' ili 'interaktivno'."
+msgstr "Tip podneska je obično jedan od 'slika', 'tekst' ili drugi multimedijalni tipovi uključujući 'softver' ili 'interaktivni'. Molimo izaberite onaj koji je najrelevantniji za vaš podnesak. Primjeri se mogu naći na <a target=\"_blank\" href=\"https://www.dublincore.org/specifications/dublin-core/usageguide/2001-04-12/generic/\">https://www.dublincore.org/specifications/dublin-core/usageguide/2001-04-12/generic/</a>"
 
 msgid "submission.source.tip"
-msgstr ""
-"Da li jevaj prijavljeni članak izveden iz drugog izvora? AKo jeste, možete "
-"upisati URL ili opisati taj izvor."
+msgstr "Da li je ovaj podnesak izveden iz drugog izvora? Ako jeste, možete uneti URL ili opis tog izvora."
 
 msgid "submission.rights.tip"
-msgstr ""
-"Ako želite možete upisati kratki stav o pravima pristupa za ovaj prijavljeni "
-"članak."
+msgstr "Ako želite, možete uneti kratku izjavu o pravima pristupa koja se drže na ili nad ovim podneskom."
 
 msgid "submission.submit.metadataForm.tip"
-msgstr ""
-"Dodajte dodatne informacije z vaš prijavljen članak. Pritisnite 'enter' "
-"nakon svakog termina."
+msgstr "Dodajte dodatne informacije za vaš podnesak. Pritisnite 'enter' nakon svakog pojma."
 
 msgid "submission.submit.selectPrincipalContact"
-msgstr "Glavni kontakt za uredničku korespodenciju."
+msgstr "Glavni kontakt za uredničku prepisku."
 
 msgid "submission.dataAvailability"
-msgstr ""
+msgstr "Izjava o dostupnosti podataka"
 
 msgid "submission.dataAvailability.tip"
-msgstr ""
+msgstr "Navedite da li ste učinili dostupnim dokaze koji podržavaju ovaj rad, i ako jeste, gdje i kako se mogu pristupiti."
 
 msgid "submission.files.required.genre"
-msgstr ""
+msgstr "Morate otpremiti bar jedan {$genre} fajl."
 
 msgid "submission.files.required.genres"
-msgstr ""
+msgstr "Morate otpremiti bar jedan fajl svakog od sljedećih tipova: {$genres}."
 
 msgid "publication.version"
-msgstr ""
-
-#~ msgid "submission.event.reviewer.reviewCancelled"
-#~ msgstr "Dodela recenzije poništena"
+msgstr "Verzija {$version}"
 
 msgid "submission.submissionFile"
-msgstr "Fajl predaje"
+msgstr "Fajl podneska"
 
+msgid "author.competingInterests"
+msgstr "Konkurirajući interesi"
+
+msgid "author.competingInterests.description"
+msgstr "Molimo navedite bilo kakve konkurirajuće interese koje ovaj autor može imati sa predmetom istraživanja."

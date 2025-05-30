@@ -21,22 +21,22 @@ msgid "grid.noAuditors"
 msgstr "Нема ревизора"
 
 msgid "grid.remotelyHostedItem"
-msgstr "Овај објекат је хостован на удаљеном серверу."
+msgstr "Ова ставка се налази на удаљеном серверу."
 
 msgid "grid.action.uninstall"
-msgstr ""
+msgstr "Деинсталирај"
 
 msgid "grid.action.manageAccess"
 msgstr "Управљај приступом"
 
 msgid "grid.action.sort"
-msgstr "Поређај"
+msgstr "Сортирај"
 
 msgid "grid.action.addItem"
 msgstr "Додај ставку"
 
 msgid "grid.action.addNote"
-msgstr "Додај напомену"
+msgstr "Додај биљешку"
 
 msgid "grid.action.addQuery"
 msgstr "Додај дискусију"
@@ -54,67 +54,67 @@ msgid "grid.action.addUser"
 msgstr "Додај корисника"
 
 msgid "grid.action.unassignReviewer"
-msgstr "Откажи рецензента"
+msgstr "Уклони овог рецензента"
 
 msgid "grid.action.approveCopyedit"
-msgstr "Одобри овај коректорски фајл за слање у следећу фазу."
+msgstr "Одобри ову лектурирану датотеку за слање у сљедећу фазу"
 
 msgid "grid.action.reload"
-msgstr "Учитај поново"
+msgstr "Поново учитај"
 
 msgid "grid.action.delete"
 msgstr "Обриши"
 
 msgid "grid.action.deleteFile"
-msgstr "Обриши фајл"
+msgstr "Обриши датотеку"
 
 msgid "grid.action.deleteMedia"
-msgstr "Обриши медију"
+msgstr "Обриши медиј"
 
 msgid "grid.action.editMedia"
-msgstr "Уреди медију"
+msgstr "Уреди медиј"
 
 msgid "grid.action.editSection"
 msgstr "Уреди секцију"
 
 msgid "grid.action.export"
-msgstr "Извоз"
+msgstr "Извези"
 
 msgid "grid.action.deleteSection"
 msgstr "Обриши секцију"
 
 msgid "grid.action.editorialHistory"
-msgstr "Историја уређивања"
+msgstr "Уредничка историја"
 
 msgid "grid.action.remove"
 msgstr "Уклони"
 
 msgid "grid.action.edit"
-msgstr "Измени"
+msgstr "Уреди"
 
 msgid "grid.action.approve"
-msgstr "Одобрити"
+msgstr "Одобри"
 
 msgid "grid.action.disapprove"
-msgstr "Није одобрено"
+msgstr "Одбиј"
 
 msgid "grid.action.setApproval"
-msgstr "Подеси одобрење"
+msgstr "Постави одобрење"
 
 msgid "grid.action.moreInformation"
 msgstr "Више информација"
 
 msgid "grid.action.restoreDefaults"
-msgstr "Врати на основне вредности"
+msgstr "Врати подразумијевано"
 
 msgid "grid.action.restoreDefaults.confirm"
-msgstr "Да ли сте сигурни да желите да вратите на подразумеване вредности?"
+msgstr "Да ли сте сигурни да желите вратити подразумијеване вредности?"
 
 msgid "grid.action.addAuthor"
 msgstr "Додај аутора"
 
 msgid "grid.action.editAuthor"
-msgstr "Измени аутора"
+msgstr "Уреди аутора"
 
 msgid "grid.action.deleteAuthor"
 msgstr "Обриши аутора"
@@ -126,91 +126,91 @@ msgid "grid.action.upgrade"
 msgstr "Надогради"
 
 msgid "grid.action.order"
-msgstr "Поредак"
+msgstr "Редослед"
 
 msgid "grid.action.saveOrdering"
-msgstr ""
+msgstr "Сачувај редослед"
 
 msgid "grid.action.cancelOrdering"
-msgstr "Поништи поредак"
+msgstr "Откажи редослед"
 
 msgid "grid.action.extendAll"
-msgstr "Отвори се"
+msgstr "Прошири све"
 
 msgid "grid.action.collapse"
-msgstr "Затвори"
+msgstr "Скупи"
 
 msgid "grid.action.collapseAll"
-msgstr "Затвори све"
+msgstr "Скупи све"
 
 msgid "grid.action.wizard"
-msgstr "Чаробњак подешавања"
+msgstr "Чаробњак за подешавања"
 
 msgid "grid.action.moveItem"
-msgstr "Премести ставку"
+msgstr "Помјери ставку"
 
 msgid "grid.action.downloadAll"
-msgstr "Преузми све фајлове као архиву"
+msgstr "Преузми све датотеке као архиву"
 
 msgid "grid.action.readReview"
-msgstr "Прочитај рецензију"
+msgstr "Прочитај ову рецензију"
 
 msgid "grid.action.email"
-msgstr "Пошаљи имејл"
+msgstr "Пошаљи е-пошту"
 
 msgid "grid.action.addReviewer"
 msgstr "Додај рецензента"
 
 msgid "grid.action.addFile"
-msgstr "Додај фајл"
+msgstr "Додај датотеку"
 
 msgid "grid.action.editFile"
-msgstr "Измени фајл"
+msgstr "Уреди датотеку"
 
 msgid "grid.action.selectFiles"
-msgstr "Обележи фајлове за уређивање"
+msgstr "Изабери датотеке за управљање"
 
 msgid "grid.action.requestRevisions"
-msgstr "Захтевај ревизију за ову предају"
+msgstr "Захтијевај ревизије за овај поднесак"
 
 msgid "grid.action.accept"
-msgstr "Прихвати предају"
+msgstr "Прихвати овај поднесак"
 
 msgid "grid.action.decline"
-msgstr "Одбиј предају"
+msgstr "Одбиј овај поднесак"
 
 msgid "grid.action.internalReview"
-msgstr "Пошаљи рад интерном рецензенту"
+msgstr "Пошаљи овај поднесак на интерну рецензију"
 
 msgid "grid.action.externalReview"
-msgstr "Пошаљи рад спољашњем рецензенту"
+msgstr "Пошаљи овај поднесак на екстерну рецензију"
 
 msgid "grid.action.sendToProduction"
-msgstr "Пошаљи рад у продукцију"
+msgstr "Пошаљи овај поднесак у продукцију"
 
 msgid "grid.action.settings"
 msgstr "Подешавања"
 
 msgid "grid.action.importexport"
-msgstr "Увези или извези садржај или податке са сајта"
+msgstr "Увези или извези садржај или податке сајта"
 
 msgid "grid.action.orderItems"
-msgstr "Оногући мод \"поретка\""
+msgstr "Омогући режим редоследа"
 
 msgid "grid.action.resetAll"
-msgstr "Врати све ставке на основне вредности"
+msgstr "Ресетуј све ставке на подразумијеване вредности"
 
 msgid "grid.action.addPreparedEmail"
-msgstr "Додај нови имејл шаблон"
+msgstr "Додај нови шаблон е-поште"
 
 msgid "grid.action.editPreparedEmail"
-msgstr "Уреди шаблон"
+msgstr "Уреди овај шаблон е-поште"
 
 msgid "grid.action.disableEmail"
-msgstr "Искључи шаблон"
+msgstr "Онемогући овај шаблон е-поште"
 
 msgid "grid.action.resetEmail"
-msgstr "Ресетуј шаблон на основне поставке"
+msgstr "Ресетуј овај шаблон е-поште на подразумијевано"
 
 msgid "grid.action.expandAll"
 msgstr "Прошири све"
@@ -222,16 +222,16 @@ msgid "grid.action.expand"
 msgstr "Прошири"
 
 msgid "grid.action.notify"
-msgstr "Обавести овог корисника"
+msgstr "Обавијести овог корисника"
 
 msgid "grid.action.addUserGroup"
-msgstr "Додај нову групу корисника"
+msgstr "Додај нову корисничку групу"
 
 msgid "grid.action.editUserGroup"
-msgstr "Измени ову групу корисника"
+msgstr "Уреди ову корисничку групу"
 
 msgid "grid.action.removeUserGroup"
-msgstr ""
+msgstr "Уклони ову корисничку групу"
 
 msgid "grid.action.disable"
 msgstr "Онемогући"
@@ -240,10 +240,10 @@ msgid "grid.action.details"
 msgstr "Погледај ову ставку"
 
 msgid "grid.action.enrolExisting"
-msgstr "Укључи постојећег корисника као рецензента"
+msgstr "Упиши постојећег корисника као рецензента"
 
 msgid "grid.action.selectCreate"
-msgstr "Направи новог рецензента"
+msgstr "Креирај новог рецензента"
 
 msgid "grid.action.search"
 msgstr "Претрага"
@@ -255,52 +255,52 @@ msgid "grid.action.viewLibrary"
 msgstr "Погледај библиотеку докумената"
 
 msgid "grid.action.viewMetadata"
-msgstr "Погледај метаподатке за ову предају"
+msgstr "Погледај метаподатке за овај поднесак"
 
 msgid "grid.action.sendReminder"
-msgstr "Пошаљи подсетник о задатку овом корснику"
+msgstr "Пошаљи подсјетник за задатак овом кориснику"
 
 msgid "grid.action.newRound"
-msgstr "Направи нови круг"
+msgstr "Креирај нову рунду"
 
 msgid "grid.action.viewReviewGuidelines"
 msgstr "Погледај упутства за рецензирање"
 
 msgid "grid.action.viewCompetingInterestGuidelines"
-msgstr "Погледај упутство за политику сукоба интереса"
+msgstr "Погледај политику о сукобу интереса"
 
 msgid "grid.action.thankReviewer"
 msgstr "Пошаљи захвалницу овом рецензенту"
 
 msgid "grid.action.uploadFile"
-msgstr "Додај фајл"
+msgstr "Отпреми датотеку"
 
 msgid "grid.action.addAnnouncementType"
-msgstr "Додај тип обавештења"
+msgstr "Додај тип објаве"
 
 msgid "grid.action.addAnnouncement"
-msgstr "Додај обавештење"
+msgstr "Додај објаву"
 
 msgid "grid.action.addInstitution"
-msgstr ""
+msgstr "Додај институцију"
 
 msgid "grid.action.mergeUser"
-msgstr "Споји кориснике"
+msgstr "Споји корисника"
 
 msgid "grid.action.unassignUser"
-msgstr "Откажи корисника"
+msgstr "Уклони додјелу корисника"
 
 msgid "grid.action.history"
-msgstr "Погледај историју"
+msgstr "Погледај историјат"
 
 msgid "grid.action.unconsiderReview"
-msgstr "Рецензија је готова али је можете и занемарити"
+msgstr "Ова рецензија је завршена, али је можете означити као неразматрану"
 
 msgid "grid.action.enable"
 msgstr "Омогући"
 
 msgid "grid.action.bookInfo"
-msgstr "Информације о предаји"
+msgstr "Информације о поднеску"
 
 msgid "grid.action.logInAs"
 msgstr "Пријави се као"
@@ -309,7 +309,7 @@ msgid "grid.action.exportAllUsers"
 msgstr "Извези све кориснике"
 
 msgid "grid.users.confirmExportAllUsers"
-msgstr "Да ли сте сигурни да желите да извезете све кориснике?"
+msgstr "Да ли сте сигурни да желите извести све кориснике?"
 
 msgid "grid.action.activate"
 msgstr "Активирај"
@@ -321,7 +321,7 @@ msgid "grid.action.copy"
 msgstr "Копирај"
 
 msgid "grid.action.preview"
-msgstr "Прикажи"
+msgstr "Преглед"
 
 msgid "grid.action.install"
 msgstr "Инсталирај"
@@ -330,30 +330,28 @@ msgid "grid.action.moreItems"
 msgstr "Учитај више"
 
 msgid "grid.action.users"
-msgstr ""
+msgstr "Погледај/изабери кориснике"
 
 msgid "grid.task.status.completed"
 msgstr "Овај задатак је завршен"
 
 msgid "grid.task.status.new"
-msgstr "Означено када се разматра"
+msgstr "Означено када се размотри"
 
 msgid "grid.task.status.uploaded"
-msgstr "Назив ове колоне даје информацију о томе ко је додао овај фајл"
+msgstr "Наслов колоне означава ко је отпремио ову датотеку"
 
 msgid "grid.task.status.unfinished"
 msgstr "Задатак није завршен"
 
 msgid "grid.task.status.reviewReady"
-msgstr ""
-"Ова рецензија је спремна. Кликните на иконицу напомене са леве стране да "
-"бисте је прочитали."
+msgstr "Ова рецензија је спремна. Кликните на иконицу биљешке са лијеве стране да је прочитате."
 
 msgid "grid.columns.actions"
 msgstr "Акције"
 
 msgid "grid.columns.institution"
-msgstr "Институције"
+msgstr "Институција"
 
 msgid "grid.columns.url"
 msgstr "URL"
@@ -362,37 +360,37 @@ msgid "grid.columns.auditor"
 msgstr "Ревизор"
 
 msgid "grid.columns.locale"
-msgstr "Локализација"
+msgstr "Локал"
 
 msgid "grid.columns.locale.code"
-msgstr ""
+msgstr "Код"
 
 msgid "grid.sponsor.title"
-msgstr "Установе подршке"
+msgstr "Организације спонзори"
 
 msgid "grid.action.addSponsor"
-msgstr "Додај установу подршке"
+msgstr "Додај спонзора"
 
 msgid "grid.action.deleteSponsor"
-msgstr "Обриши установу подршке"
+msgstr "Обриши спонзора"
 
 msgid "grid.action.editSponsor"
-msgstr "Измени установу подршке"
+msgstr "Уреди спонзора"
 
 msgid "grid.action.addSeries"
-msgstr "Додај серије"
+msgstr "Додај серију"
 
 msgid "grid.action.editSeries"
-msgstr "Измени серије"
+msgstr "Уреди серију"
 
 msgid "grid.action.deleteSeries"
-msgstr "Обриши серије"
+msgstr "Обриши серију"
 
 msgid "grid.action.addCategory"
 msgstr "Додај категорију"
 
 msgid "grid.action.editCategory"
-msgstr "Измени категорију"
+msgstr "Уреди категорију"
 
 msgid "grid.action.deleteCategory"
 msgstr "Обриши категорију"
@@ -407,103 +405,103 @@ msgid "grid.action.deleteContributor"
 msgstr "Обриши сарадника"
 
 msgid "grid.action.deleteContributor.confirmationMessage"
-msgstr ""
+msgstr "Да ли сте сигурни да желите уклонити {$name} као сарадника? Ова акција се не може опозвати."
 
 msgid "grid.action.newVersion"
-msgstr ""
+msgstr "Креирај нову верзију"
 
 msgid "grid.reviewForm.title"
-msgstr "Форме рецензија"
+msgstr "Формулари за рецензију"
 
 msgid "grid.reviewFormElement.responseItems"
 msgstr "Опције одговора"
 
 msgid "grid.noFiles"
-msgstr "Нема фајлова"
+msgstr "Нема датотека"
 
 msgid "grid.libraryFiles.column.files"
-msgstr "Фајлови"
+msgstr "Датотеке"
 
 msgid "grid.libraryFiles.submission.title"
-msgstr "Библиотека предатих радова"
+msgstr "Библиотека поднеска"
 
 msgid "grid.libraryFiles.editorial.title"
 msgstr "Уредничка библиотека"
 
 msgid "grid.libraryFiles.review.title"
-msgstr "Рецезентска библиотека"
+msgstr "Библиотека рецензија"
 
 msgid "grid.libraryFiles.production.title"
-msgstr "Продукциона библиотека"
+msgstr "Библиотека продукције"
 
 msgid "grid.libraryFiles.productionTemplate.title"
-msgstr "Библиотека продукцијских шаблона"
+msgstr "Библиотека шаблона продукције"
 
 msgid "grid.submissionChecklist.title"
-msgstr "Списак за проверу предатих радова"
+msgstr "Чеклиста за подношење"
 
 msgid "grid.submissionChecklist.column.checklistItem"
-msgstr "Ставке списка за проверу"
+msgstr "Ставка чеклисте"
 
 msgid "author.users.contributor.principalContact"
 msgstr "Примарни контакт"
 
 msgid "author.users.contributor.setPrincipalContact"
-msgstr ""
+msgstr "Постави као примарни контакт"
 
 msgid "contributor.listPanel.preview"
-msgstr ""
+msgstr "Преглед"
 
 msgid "contributor.listPanel.preview.description"
-msgstr ""
+msgstr "Сарадници на овој публикацији биће идентификовани у сљедећим форматима."
 
 msgid "contributor.listPanel.preview.format"
-msgstr ""
+msgstr "Формат"
 
 msgid "contributor.listPanel.preview.display"
-msgstr ""
+msgstr "Приказ"
 
 msgid "contributor.listPanel.preview.abbreviated"
-msgstr ""
+msgstr "Скраћено"
 
 msgid "contributor.listPanel.preview.publicationLists"
-msgstr ""
+msgstr "Листе публикација"
 
 msgid "contributor.listPanel.preview.full"
-msgstr ""
+msgstr "Пуно"
 
 msgid "grid.roles.currentRoles"
 msgstr "Тренутне улоге"
 
 msgid "grid.roles.add"
-msgstr "Направи нову улогу"
+msgstr "Креирај нову улогу"
 
 msgid "grid.roles.stageAssignment"
-msgstr "Додела у фази"
+msgstr "Додјела фазе"
 
 msgid "grid.user.currentUsers"
 msgstr "Тренутни корисници"
 
 msgid "grid.user.currentEnrollment"
-msgstr "Тренутне улоге"
+msgstr "Тренутно уписани"
 
 msgid "grid.user.allRoles"
 msgstr "Све улоге"
 
 msgid "grid.user.allPermissionLevels"
-msgstr "Сви нивои приступа"
+msgstr "Све нивое дозвола"
 
 msgid "grid.user.add"
 msgstr "Додај корисника"
 
 msgid "grid.user.enroll"
-msgstr "Укључи корисника"
+msgstr "Упиши корисника"
 
 msgid "grid.user.edit"
-msgstr "Измени корисника"
+msgstr "Уреди корисника"
 
 msgid "grid.user.email"
-msgstr "Имејл"
+msgstr "Е-пошта"
 
 msgid "grid.user.enable"
 msgstr "Омогући"
@@ -512,27 +510,22 @@ msgid "grid.user.disable"
 msgstr "Онемогући"
 
 msgid "grid.user.disableReason"
-msgstr "Разлог за искључивање корисника"
+msgstr "Разлог за онемогућавање корисника"
 
 msgid "grid.user.enableReason"
-msgstr "Разлог за укључивање корисника"
+msgstr "Разлог за омогућавање корисника"
 
 msgid "grid.user.error"
-msgstr ""
-"Дошло је до грешке приликом администрације овог корисника. Покушајте поново."
+msgstr "Дошло је до грешке при администрацији овог корисника. Молимо покушајте поново."
 
 msgid "grid.user.errorEmail"
-msgstr ""
-"Дошло је до грешке приликом слања имејла, уверите се да је имејл сервер "
-"подешен како треба и да функционише или контактирајте администратора сервера."
+msgstr "Дошло је до грешке при слању ове е-поште. Провјерите да ли је ваш сервер за е-пошту исправно конфигурисан и/или контактирајте администратора система."
 
 msgid "grid.user.cannotAdminister"
-msgstr ""
-"Немате довољно права да администрирате овог корисника. Да бисте "
-"администрирали кориснике морате бити администратор сајта."
+msgstr "Немате довољно дозвола да администрирате овог корисника. Да бисте администрирали корисника, морате бити или администратор сајта, или администрирати све контексте у којима је овај корисник уписан."
 
 msgid "grid.user.mustProvideName"
-msgstr "Молимо унесите прво барем презиме за корисника"
+msgstr "Молимо прво наведите бар презиме за корисника."
 
 msgid "grid.user.generatePassword"
 msgstr "Генериши лозинку"
@@ -541,19 +534,19 @@ msgid "grid.user.generatePasswordDescription"
 msgstr "Генериши насумичну лозинку за овог корисника."
 
 msgid "grid.user.notifyUser"
-msgstr "Обавести корисника"
+msgstr "Обавијести корисника"
 
 msgid "grid.user.notifyUserDescription"
-msgstr "Пошаљи кориснику имејл добродошлице."
+msgstr "Пошаљи кориснику добродошлицу путем е-поште."
 
 msgid "grid.user.mustChangePassword"
-msgstr "Измени лозинку"
+msgstr "Промјени лозинку"
 
 msgid "grid.user.mustChangePasswordDescription"
-msgstr "Корисник мора променити лозинку при следећем приступу."
+msgstr "Корисник мора промјенити лозинку при сљедећој пријави."
 
 msgid "grid.user.mustChangePasswordDescriptionOld"
-msgstr "Захтевај од корисника да промене лозинку при следећем приступу."
+msgstr "Захтијевај од корисника да промјени лозинку при сљедећој пријави."
 
 msgid "grid.user.moreDetails"
 msgstr "Више детаља о кориснику"
@@ -562,19 +555,19 @@ msgid "grid.user.lessDetails"
 msgstr "Мање детаља о кориснику"
 
 msgid "grid.user.userDetails"
-msgstr "Детаљи корисника"
+msgstr "Детаљи о кориснику"
 
 msgid "grid.user.userRoles"
-msgstr "Улоге корисника"
+msgstr "Корисничке улоге"
 
 msgid "grid.user.userNoRoles"
-msgstr "Овај корисник нема улога."
+msgstr "Овај корисник нема никакве улоге."
 
 msgid "grid.user.step1"
-msgstr "1. корак: Унесите детаље корисника"
+msgstr "Корак #1: Попуни детаље о кориснику"
 
 msgid "grid.user.step2"
-msgstr "2. корак: Додајте улоге кориснику {$userFullName}"
+msgstr "Корак #2: Додај корисничке улоге за {$userFullName}"
 
 msgid "grid.user.addRoles"
 msgstr "Додај улоге"
@@ -583,14 +576,13 @@ msgid "grid.user.addRole"
 msgstr "Додај улогу"
 
 msgid "grid.user.selectUser"
-msgstr "Одабери корсника"
+msgstr "Изабери корисника"
 
 msgid "grid.user.pleaseSelectUser"
-msgstr "Молимо одаберите корисника"
+msgstr "Молимо изаберите корисника"
 
 msgid "grid.user.confirmLogInAs"
-msgstr ""
-"Пријави се као овај корисник? Све што радите биће приписано овом кориснику."
+msgstr "Пријави се као овај корисник? Све акције које извршите биће приписане овом кориснику."
 
 msgid "grid.user.mergeUsers"
 msgstr "Споји кориснике"
@@ -599,20 +591,16 @@ msgid "grid.user.mergeUsers.mergeUser"
 msgstr "Споји корисника"
 
 msgid "grid.user.mergeUsers.mergeIntoUser"
-msgstr "Споји у овог кјорисника"
+msgstr "Споји у овог корисника"
 
 msgid "grid.user.mergeUsers.allUsers"
-msgstr "Сви укључени корисници"
+msgstr "Сви уписани корисници"
 
 msgid "grid.user.mergeUsers.confirm"
-msgstr ""
-"Да ли сте сигурни да желите да спојите налог са корисничким именом "
-"\"{$oldUsername}\" са налогом са корисничким именом \"{$newUsername}\"? "
-"Налог са корисничким именом \"{$oldUsername}\" неће више постојати. Ова "
-"операција је неповратна."
+msgstr "Да ли сте сигурни да желите спојити налог са корисничким именом \"{$oldUsername}\" у налог са корисничким именом \"{$newUsername}\"? Налог са корисничким именом \"{$oldUsername}\" неће више постојати. Ова акција се не може опозвати."
 
 msgid "grid.preparedEmails.title"
-msgstr "Припремљени шаблони имејл порука"
+msgstr "Припремљени шаблони е-поште"
 
 msgid "grid.preparedEmails.currentList"
 msgstr "Тренутна листа"
@@ -621,115 +609,94 @@ msgid "grid.plugin.allCategories"
 msgstr "Све категорије"
 
 msgid "grid.plugin.disable"
-msgstr "Да ли сте сигурни да желите да онемогућите овај додатак?"
+msgstr "Да ли сте сигурни да желите онемогућити овај додатак?"
 
 msgid "grid.action.fileUnconsider"
-msgstr "Дошло је до лектроских измена. Можете да занемарите овај задатак"
+msgstr "Коректуре су урађене. Можете означити овај задатак као неразматран"
 
 msgid "grid.artworkFile.caption"
-msgstr "Наслов"
+msgstr "Натпис"
 
 msgid "grid.artworkFile.credit"
 msgstr "Заслуге"
 
 msgid "grid.artworkFile.copyrightOwner"
-msgstr "Носилац ауторских права"
+msgstr "Власник ауторских права"
 
 msgid "grid.artworkFile.copyrightContact"
-msgstr "Контакт информације (уколико није аутор или издавач)"
+msgstr "Контакт информације (ако није аутор/издавач)"
 
 msgid "grid.artworkFile.permissionTerms"
-msgstr "Услови присупа"
+msgstr "Услови дозволе"
 
 msgid "grid.artworkFile.placement"
-msgstr "Положај у предаји"
+msgstr "Положај у поднеску"
 
 msgid "grid.userGroup.assignStage"
-msgstr "Додели фазу"
+msgstr "Додјели фазу"
 
 msgid "grid.userGroup.unassignStage"
-msgstr "Уклони фазу"
+msgstr "Уклони додјелу фазе"
 
 msgid "grid.userGroup.allStages"
-msgstr "Све фазе процеса рада"
+msgstr "Све фазе радног тока"
 
 msgid "grid.userGroup.filter.listRoles"
-msgstr "Излистај улоге додељене"
+msgstr "Листа улога додјељених"
 
 msgid "grid.userGroup.filter.permissionLevel"
-msgstr "Са нивоом приступа подешеним на"
+msgstr "Са нивоом дозволе постављеним на"
 
 msgid "grid.userGroup.cantRemoveDefaultUserGroup"
-msgstr "Улога {$userGroupName} је системска и не може бити уклоњена."
+msgstr "Улога {$userGroupName} је подразумијевана и не може се уклонити."
 
 msgid "grid.userGroup.cantRemoveUserGroup"
-msgstr ""
-"Не могу да уклоним улогу {$userGroupName}. Тренутно је додељена за "
-"{$usersCount} корисник(а)."
+msgstr "Не могу уклонити улогу {$userGroupName}. Тренутно је {$usersCount} корисника додјељено њој."
 
 msgid "grid.userGroup.removed"
 msgstr "Улога {$userGroupName} је уклоњена."
 
 msgid "grid.userGroup.assignedStage"
-msgstr "Улога {$userGroupName} је додељена фази {$stageName}."
+msgstr "Улога {$userGroupName} додјељена фази {$stageName}."
 
 msgid "grid.userGroup.unassignedStage"
-msgstr "Улога {$userGroupName} је уклоњена из фазе {$stageName}."
+msgstr "Улога {$userGroupName} више није додјељена фази {$stageName}."
 
 msgid "grid.submission.itemTitle"
 msgstr "Аутор; Наслов"
 
 msgid "grid.submission.active.selectOrphaned"
-msgstr ""
+msgstr "Укључи непотпуне подноске које није поднио аутор."
 
 msgid "grid.action.addNavigationMenu"
-msgstr ""
+msgstr "Додај мени"
 
 msgid "grid.action.addNavigationMenuItem"
-msgstr ""
+msgstr "Додај ставку"
 
 msgid "grid.navigationMenus.navigationMenuItems.noneExist"
-msgstr ""
+msgstr "Нема ставки у навигационом менију"
 
 msgid "grid.navigationMenus.navigationMenu.noneExist"
-msgstr ""
+msgstr "Нема навигационих менија"
 
 msgid "grid.navigationMenus.navigationMenu.selectType"
-msgstr ""
+msgstr "Изабери тип..."
 
 msgid "grid.action.view"
-msgstr ""
+msgstr "Погледај"
 
 msgid "author.users.contributor.name"
 msgstr "Име"
 
 msgid "author.users.contributor.email"
-msgstr "Имејл"
+msgstr "Е-пошта"
 
 msgid "author.users.contributor.role"
 msgstr "Улога"
 
 msgid "author.users.contributor.includeInBrowse"
-msgstr "У листи за преглед"
+msgstr "У листама за преглед"
 
 msgid "grid.action.editContributor"
-msgstr "Имени сарадника"
-
-#~ msgid "grid.user.mergeUsers.noneEnrolled"
-#~ msgstr "Нема корсника са том улогом."
-
-#~ msgid "grid.user.mergeUsers.into.description"
-#~ msgstr ""
-#~ "Сада треба да одаберете корисника на ког ће се пренети особине претходног "
-#~ "корисника, ауторства, уређивачки задаци и слично."
-
-#~ msgid "grid.user.mergeUsers.from.description"
-#~ msgstr ""
-#~ "Одаберите корисника ког желите да спојите са другим корисником (када неко "
-#~ "има на пример два налога). Налог који је први одабран биће обрисан, а све "
-#~ "везано за њега биће пренето на други налог."
-
-#~ msgid "grid.user.mergeUsers.mergeUserSelect.confirm"
-#~ msgstr ""
-#~ "Да ли сте сигурни да желите да спојите овог корисника са другим? Другог "
-#~ "корисника ћете одабрати на следећој страници."
+msgstr "Уреди сарадника"

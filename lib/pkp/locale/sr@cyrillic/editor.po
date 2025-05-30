@@ -12,111 +12,106 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "editor.submissionArchive.confirmDelete"
-msgstr "Да ли желите да трајно обришете предаје?"
+msgstr "Да ли сте сигурни да желите трајно избрисати овај поднесак?"
 
 msgid "editor.activityLog"
-msgstr ""
+msgstr "Дневник активности"
 
 msgid "editor.submissionLibrary"
-msgstr "Библиотека предаја"
+msgstr "Библиотека"
 
 msgid "editor.submission.workflowDecision.submission"
-msgstr ""
+msgstr "Одлука забиљежена"
 
 msgid "editor.submission.workflowDecision.submission.declined"
-msgstr ""
+msgstr "Поднесак одбијен."
 
 msgid "editor.submission.workflowDecision.submission.accepted"
-msgstr ""
+msgstr "Поднесак прихваћен."
 
 msgid "editor.submission.workflowDecision.submission.published"
-msgstr ""
+msgstr "Поднесак објављен."
 
 msgid "editor.submission.workflowDecision.submission.reviewRound"
-msgstr ""
+msgstr "Послато на нову рунду рецензија."
 
 msgid "editor.submission.workflowDecision.submission.production"
-msgstr ""
+msgstr "Послато у продукцију."
 
 msgid "editor.submission.workflowDecision.submission.underReview"
-msgstr ""
+msgstr "Поднесак прихваћен на рецензију."
 
 msgid "editor.submission.workflowDecision.changeDecision"
-msgstr ""
+msgstr "Измјени одлуку"
 
 msgid "editor.submission.workflowDecision.disallowedDecision"
-msgstr ""
+msgstr "Немате дозволу да забиљежите ову одлуку за овај поднесак."
 
 msgid "editor.submission.workflowDecision.invalidEditor"
-msgstr ""
+msgstr "Уредник није препознат и можда нема дозволу да забиљежи одлуку за овај поднесак."
 
 msgid "editor.submission.workflowDecision.invalidRecipients"
-msgstr ""
+msgstr "Не можете послати е-пошту сљедећим примаоцима: {$names}."
 
 msgid "editor.submission.workflowDecision.invalidReviewRound"
-msgstr ""
+msgstr "Ова рунда рецензија није пронађена."
 
 msgid "editor.submission.workflowDecision.invalidReviewRoundStage"
-msgstr ""
+msgstr "Додата је рунда рецензија, али ова одлука се не доноси током фазе рецензије."
 
 msgid "editor.submission.workflowDecision.invalidReviewRoundSubmission"
-msgstr ""
+msgstr "Ова рунда рецензија није дио овог поднеска."
 
 msgid "editor.submission.workflowDecision.invalidStage"
-msgstr ""
+msgstr "Поднесак није у одговарајућој фази радног тока за ову одлуку."
 
 msgid "editor.submission.workflowDecision.noUnassignedDecisions"
-msgstr ""
+msgstr "Морате бити додјељени овом поднеску да бисте забиљежили уредничку одлуку."
 
 msgid "editor.submission.workflowDecision.requiredReviewRound"
-msgstr ""
+msgstr "Морате навести ID рунде рецензија да бисте донели ову одлуку."
 
 msgid "editor.submission.workflowDecision.requiredDecidingEditor"
-msgstr ""
+msgstr "Препорука се не може дати уколико уреднику који може донети коначну одлуку није додјељена ова фаза."
 
 msgid "editor.submission.workflowDecision.submissionInvalid"
-msgstr ""
+msgstr "Одлука се не може донети за овај поднесак. ID поднеска недостаје или се не поклапа са траженим поднеском."
 
 msgid "editor.submission.workflowDecision.typeInvalid"
-msgstr ""
+msgstr "Ова одлука није пронађена. Молимо наведите препознатљиву врсту одлуке."
 
 msgid "editor.review.notInitiated"
-msgstr "Процес рецензирања још није започет."
+msgstr "Процес рецензије још није покренут."
 
 msgid "editor.submission.copyediting.personalMessageToUser"
-msgstr "Порука за корисника"
+msgstr "Порука кориснику"
 
 msgid "editor.submission.externalReviewDescription"
-msgstr "Изаберите фајлове како би их послали у фазу рецензирања."
+msgstr "Изаберите датотеке испод да бисте их послали у фазу рецензије."
 
 msgid "editor.submission.fileAuditor.form.fileRequired"
-msgstr "Морате изабрати најмање један фајл да бисте му доделили корисника."
+msgstr "Морате изабрати бар једну датотеку да бисте додјелили корисника."
 
 msgid "editor.submission.fileAuditor.form.messageRequired"
-msgstr "Морате укључити приватну поруку."
+msgstr "Морате укључити личну поруку."
 
 msgid "editor.submission.fileAuditor.skipEmail"
-msgstr "Не шаљите имејл ревизору"
+msgstr "Не шаљи е-пошту ревизору"
 
 msgid "editor.submission.fileAuditor.form.userRequired"
-msgstr "Морате одабрати корисник за доделу."
+msgstr "Морате изабрати корисника за додјелу."
 
 msgid "editor.submission.uploadSelectFiles"
-msgstr "Додај/одабери фајлове"
+msgstr "Отпреми/Изабери датотеке"
 
 msgid "editor.submission.selectFiles"
-msgstr "Одабери фајлове"
+msgstr "Изабери датотеке"
 
 msgid "editor.submission.revisions"
 msgstr "Ревизије"
 
 msgid "editor.submission.review.reviewersDescription"
-msgstr ""
-"Користите <em>+Додај рецензентa</em> да би позвали читаоце да рецензирају "
-"предате фајлове. Икона напомене указује да је рецензија предата и која је "
-"након тога означена као <em>Примљено</em> након што је консултована. Када "
-"рецензија касни, иконица црвене коверте се појављује како би подсетила "
-"рецензенте ."
+msgstr "Користите <em>+Додај рецензента</em> да бисте позвали читаоце да рецензирају датотеке поднеска. Иконица свеске означава да је рецензија поднијела, која се затим означава као <em>Потврђена</em> након што је консултована. Када рецензије касне, појављује се црвена иконица коверте за подсјетник рецензентима."
 
 msgid "editor.submission.addReviewer"
 msgstr "Додај рецензента"
@@ -128,153 +123,151 @@ msgid "editor.submission.findAndSelectUser"
 msgstr "Пронађи корисника"
 
 msgid "editor.submission.fileList.includeAllStages"
-msgstr "Покажи фајлове из свих доступних фаза тока рада."
+msgstr "Прикажи датотеке из свих доступних фаза радног тока."
 
 msgid "editor.submission.review.currentFiles"
-msgstr "Тренутни фајлови рецензије за круг {$round}"
+msgstr "Тренутне датотеке за рецензију у рунди {$round}"
 
 msgid "editor.submission.backToSearch"
-msgstr "Повратак на претрагу"
+msgstr "Назад на претрагу"
 
 msgid "editor.review.createReviewer"
-msgstr "Направи новог рецензента"
+msgstr "Креирај новог рецензента"
 
 msgid "editor.review.enrollReviewer.short"
-msgstr "Укључи постојећег корисника"
+msgstr "Упиши постојећег корисника"
 
 msgid "editor.review.unassignReviewer"
-msgstr "Откажи рецензента"
+msgstr "Уклони рецензента"
 
 msgid "editor.review.cancelReviewer"
-msgstr ""
+msgstr "Откажи рецензента"
 
 msgid "editor.review.reinstateReviewer"
-msgstr ""
+msgstr "Врати рецензента"
 
 msgid "editor.review.resendRequestReviewer"
-msgstr ""
+msgstr "Поново пошаљи захтјев за рецензијом"
 
 msgid "editor.submissionReview.reviewType"
 msgstr "Тип рецензије"
 
 msgid "editor.submissionReview.sendEmail"
-msgstr ""
+msgstr "Пошаљи обавијест аутору/има: {$authorName}"
 
 msgid "editor.submissionReview.sendEmail.editors"
-msgstr ""
+msgstr "Пошаљи обавијест уреднику/има: {$editorNames}"
 
 msgid "editor.submissionReview.skipEmail"
-msgstr "Не шаљи имејл аутору"
+msgstr "Не шаљи обавијест"
 
 msgid "editor.submissionReview.open"
-msgstr "Отворена"
+msgstr "Отворено"
 
-#, fuzzy
 msgid "editor.submissionReview.anonymous"
-msgstr "Слепа"
+msgstr "Анонимни рецензент/откривени аутор"
 
-#, fuzzy
 msgid "editor.submissionReview.doubleAnonymous"
-msgstr "Двострука слепа"
+msgstr "Анонимни рецензент/анонимни аутор"
 
 msgid "editor.submissionReview.restrictFiles"
-msgstr "Фајлови за рецензирање"
+msgstr "Датотеке за рецензију"
 
 msgid "editor.submissionReview.restrictFiles.hide"
-msgstr "Затвори селекцију фајлова"
+msgstr "Затвори избор датотека"
 
 msgid "editor.submissionReview.editReview"
 msgstr "Уреди рецензију"
 
 msgid "editor.review.anonymousReviewer"
-msgstr ""
+msgstr "Анонимни рецензент"
 
 msgid "editor.review.personalMessageToReviewer"
-msgstr "Порука која ће бити послата рецензенту"
+msgstr "Е-пошта за рецензента"
 
 msgid "editor.review.importantDates"
 msgstr "Важни датуми"
 
 msgid "editor.review.uploadRevision"
-msgstr "Додај ревизију"
+msgstr "Отпреми ревизију"
 
-msgid "editor.review.newReviewRound"
-msgstr ""
+msgid "editor.review.newRound"
+msgstr "Захтијевај нову рунду рецензија"
 
 msgid "editor.review.NotifyAuthorRevisions"
-msgstr "Захтевај ревизију од аутора."
+msgstr "Ревизије неће бити предмет нове рунде стручних рецензија."
 
 msgid "editor.review.NotifyAuthorResubmit"
-msgstr "Захтевај ревизију од аутора која ће бити тема наредних рецензирања."
+msgstr "Ревизије ће бити предмет нове рунде стручних рецензија."
 
 msgid "editor.review.NotifyAuthorRevisions.recommendation"
-msgstr ""
+msgstr "Ревизије не би требало да буду предмет нове рунде стручних рецензија."
 
 msgid "editor.review.NotifyAuthorResubmit.recommendation"
-msgstr ""
+msgstr "Ревизије би требало да буду предмет нове рунде стручних рецензија."
 
 msgid "editor.review.dateAccepted"
-msgstr "Размотри датуме прихватања"
+msgstr "Датум прихватања рецензије"
 
 msgid "editor.review.reviewsAdded"
-msgstr ""
+msgstr "Рецензије додате у садржај поруке."
 
 msgid "editor.review.noReviews"
 msgstr "Нема стручних рецензија за увоз"
 
 msgid "editor.review.reminder"
-msgstr "Подсетник за рецензенте"
+msgstr "Подсјетник за рецензију"
 
 msgid "editor.review.thankReviewer"
-msgstr "Захвали рецензентима"
+msgstr "Захвали рецензенту"
 
 msgid "editor.review.reminderError"
-msgstr "Грешка у слању подсетника за рецензенте"
+msgstr "Грешка при слању подсјетника за рецензију"
 
 msgid "editor.review.thankReviewerError"
-msgstr "Грешка у слању захвалнице рецензентима"
+msgstr "Грешка при слању захвалнице рецензенту"
 
 msgid "editor.review.skipEmail"
-msgstr "Не шаљи имејл рецензенту."
+msgstr "Не шаљи е-пошту рецензенту."
 
 msgid "editor.review.sendReminder"
-msgstr "Пошаљи подсетник"
+msgstr "Пошаљи подсјетник"
 
 msgid "editor.review.readReview"
 msgstr "Прочитај рецензију"
 
 msgid "editor.review.readNewReview"
-msgstr "Прочитај нове рецензије"
+msgstr "Прочитај нову рецензију"
 
 msgid "editor.review.responseDue"
-msgstr "Одговорити до датума: {$date}"
+msgstr "Рок за одговор: {$date}"
 
 msgid "editor.review.requestSent"
-msgstr "Захтев послат"
+msgstr "Захтјев послан"
 
 msgid "editor.review.requestAccepted"
-msgstr "Захтев прихваћен"
+msgstr "Захтјев прихваћен"
 
 msgid "editor.review.requestDeclined"
-msgstr ""
+msgstr "Захтјев одбијен"
 
 msgid "editor.review.requestCancelled"
-msgstr ""
+msgstr "Захтјев отказан"
 
 msgid "editor.review.requestDeclined.tooltip"
-msgstr ""
+msgstr "Рецензент је одбио овај захтјев за рецензијом."
 
 msgid "editor.review.requestCancelled.tooltip"
-msgstr ""
+msgstr "Уредник је отказао овај захтјев за рецензијом."
 
 msgid "editor.review.revertDecision"
-msgstr "Обрни одлуку"
+msgstr "Опозови одлуку"
 
 msgid "editor.review.reviewDue"
-msgstr "Рок за предају рецензије: {$date}"
+msgstr "Рок за рецензију: {$date}"
 
 msgid "editor.review.reviewDueDate"
-msgstr "Рок за предају рецензије"
+msgstr "Рок за рецензију"
 
 msgid "editor.review.reviewCompleted"
 msgstr "Рецензија завршена"
@@ -283,324 +276,286 @@ msgid "editor.review.reviewConfirmed"
 msgstr "Рецензија потврђена"
 
 msgid "editor.review.reviewSubmitted"
-msgstr "Рецензија предата"
+msgstr "Рецензија поднијела"
 
 msgid "editor.review.reviewerThanked"
-msgstr ""
+msgstr "Рецензенту захваљено"
 
 msgid "editor.review.ReviewerResendRequest"
-msgstr ""
+msgstr "Захтјев поново послан"
 
 msgid "editor.review.reviewerComments"
-msgstr "Коментари рецензената"
+msgstr "Коментари рецензента"
 
 msgid "editor.review.rateReviewer"
-msgstr "Рангирање рецензента"
+msgstr "Оцјена рецензента"
 
 msgid "editor.review.rateReviewer.description"
-msgstr ""
+msgstr "Оцијените квалитет дате рецензије. Ова оцјена се не дијели са рецензентом."
 
 msgid "editor.review.reviewerRating.none"
-msgstr ""
+msgstr "Без оцјене"
 
 msgid "editor.review.mustSelect"
-msgstr "Морате одабрати рецензента"
+msgstr "Морате изабрати рецензента"
 
 msgid "editor.review.errorAddingReviewer"
-msgstr "Дошло је до грешке приликом додавања рецензента, покушајте поново."
+msgstr "Дошло је до грешке при додавању рецензента. Молимо покушајте поново."
 
 msgid "editor.review.errorDeletingReviewer"
-msgstr "Дошло је до грешке приликом брисања рецензента, покушајте поново."
+msgstr "Дошло је до грешке при брисању рецензента. Молимо покушајте поново."
 
 msgid "editor.review.errorReinstatingReviewer"
-msgstr ""
+msgstr "Дошло је до грешке при враћању рецензента. Молимо покушајте поново."
 
 msgid "editor.review.errorResendingReviewerRequest"
-msgstr ""
+msgstr "Дошло је до грешке при поновним захтијевању рецензије. Молимо покушајте поново."
 
 msgid "editor.review.userGroupSelect"
-msgstr "Укључи корисника у ову групу рецензената"
+msgstr "Упиши корисника у ову групу рецензената"
 
 msgid "editor.review.unconsiderReviewText"
-msgstr ""
-"Да ли желите да означите ову рецензију као неуважену? Историја рецензирања "
-"ће бити сачувана."
+msgstr "Да ли желите означити ову рецензију као неразматрану? Историјат рецензије ће бити сачуван."
 
 msgid "editor.review.unconsiderReview"
-msgstr "Означи рецензију као неуважену"
+msgstr "Означи као неразматрано"
 
 msgid "editor.review.readConfirmation"
-msgstr ""
-"Када сте прочитали ову рецензију притисните \"Потврди\" како би назначили да "
-"процес рецензирања може да настави. Уколико је рецензент послао рецензију "
-"негде другде можете је доставити овде и након тога притиснути \"Потврди\" за "
-"наставак."
+msgstr "Након што прочитате ову рецензију, притисните \"Потврди\" да наставите процес рецензије. Ако је рецензент поднио рецензију на другом мјесту, можете отпремити датотеку испод и притиснути \"Потврди\" да наставите."
 
 msgid "editor.discussion.errorAnonymousParticipants"
-msgstr ""
+msgstr "Дискусија се не може креирати са изабраним учесницима јер би то утицало на анонимност процеса рецензије."
 
 msgid "editor.discussion.errorNotStageParticipant"
-msgstr ""
+msgstr "Изабрани учесник није додјељен овој фази."
 
 msgid "editor.submission.schedulePublication"
-msgstr "Додели за објављивање"
+msgstr "Закажи за објављивање"
 
 msgid "editor.submission.selectCopyedingFiles"
-msgstr "Коректорски фајлови"
+msgstr "Датотеке за лектуру"
 
 msgid "editor.submission.selectReviewer"
-msgstr "Одабери рецензента"
+msgstr "Изабери рецензента"
 
 msgid "editor.submission.taskDueDate"
-msgstr "Задатак до датума"
+msgstr "Рок за задатак"
 
 msgid "editor.submission.taskSchedule"
-msgstr "Предвиђени задаци"
+msgstr "Распоред задатака"
 
 msgid "editor.review.enrollReviewer"
-msgstr "Укључи постојећег корисника као рецензента"
+msgstr "Упиши постојећег корисника као рецензента"
 
 msgid "editor.submission.noAuditRequested"
-msgstr "Нема захтева за ревизију овог фајла"
+msgstr "Није захтијевана ревизија за ову датотеку"
 
 msgid "editor.submission.personalMessageToUser"
-msgstr "Имејл који ће бити послат кориснику"
+msgstr "Е-пошта за корисника"
 
 msgid "editor.submission.proof.reminder"
-msgstr "Подсетник за пруф"
+msgstr "Подсјетник за коректуру"
 
 msgid "editor.submission.editorial.approveCopyeditDescription"
-msgstr ""
-"Фајл коректуре мора бити одобрен пре но што може бити послат у фазу "
-"продукције. Да ли желите да одобрите овај фајл?"
+msgstr "Датотека на лектури мора бити одобрена прије слања у фазу продукције. Да ли желите одобрити ову датотеку?"
 
 msgid "editor.submission.editorial.disapproveCopyeditDescription"
-msgstr ""
-"Не одобравање овог коректорског фајла учиниће га недоступним за слање у фазу "
-"продукције. Да ли желите да га не одобрите?"
+msgstr "Одбијање ове датотеке на лектури ће је учинити недоступном за слање у фазу продукције. Да ли желите одбити ову датотеку?"
 
 msgid "editor.submission.addAuditor"
-msgstr "Додели ревизора"
+msgstr "Додјели ревизора"
 
 msgid "editor.submission.copyedit.manageCopyeditFilesDescription"
-msgstr ""
-"Сви фајлови који су већ додатиу било коју фазу предаје могу да се додају у "
-"листу фајлова за коректуру означавањем \"Укључи\" ознаке испод и \"Претрагом:"
-"\" сви расположиви фајлови ће бити излистани и доступни за избор. Додатни "
-"фајлови који још нису достављени могу се додату опцијом \"Достави фајл\"."
+msgstr "Било која датотека отпремљена у било коју фазу поднеска може бити додата у листу датотека за лектуру означавањем поља Укључи испод и кликом на Претрага: све доступне датотеке ће бити приказане и могу бити изабране за укључивање. Додатне датотеке које још нису отпремљене у фазу могу бити додате у листу кликом на линк Отпреми датотеку."
 
 msgid "editor.review"
-msgstr "Рецензирај"
+msgstr "Рецензија"
 
 msgid "editor.review.reviewDetails"
-msgstr "Детаљи рецензирања"
+msgstr "Детаљи рецензије"
 
 msgid "editor.review.noReviewFilesUploaded"
-msgstr "Нема достављених фајлова"
+msgstr "Нема отпремљених датотека"
 
 msgid "editor.review.noReviewFilesUploaded.details"
-msgstr "Још нисте доставили ни један фајл рецензије."
+msgstr "Нисте отпремили ниједну датотеку за рецензију."
 
 msgid "editor.review.emailReviewer"
-msgstr "Пошаљи имејл рецензенту"
+msgstr "Пошаљи е-пошту рецензенту"
 
 msgid "editor.submission.production.productionReadyFiles"
-msgstr "Фајлови спремни за продукцију"
+msgstr "Датотеке спремне за продукцију"
 
 msgid "editor.submission.newRound"
-msgstr "Нова рунда рецензирања"
+msgstr "Нова рунда рецензија"
 
 msgid "editor.submissionReview.recordDecision"
-msgstr "Забележи одлуку уредника"
+msgstr "Забиљежи уредничку одлуку"
 
 msgid "editor.submissionReview.recordRecommendation"
-msgstr ""
+msgstr "Забиљежи уредничку препоруку"
 
 msgid "editor.submissionReview.recordRecommendation.notifyEditors"
-msgstr ""
+msgstr "Обавијести уреднике"
 
 msgid "editor.submissionReview.recordRecommendation.skipEmail"
-msgstr ""
+msgstr "Не шаљи е-пошту уредницима."
 
 msgid "editor.submissionReview.recordRecommendation.createDiscussion"
-msgstr ""
+msgstr "Креирај дискусију о рецензији за ову препоруку."
 
 msgid "editor.submissionReview.recordRecommendation.skipDiscussion"
-msgstr ""
+msgstr "Не креирај дискусију о рецензији."
 
 msgid "editor.submission.newRoundDescription"
-msgstr ""
-"На путу сте да направите нови круг рецензирања за ову предају. Фајлови који "
-"нису коришћени у претходним круговима су излистани ниже."
+msgstr "Креирате нову рунду рецензија за овај поднесак. Датотеке које нису коришћене у другим рундама рецензија су приказане испод."
 
 msgid "editor.submission.createNewRound"
-msgstr "Направи нови круг рецензирања"
+msgstr "Креирај нову рунду рецензија"
 
 msgid "editor.article.reviewForms"
-msgstr "Обрасци рецензије"
+msgstr "Формулари за рецензије"
 
 msgid "editor.article.selectReviewForm"
-msgstr "Одабери образац рецензије"
+msgstr "Изабери формулар за рецензију"
 
 msgid "editor.article.confirmChangeReviewForm"
-msgstr ""
-"Упозорење: Мењање обрасца рецензије утицаће на све одговоре које су дали "
-"рецензенти користећи овај образац. Да ли желите да наставите?"
+msgstr "Упозорење: Измјена формулара за рецензију ће утицати на одговоре рецензената дате преко овог формулара. Да ли сте сигурни да желите наставити?"
 
 msgid "editor.submission.noReviewerFilesSelected"
-msgstr "Нема одабраних фајлова"
+msgstr "Нема изабраних датотека"
 
 msgid "editor.submission.noReviewerFilesSelected.details"
-msgstr "Нисте одабрали ни један фајл који би рецензент погледао."
+msgstr "Нисте изабрали ниједну датотеку за рецензију."
 
 msgid "submission.queries.subjectRequired"
-msgstr "Тема дискусије је неопходан."
+msgstr "Неопходан је предмет дискусије."
 
 msgid "submission.queries.messageRequired"
-msgstr "Порука дискусије је неопходна."
+msgstr "Неопходна је порука дискусије."
 
 msgid "submission.queries.attachedFiles"
-msgstr "Додати фајлови"
+msgstr "Приложене датотеке"
 
 msgid "grid.action.editQuery"
-msgstr "Измени дискусију"
+msgstr "Уреди дискусију"
 
 msgid "editor.submission.query.manageQueryNoteFilesDescription"
-msgstr "Фајлови могу бити додати уз дискусију из листе ниже."
+msgstr "Датотеке могу бити приложене за ову дискусију из листе испод."
 
 msgid "editor.submission.selectedReviewer"
-msgstr "Одабрани рецензент"
+msgstr "Изабрани рецензент"
 
 msgid "editor.submission.proofreading.approveProof"
-msgstr "Одобри пруф"
+msgstr "Одобри коректуру"
 
 msgid "editor.submission.proofreading.revokeProofApproval"
-msgstr "Укини одобрење пруфа"
+msgstr "Опозови одобрење коректуре"
 
 msgid "editor.submission.proofreading.confirmCompletion"
-msgstr ""
-"Одобрите овај пруф како бу назначили да је коректура комплетна и да је фајл "
-"спреман за објављивање."
+msgstr "Одобрите ову коректуру да означите да је коректура завршена и да је датотека спремна за објављивање."
 
 msgid "editor.submission.proofreading.confirmRemoveCompletion"
-msgstr ""
-"Укините одобрење за овај пруф како би назначили да коректура није више "
-"комплетна и да фајл није спреман за објављивање."
+msgstr "Опозовите одобрење за ову коректуру да означите да коректура више није завршена и да датотека није спремна за објављивање."
 
 msgid "editor.submission.revertDeclineDescription"
-msgstr ""
+msgstr "Да ли сте сигурни да желите опозвати одлуку о одбијању овог поднеска?"
 
 msgid "editor.publicIdentificationNumericNotAllowed"
-msgstr "Јавни идентификатор '{$publicIdentifier}' не сме бити број."
+msgstr "Јавни идентификатор '{$publicIdentifier}' не смије бити број."
 
 msgid "editor.publicIdentificationPatternNotAllowed"
-msgstr "Шема {$pattern} није дозвољена за јавни идентификатор."
+msgstr "Образац {$pattern} није дозвољен за јавни идентификатор."
 
 msgid "reviewer.list.filterRating"
-msgstr ""
+msgstr "Оцијењено најмање"
 
 msgid "reviewer.list.activeReviews"
-msgstr ""
+msgstr "{$count} активних"
 
 msgid "reviewer.list.activeReviewsDescription"
-msgstr ""
+msgstr "Тренутно додјељене активне рецензије"
 
 msgid "reviewer.list.assignedToLastRound"
-msgstr ""
+msgstr "Овај рецензент је завршио рецензију у претходној рунди."
 
 msgid "reviewer.list.completedReviews"
-msgstr ""
+msgstr "Завршене рецензије"
 
 msgid "reviewer.list.declinedReviews"
-msgstr ""
+msgstr "Одбијени захтјеви за рецензијом"
 
 msgid "reviewer.list.cancelledReviews"
-msgstr ""
+msgstr "Отказани захтјеви за рецензијом"
 
 msgid "reviewer.list.reviewerRating"
-msgstr ""
+msgstr "Оцјена рецензента: {$rating}"
 
 msgid "reviewer.list.daysSinceLastAssignment"
-msgstr ""
+msgstr "прије {$days} дана"
 
 msgid "reviewer.list.daySinceLastAssignment"
-msgstr ""
+msgstr "јуче"
 
 msgid "reviewer.list.daysSinceLastAssignmentDescription"
-msgstr ""
+msgstr "Дана од посљедње додјељене рецензије"
 
 msgid "reviewer.list.averageCompletion"
-msgstr ""
+msgstr "Просечно дана за завршетак рецензије"
 
 msgid "reviewer.list.neverAssigned"
-msgstr ""
+msgstr "Никад додјељено"
+
+msgid "reviewer.list.reviewerSameInstitution"
+msgstr "Иста институција као и аутор"
 
 msgid "reviewer.list.reassign"
-msgstr ""
+msgstr "Поново додјели"
 
 msgid "reviewer.list.reassign.withName"
-msgstr ""
+msgstr "Поново додјели {$name}"
 
 msgid "reviewer.list.currentlyAssigned"
-msgstr ""
+msgstr "Овај рецензент је већ додјељен овој рунди рецензија."
 
 msgid "reviewer.list.warnOnAssign"
-msgstr ""
+msgstr "Овај рецензент је закључан јер му је додјељена улога која му омогућава да види идентитет аутора. Анонимна стручна рецензија не може бити загарантована. Да ли желите ипак откључати овог рецензента?"
 
 msgid "reviewer.list.warnOnAssignUnlock"
-msgstr ""
+msgstr "Откључај"
 
 msgid "reviewer.list.reviewInterests"
-msgstr ""
+msgstr "Интереси за рецензирање"
 
 msgid "reviewer.list.biography"
-msgstr ""
+msgstr "Биографија"
 
 msgid "reviewer.list.empty"
-msgstr ""
+msgstr "Нема пронађених рецензената"
 
 msgid "reviewer.list.showOnlyReviewersFromPreviousRound"
-msgstr ""
+msgstr "Додјељено у претходној рунди"
 
 msgid "editor.decision.cancelDecision"
-msgstr ""
+msgstr "Откажи одлуку"
 
 msgid "editor.decision.cancelDecision.confirmation"
-msgstr ""
+msgstr "Да ли сте сигурни да желите отказати ову одлуку?"
 
 msgid "editor.decision.completeSteps"
-msgstr ""
+msgstr "Заврши сљедеће кораке да би донео/ла ову одлуку"
 
 msgid "editor.decision.dontSkipEmail"
-msgstr ""
+msgstr "Не прескачи ову е-пошту"
 
 msgid "editor.decision.emailSkipped"
-msgstr ""
+msgstr "Овај корак је прескочен и е-пошта неће бити послата."
 
 msgid "editor.decision.recordDecision"
-msgstr ""
+msgstr "Забиљежи одлуку"
 
 msgid "editor.decision.skipEmail"
-msgstr ""
+msgstr "Прескочи ову е-пошту"
 
 msgid "editor.decision.stepError"
-msgstr ""
-
-#~ msgid "editor.review.NotifyAuthorAccept"
-#~ msgstr "Обавести аутора да је његов рад прихваћени."
-
-#~ msgid "editor.review.NotifyAuthorDecline"
-#~ msgstr "Обавести аутора да његов рад није прихваћени."
-
-#~ msgid "editor.review.NotifyAuthorExternal"
-#~ msgstr ""
-#~ "Обавести аутора о одлуци да се покрене рецензирање спољашњих рецензената."
-
-#~ msgid "editor.review.personalMessageToAuthor"
-#~ msgstr "Имејл порука која ће бити послата аутору"
-
-#~ msgid "editor.publicIdentificationExistsForTheSameType"
-#~ msgstr ""
-#~ "Јавни идентификатор '{$publicIdentifier}' већ постоји и додељен је другом "
-#~ "објекту истог типа. Одаберите јединствене идентификаторе за објекте истог "
-#~ "типа у часопису."
+msgstr "Дошло је до проблема са кораком {$stepName}."
