@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30T07:09:51-07:00\n"
+"PO-Revision-Date: 2019-09-30T07:09:51-07:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.block.browse"
+msgstr "Претраживање"
+
+msgid "plugins.block.browse.displayName"
+msgstr "Блок претраживања"
+
+msgid "plugins.block.browse.description"
+msgstr "Овај додатак омогућава алате блока \"Претраживање\" у бочној траци."
+
+msgid "plugins.block.browse.settings"
+msgstr "Подешавања"
+
+msgid "plugins.block.browse.settings.title"
+msgstr "Могућности претраживања"
+
+msgid "plugins.block.browse.category"
+msgstr "Категорије"
+
+msgid "plugins.block.browse.series"
+msgstr "Серијске публикације"
+
+msgid "plugins.block.browse.newReleases"
+msgstr "Нова издања"
