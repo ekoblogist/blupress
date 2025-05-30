@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:02+00:00\n"
+"PO-Revision-Date: 2019-11-19T10:50:02+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.citationStyleLanguage.displayName"
+msgstr "Jezik stilova citiranja (CSL)"
+
+msgid "plugins.generic.citationStyleLanguage.description"
+msgstr "Omogućava čitaocima da dobiju citat objavljenog članka u jednom od nekoliko formata podržanih od strane Jezika stilova citiranja (CSL)."
+
+msgid "plugins.generic.citationStyleLanguage.description.omp"
+msgstr "Omogućava čitaocima da dobiju citat objavljene knjige u jednom od nekoliko formata podržanih od strane Jezika stilova citiranja (CSL)."
+
+msgid "plugins.generic.citationStyleLanguage.style.acm-sig-proceedings"
+msgstr "ACM"
+
+msgid "plugins.generic.citationStyleLanguage.style.acs-nano"
+msgstr "ACS"
+
+msgid "plugins.generic.citationStyleLanguage.style.apa"
+msgstr "APA"
+
+msgid "plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas"
+msgstr "ABNT"
+
+msgid "plugins.generic.citationStyleLanguage.style.chicago-author-date"
+msgstr "Chicago"
+
+msgid "plugins.generic.citationStyleLanguage.style.harvard-cite-them-right"
+msgstr "Harvard"
+
+msgid "plugins.generic.citationStyleLanguage.style.ieee"
+msgstr "IEEE"
+
+msgid "plugins.generic.citationStyleLanguage.style.modern-language-association"
+msgstr "MLA"
+
+msgid "plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography"
+msgstr "Turabian"
+
+msgid "plugins.generic.citationStyleLanguage.style.vancouver"
+msgstr "Vancouver"
+
+msgid "plugins.generic.citationStyleLanguage.style.ama"
+msgstr "AMA"
+
+msgid "plugins.generic.citationStyleLanguage.download.bibtex"
+msgstr "BibTeX"
+
+msgid "plugins.generic.citationStyleLanguage.download.ris"
+msgstr "Endnote/Zotero/Mendeley (RIS)"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloads"
+msgstr "Formati za preuzimanje"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription"
+msgstr "Izaberite koje formate za preuzimanje želite ponuditi svojim čitaocima. Formati za preuzimanje se obično koriste za uvoz u softver za upravljanje bibliografijom, kao što su EndNote ili Zotero."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormats"
+msgstr "Dodatni formati citiranja"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsDescription"
+msgstr "Izaberite koje dodatne formate želite ponuditi svojim čitaocima."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary"
+msgstr "Primarni format citiranja"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription"
+msgstr "Izaberite koji format citiranja želite da bude prikazan po podrazumijevanju na stranici članka."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription.omp"
+msgstr "Izaberite koji format citiranja želite da bude prikazan po podrazumijevanju na stranici knjige."
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation"
+msgstr "Lokacija izdavača"
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation.description"
+msgstr "Neki formati citiranja zahtijevaju geografsku lokaciju izdavača, na primjer \"London, UK\"."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroups"
+msgstr "Saradnici"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroupsDescription"
+msgstr "U nekim stilovima citiranja, saradnici se moraju različito identifikovati u zavisnosti od njihove uloge. Molimo identifikujte odgovarajuće uloge."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseAuthor"
+msgstr "Autori"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseEditor"
+msgstr "Urednici"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseTranslator"
+msgstr "Prevodioci"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseChapterAuthor"
+msgstr "Autori poglavlja"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseAuthor"
+msgstr "Izaberite uloge koje treba identifikovati kao autore."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseEditor"
+msgstr "Izaberite uloge koje treba identifikovati kao urednike."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseTranslator"
+msgstr "Izaberite uloge koje treba identifikovati kao prevodioce."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseChapterAuthor"
+msgstr "Izaberite uloge koje treba identifikovati kao autore poglavlja."
