@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:02+00:00\n"
+"PO-Revision-Date: 2019-11-19T10:50:02+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.importexport.users.displayName"
+msgstr "XML додатак за кориснике"
+
+msgid "plugins.importexport.users.description"
+msgstr "Увоз и извоз корисника"
+
+msgid "plugins.importexport.users.cliUsage"
+msgstr ""
+"Употреба: {$scriptName} {$pluginName} [команда] ...\n"
+"Команде:\n"
+"\tувоз [xmlFileName] [press_path] [опционо] ...\n"
+"\tизвоз [xmlFileName] [press_path]\n"
+"\tизвоз [xmlFileName] [press_path] [role_path1] [role_path2] ...\n"
+"\n"
+"Опције:\n"
+"\tcontinue_on_error: Ако је наведено, не прекидај увоз при грешци\n"
+"\n"
+"\tsend_notify: Ако је наведено, шаље обавијештења са корисничким именима\n"
+"\t\tи лозинкама увезеним корисницима\n"
+"\n"
+"Примјери:\n"
+"\tУвоз корисника у myPress из myImportFile.xml, са наставком при грешци:\n"
+"\t{$scriptName} {$pluginName} увоз myImportFile.xml myPress "
+"continue_on_error\n"
+"\n"
+"\tИзвоз свих корисника из myPress:\n"
+"\t{$scriptName} {$pluginName} извоз myExportFile.xml myPress\n"
+"\n"
+"\tИзвоз корисника са улогом рецензента, са њиховим улогама:\n"
+"\t{$scriptName} {$pluginName} извоз myExportFile.xml myPress reviewer\n"
+
+msgid "plugins.importexport.users.import.importUsers"
+msgstr "Увоз корисника"
+
+msgid "plugins.importexport.users.import.instructions"
+msgstr ""
+"Изаберите XML датотеку са корисничким подацима за увоз у ову издавачку кућу. "
+"Погледајте помоћ за детаље о формату датотеке.<br /><br />"
+"Напомена: ако датотека садржи корисничка имена или е-адресе који већ постоје "
+"у систему, подаци тих корисника неће бити увезени, а нове улоге ће бити "
+"додијељене постојећим корисницима."
+
+msgid "plugins.importexport.users.import.dataFile"
+msgstr "Датотека са корисничким подацима"
+
+msgid "plugins.importexport.users.import.sendNotify"
+msgstr ""
+"Пошаљи е-поруку обавијештења сваком увезеном кориснику са његовим "
+"корисничким именом и лозинком."
+
+msgid "plugins.importexport.users.import.continueOnError"
+msgstr "Настави са увозом других корисника ако дође до грешке."
+
+msgid "plugins.importexport.users.import.usersWereImported"
+msgstr "Сљедећи корисници су успјешно увезени у систем"
+
+msgid "plugins.importexport.users.import.errorsOccurred"
+msgstr "Дошло је до грешака при увозу"
+
+msgid "plugins.importexport.users.import.confirmUsers"
+msgstr "Потврдите да желите да увезете ове кориснике у систем"
+
+msgid "plugins.importexport.users.import.warning"
+msgstr "Упозорење"
+
+msgid "plugins.importexport.users.import.encryptionMismatch"
+msgstr ""
+"Није могуће користити лозинке хеширане са {$importHash}; OMP је подешен да "
+"користи {$ompHash}. Ако наставите, мораћете да ресетујете лозинке увезених "
+"корисника."
+
+msgid "plugins.importexport.users.unknownPress"
+msgstr "Наведена је непозната путња издавачке куће \"{$contextPath}\"."
+
+msgid "plugins.importexport.users.export.exportUsers"
+msgstr "Извоз корисника"
+
+msgid "plugins.importexport.users.export.exportByRole"
+msgstr "Извоз по улогама"
+
+msgid "plugins.importexport.users.export.exportAllUsers"
+msgstr "Извоз свих"
+
+msgid "plugins.importexport.users.export.errorsOccurred"
+msgstr "Дошло је до грешака при извозу"
+
+msgid "plugins.importexport.users.importComplete"
+msgstr ""
+"Увоз је успјешно завршен. Корисници чија корисничка имена и е-адресе још "
+"не постоје у систему су увезени, заједно са придруженим корисничким групама."
+
+msgid "plugins.importexport.users.results"
+msgstr "Резултати"
+
+msgid "plugins.importexport.users.uploadFile"
+msgstr "Молимо отпремите датотеку под \"Увоз\" да бисте наставили."
