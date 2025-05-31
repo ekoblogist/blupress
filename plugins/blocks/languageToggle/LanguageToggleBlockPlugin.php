@@ -87,6 +87,11 @@ class LanguageToggleBlockPlugin extends BlockPlugin
             }
         }
 
+        // Strip out locale codes like (en_US), (sr@cyrillic), etc.
+        foreach ($locales as $key => $value) {
+            $locales[$key] = preg_replace('/\s*\(.*?\)/', '', $value);
+        }
+
         if (isset($locales) && count($locales) > 1) {
             $templateMgr->assign('enableLanguageToggle', true);
             $templateMgr->assign('languageToggleLocales', $locales);
