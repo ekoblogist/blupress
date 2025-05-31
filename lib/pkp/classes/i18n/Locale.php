@@ -368,6 +368,8 @@ class Locale implements LocaleInterface
     public function getFormattedDisplayNames(array $filterByLocales = null, array $locales = null, int $langLocaleStatus = LocaleMetadata::LANGUAGE_LOCALE_WITH, bool $omitLocaleCodeInDisplay = true): array
     {
         $locales ??= $this->getLocales();
+        // Prikazivanje locale koda
+        $omitLocaleCodeInDisplay = false;
 
         if ($filterByLocales !== null) {
             $filterByLocales = array_intersect_key($locales, array_flip($filterByLocales));
