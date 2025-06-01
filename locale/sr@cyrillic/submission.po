@@ -21,7 +21,7 @@ msgid "submission.select"
 msgstr "Изаберите поднесак"
 
 msgid "submission.synopsis"
-msgstr "Сиже"
+msgstr "Резиме"
 
 msgid "submission.workflowType"
 msgstr "Тип поднеска"
@@ -51,7 +51,7 @@ msgid "submission.published"
 msgstr "Спреман за производњу"
 
 msgid "submission.fairCopy"
-msgstr "Чист пријепис"
+msgstr "Чист препис"
 
 msgid "submission.authorListSeparator"
 msgstr "; "
