@@ -25,7 +25,7 @@ package-lock.json
 /public/presses
 /public/site
 
-cache/
+/lib/pkp/classes/cache/*
 
 # lib/pkp
 lib/pkp/te_ST/
