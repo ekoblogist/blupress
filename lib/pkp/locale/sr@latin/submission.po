@@ -498,7 +498,7 @@ msgid "submission.copyedited"
 msgstr "Lektorirano"
 
 msgid "submission.copyediting"
-msgstr "Lektoriranje"
+msgstr "Lektorisanje"
 
 msgid "submission.queryNoteFiles"
 msgstr "Fajlovi diskusije"
@@ -528,7 +528,7 @@ msgid "submission.editMetadata"
 msgstr "Uredi metapodatke"
 
 msgid "submission.editorial"
-msgstr "Lektoriranje"
+msgstr "Lektorisanje"
 
 msgid "submission.email.backToEmailLog"
 msgstr "Nazad na dnevnik imejlova"

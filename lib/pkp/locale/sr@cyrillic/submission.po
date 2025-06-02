@@ -498,7 +498,7 @@ msgid "submission.copyedited"
 msgstr "Лекторирано"
 
 msgid "submission.copyediting"
-msgstr "Лекторирање"
+msgstr "Лекторисање"
 
 msgid "submission.queryNoteFiles"
 msgstr "Фајлови дискусије"
@@ -528,7 +528,7 @@ msgid "submission.editMetadata"
 msgstr "Уреди метаподатке"
 
 msgid "submission.editorial"
-msgstr "Лекторирање"
+msgstr "Лекторисање"
 
 msgid "submission.email.backToEmailLog"
 msgstr "Назад на дневник имејлова"
