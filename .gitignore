@@ -3,7 +3,6 @@ config.inc.php
 build
 temp
 /files
-/plugins/paymethod/paypal/vendor/
 .project
 .project/
 .vscode
@@ -28,23 +27,15 @@ package-lock.json
 /lib/pkp/classes/cache/*
 
 # lib/pkp
-lib/pkp/te_ST/
 lib/pkp/lib/tinymce/jscripts/tiny_mce/*.gz
-lib/pkp/lib/vendor
-lib/pkp/lib/components
 lib/pkp/.DS_Store
 lib/pkp/.php_cs.cache
 lib/pkp/tests/.phpunit.result.cache
 lib/pkp/.php-cs-fixer.cache
-lib/pkp/styles/tinymce
-lib/pkp/js/lib/jquery/plugins/validate/
-lib/pkp/js/lib/Chart.js
-lib/pkp/js/lib/Chart.min.js
 
 # lib/ui-library
 lib/ui-library/.DS_Store
 lib/ui-library/node_modules
-lib/ui-library/dist
 
 lib/ui-library/.env.local
 lib/ui-library/.env.*.local
