@@ -27,7 +27,9 @@ package-lock.json
 /lib/pkp/classes/cache/*
 
 # lib/pkp
+lib/pkp/te_ST/
 lib/pkp/lib/tinymce/jscripts/tiny_mce/*.gz
+lib/pkp/lib/components
 lib/pkp/.DS_Store
 lib/pkp/.php_cs.cache
 lib/pkp/tests/.phpunit.result.cache
@@ -36,6 +38,7 @@ lib/pkp/.php-cs-fixer.cache
 # lib/ui-library
 lib/ui-library/.DS_Store
 lib/ui-library/node_modules
+lib/ui-library/dist
 
 lib/ui-library/.env.local
 lib/ui-library/.env.*.local
