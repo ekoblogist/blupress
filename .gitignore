@@ -1,6 +1,5 @@
 config.inc.php
 .DS_Store
-build
 temp
 /files
 .project
@@ -11,7 +10,6 @@ temp
 .htaccess
 te_ST/
 node_modules
-js/build.js
 js/hot-updates
 styles/build.css
 cypress.env.json
@@ -23,8 +21,6 @@ package-lock.json
 
 /public/presses
 /public/site
-
-/lib/pkp/classes/cache/*
 
 # lib/pkp
 lib/pkp/te_ST/
