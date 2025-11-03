@@ -105,8 +105,9 @@ class IndexHandler extends PKPIndexHandler
                 if (!empty($pressNewReleases) && is_array($pressNewReleases)) {
                     foreach ($pressNewReleases as $monograph) {
                         if ($monograph) {
-                            // Store press path with monograph for URL generation
+                            // Store press path and name with monograph for URL generation and display
                             $monograph->setData('pressPath', $press->getPath());
+                            $monograph->setData('pressName', $press->getLocalizedName());
                             $allNewReleases[] = $monograph;
                         }
                     }

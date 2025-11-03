@@ -8,6 +8,7 @@
  * @uses $isFeatured bool Is this a featured monograph?
  *}
 {assign var=pressPath value=$monograph->getData('pressPath')}
+{assign var=pressName value=$monograph->getData('pressName')}
 
 <div class="obj_monograph_summary{if $isFeatured} is_featured{/if}">
 		<a href="{url press=$pressPath page="catalog" op="book" path=$monograph->getBestId()}" class="cover">
@@ -33,4 +34,11 @@
 		<div class="date">
 			{$monograph->getDatePublished()|date_format:$dateFormatLong}
 		</div>
+        {if $pressName}
+			<div class="press">
+				<a href="{url press=$pressPath}">
+					{$pressName|escape}
+				</a>
+			</div>
+		{/if}
 </div><!-- .obj_monograph_summary -->
