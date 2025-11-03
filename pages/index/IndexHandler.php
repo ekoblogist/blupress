@@ -84,6 +84,7 @@ class IndexHandler extends PKPIndexHandler
      * @param Site $site
      * @param Request $request
      */
+
     public function _displaySiteIndexPage($site, $request)
     {
         $templateMgr = TemplateManager::getManager($request);
@@ -93,11 +94,72 @@ class IndexHandler extends PKPIndexHandler
             $request->redirect($press->getPath());
         }
 
+        // Get all new releases from all presses
+        $newReleaseDao = DAORegistry::getDAO('NewReleaseDAO'); /** @var NewReleaseDAO $newReleaseDao */
+        $allPresses = $pressDao->getAll(true)->toArray();
+        $allNewReleases = [];
+        
+        foreach ($allPresses as $press) {
+            if ($press && $press->getId()) {
+                $pressNewReleases = $newReleaseDao->getMonographsByAssoc(Application::ASSOC_TYPE_PRESS, $press->getId());
+                if (!empty($pressNewReleases) && is_array($pressNewReleases)) {
+                    foreach ($pressNewReleases as $monograph) {
+                        if ($monograph) {
+                            // Store press path with monograph for URL generation
+                            $monograph->setData('pressPath', $press->getPath());
+                            $allNewReleases[] = $monograph;
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Sort by publication date (newest first)
+        if (!empty($allNewReleases)) {
+            usort($allNewReleases, function($a, $b) {
+                $pubA = $a->getCurrentPublication();
+                $pubB = $b->getCurrentPublication();
+                
+                if (!$pubA || !$pubB) {
+                    return 0;
+                }
+                
+                $dateA = $pubA->getData('datePublished');
+                $dateB = $pubB->getData('datePublished');
+                
+                if (!$dateA || !$dateB) {
+                    return 0;
+                }
+                
+                return strcmp($dateB, $dateA);
+            });
+            
+            // Limit to a reasonable number (e.g., 30 most recent)
+            $allNewReleases = array_slice($allNewReleases, 0, 30);
+        }
+
+        // Get author user groups from the first press (they should be similar across presses)
+        // This is needed for proper author display
+        $authorUserGroups = new \Illuminate\Support\Collection();
+        if (!empty($allPresses)) {
+            $firstPress = reset($allPresses);
+            if ($firstPress && $firstPress->getId()) {
+                $authorUserGroups = Repo::userGroup()
+                    ->getCollector()
+                    ->filterByRoleIds([\PKP\security\Role::ROLE_ID_AUTHOR])
+                    ->filterByContextIds([$firstPress->getId()])
+                    ->getMany()
+                    ->remember();
+            }
+        }
+
         $templateMgr->assign([
             'pageTitleTranslated' => $site->getLocalizedTitle(),
             'about' => $site->getLocalizedAbout(),
             'pressesFilesPath' => $request->getBaseUrl() . '/' . Config::getVar('files', 'public_files_dir') . '/presses/',
-            'presses' => $pressDao->getAll(true)->toArray(),
+            'presses' => $allPresses,
+            'newReleases' => $allNewReleases,
+            'authorUserGroups' => $authorUserGroups,
             'site' => $site,
         ]);
         $templateMgr->setCacheability(TemplateManager::CACHEABILITY_PUBLIC);

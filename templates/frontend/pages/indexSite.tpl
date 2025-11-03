@@ -5,65 +5,25 @@
  * Copyright (c) 2003-2021 John Willinsky
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
- * Site index.
+ * Site index - displaying new releases from all presses
  *
  *}
 {include file="frontend/components/header.tpl"}
 
-<div class="page_index_site">
-
+<div class="page page_homepage">
+	
+	{* About/Description section *}
 	{if $about}
-		<div class="about_site">
+		<div class="additional_content">
 			{$about}
 		</div>
 	{/if}
-
-	<div class="presses">
-		<h2>
-			{translate key="context.contexts"}
-		</h2>
-		{if !$presses|@count}
-			{translate key="site.noPresses"}
-		{else}
-			<ul>
-				{foreach from=$presses item=press}
-					{capture assign="url"}{url press=$press->getPath()}{/capture}
-					{assign var="thumb" value=$press->getLocalizedData('pressThumbnail')}
-					{assign var="description" value=$press->getLocalizedDescription()}
-					<li{if $thumb} class="has_thumb"{/if}>
-						{if $thumb}
-							<div class="thumb">
-								<a href="{$url}">
-									<img src="{$pressesFilesPath}{$press->getId()}/{$thumb.uploadName|escape:"url"}"{if $thumb.altText} alt="{$thumb.altText|escape|default:''}"{/if}>
-								</a>
-							</div>
-						{/if}
-
-						<div class="body">
-							<h3>
-								<a href="{$url}" rel="bookmark">
-									{$press->getLocalizedName()}
-								</a>
-							</h3>
-							{if $description}
-								<div class="description">
-									{$description}
-								</div>
-							{/if}
-							<ul class="links">
-								<li class="view">
-									<a href="{$url}">
-										{translate key="site.pressView"}
-									</a>
-								</li>
-							</ul>
-						</div>
-					</li>
-				{/foreach}
-			</ul>
-		{/if}
-	</div>
-
-</div><!-- .page -->
+	
+	{* New releases from all presses *}
+	{if !empty($newReleases)}
+		{include file="frontend/components/monographListMultipress.tpl" monographs=$newReleases titleKey="catalog.newReleases" authorUserGroups=$authorUserGroups}
+	{/if}
+	
+</div>
 
 {include file="frontend/components/footer.tpl"}
