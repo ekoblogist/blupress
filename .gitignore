@@ -18,6 +18,8 @@ cypress/screenshots/
 .php-cs-fixer.cache
 package-lock.json
 
+cache/*
+
 /public/presses
 /public/site
 
