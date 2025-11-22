@@ -104,6 +104,11 @@ class MultipressIndexPlugin extends GenericPlugin
             return false;
         }
         
+        // Get pagination parameters
+        $page = $request->getUserVar('page') ? (int)$request->getUserVar('page') : 1;
+        $itemsPerPage = 30;
+        $offset = ($page - 1) * $itemsPerPage;
+        
         // Get all presses and their new releases
         $pressDao = DAORegistry::getDAO('PressDAO');
         $newReleaseDao = DAORegistry::getDAO('NewReleaseDAO');
@@ -148,9 +153,14 @@ class MultipressIndexPlugin extends GenericPlugin
 
                 return strcmp($dateB, $dateA);
             });
-
-            $allNewReleases = array_slice($allNewReleases, 0, 30);
         }
+
+        // Calculate pagination
+        $totalCount = count($allNewReleases);
+        $totalPages = ceil($totalCount / $itemsPerPage);
+        
+        // Get items for current page
+        $paginatedReleases = array_slice($allNewReleases, $offset, $itemsPerPage);
 
         // Get author user groups
         $authorUserGroups = new \Illuminate\Support\Collection();
@@ -168,8 +178,14 @@ class MultipressIndexPlugin extends GenericPlugin
 
         // Assign template variables
         $templateMgr->assign([
-            'newReleases' => $allNewReleases,
+            'newReleases' => $paginatedReleases,
             'authorUserGroups' => $authorUserGroups,
+            'currentPage' => $page,
+            'totalPages' => $totalPages,
+            'totalCount' => $totalCount,
+            'itemsPerPage' => $itemsPerPage,
+            'showingStart' => $offset + 1,
+            'showingEnd' => min($offset + $itemsPerPage, $totalCount),
             'monographListTemplate' => $this->getTemplateResource('frontend/components/monographListMultipress.tpl'),
             'monographSummaryTemplate' => $this->getTemplateResource('frontend/objects/monograph_summary_multipress.tpl')
         ]);

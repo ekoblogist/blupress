@@ -1,0 +1,24 @@
+.cmp_pagination .pagination_links {
+       list-style: none;
+       padding: 0;
+       margin: 20px 0;
+       display: flex;
+       gap: 10px;
+       align-items: center;
+   }
+
+   .cmp_pagination .pagination_links li {
+       display: inline-block;
+   }
+
+   .cmp_pagination .pagination_links a,
+   .cmp_pagination .pagination_links span {
+       padding: 5px 10px;
+       text-decoration: none;
+   }
+
+   .cmp_pagination .pagination_links .current span {
+       font-weight: bold;
+       background: #eee;
+       border-radius: 3px;
+   }
