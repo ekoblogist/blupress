@@ -58,6 +58,6 @@
 			</div>
 		{/if}
 		<div class="date">
-			{$monograph->getDatePublished()|date_format:$dateFormatLong}
+			{$monograph->getDatePublished()|escape}
 		</div>
 </div><!-- .obj_monograph_summary -->
